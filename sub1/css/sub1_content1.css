@@ -1,0 +1,37 @@
+/* 인사말의 실제 본문 내용 css */
+
+#content .content_area h3{font-size: 2.75rem; text-align: center; position: relative;}
+#content .content_area span{font-size: 1.39; text-align: center; color: #007AC3; 
+    font-weight: 200;display: block;}
+#content .content_area p{font-size: 1.3rem; text-align: center; position: relative; 
+    font-weight: 400; padding: 50px 0 75px 0;}
+#content .content_area>div{margin-bottom: 100px;}
+
+#content .content_area::before{content: ''; width: 550px; height:598px; display: block;
+    background: url(../imgaes/content1/BG.png); position: absolute; top:0 ;
+   left:50%; margin-left: -900px;}
+
+/* content_area 영역 */
+#content .info_area{position: relative; overflow: hidden;}
+#content .info_area .ceo_pic{border-radius: 50px; overflow: hidden;}
+#content .info_area ul{overflow: hidden; }
+#content .info_area ul li {width: 591px; height: 778px;  }
+#content .info_area ul li:first-child{float: left;  padding-right: 20px;}
+#content .info_area ul li:last-child{float: right; width: 589px;}
+#content .info_area ul li img {width: 100%;}
+#content .info_area .ceo_greeting{ font-size: 1rem; text-align: justify; }
+
+/* globla_area 영역 */
+#content .global_area{position: relative; overflow: hidden; }
+#content .global_area .global_pic{border-radius: 50px; overflow: hidden;}
+#content .global_area ul{overflow: hidden; }
+#content .global_area ul li {width: 591px;  }
+#content .global_area ul li:first-child{float: left;  padding-right: 20px;}
+#content .global_area ul li:last-child{float: right; width: 589px;}
+#content .global_area ul li img {width: 100%;}
+#content .global_area .ceo_greeting{ font-size: 1rem; text-align: justify; }
+
+/* global_vision 영역 */
+#content .global_vision{position: relative; overflow: hidden; }
+#content .global_vision .vision_pic{text-align: center;}
+ 

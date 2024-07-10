@@ -1,0 +1,584 @@
+@charset "utf-8";
+
+/* 팝업 */
+#showimage{
+  z-index:90;
+  position:absolute;
+  width: 500px;
+  left:50%;
+  top: 250px;
+  margin-left: -800px;
+}
+
+/* 비주얼영역 */ 
+.visual{
+  width: 2000px;
+  position: relative;
+  top: 0; left: 50%;
+  transform: translateX(-50%);
+  background: black;
+}
+.gallery{position:relative;
+  left:0; top:0;
+  overflow:hidden;
+  width:2000px; height:1000px;
+}
+.gallery li{
+  display:none; position: relative;
+}
+.gallery img{
+  animation: ani 30s linear infinite;
+}
+@keyframes ani {
+    from {transform: scale(1);}
+    to {transform: scale(1.1);}
+}
+
+.gallery li>span{
+  position: absolute;
+  left: 500px; top: 60%;
+  opacity: 0; font-size: 75px;
+  color: #fff; text-transform: uppercase;
+  font-weight: 800;
+  text-shadow: 3px 4px 5px rgba(56, 56, 56, 0.3);
+  transform: translateY(-50%);font-family: "Merriweather", serif;
+  font-weight: 300;
+}
+
+.gallery .fontdeco{
+  font-family: "Fugaz One", sans-serif;
+}
+
+/* .gallery .link1 span{ left:  100px; top: 300px;} */
+
+.dock{
+  position:absolute;
+  left:150px; top:50%;
+  transform: translateY(-50%);
+  padding: 10px 0;
+}
+.dock .mbutton{
+  margin-bottom:30px;
+  cursor:pointer;
+  display:block;
+  width:10px; height:10px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius:8px;
+  transition: all .5s;
+}
+.dock .mbutton:nth-of-type(1){
+  margin-top: 125px;
+}
+.dock .ps{
+  position: absolute;
+  left: 50%; top: 0px; cursor:pointer;
+  display:block; color: #fff;
+  transform: translateX(-50%);
+}
+.dock .ps i{
+  font-size: 2em;
+  color: #fff;
+} 
+.visual .btn{display: block;
+  width: 50px; height: 100px;
+  background:#fff;
+  position: absolute;
+  top:150px; cursor:pointer;
+}
+
+/* 본문 콘텐츠 영역 */
+#content{width:100%;}
+#content section h2{font-size: 3.33rem; margin-top: 100px;}
+#content section h3{font-size: 3.06rem; margin-top: 100px;}
+#content section h4{font-size: 2.22rem; margin-top: 100px;}
+#content section h5{font-size: 1.67rem; margin-top: 100px;}
+#content section p{font-size: 1.22rem; margin: 20px 0 50px 0;}
+
+/* 1_회사소개 */
+#content .info{width: 1200px; margin: 0 auto;}
+#content .info p{text-align: left; color: #333;}
+
+#content .info .about{
+  margin-bottom: 100px; display: flex; gap: 15px;
+}
+#content .info .about li{
+  width: 390px; height: 527px;
+  border-radius: 50px 0 0 0;
+  position: relative; overflow: hidden;
+}
+#content .info .about li img{
+  width: 100%; transition: all .5s ease-out;
+}
+#content .info .about li:hover img{
+  transform: scale(1.1);
+  filter: grayscale(60%) blur(3px);
+}
+#content .info .about dl{
+  width: 390px; height: 527px;
+  position: absolute; left: 0; top: 450px;
+  background-color: rgba(0, 0, 0, .7);
+  transition: all .5s ease-out;
+}
+#content .info .about li:hover dl{
+  position: absolute;
+  left: 0;top: 0;
+}
+#content .info .about li dt{
+  font-size: 1.5rem; font-weight: 500;
+  color: #fff; text-align: center;
+  transition: all .5s ease-out;
+  transition-delay: .3s; margin: 25px 30px 40px;
+  letter-spacing: 5px;transition: all .5s ease-out;
+}
+#content .info .about li:hover dt{
+  font-size: 1.8rem; transition-delay: .3s;
+  margin: 150px 0 30px 0; color: #007ac3;
+}
+#content .info .about dd{
+  color: #fff; text-align:justify;
+  margin: 0 30px 0 30px;
+}
+#content .info .about dd a{
+  color: #fff; text-align: center;
+  padding: 15px; margin-top: 15px;
+}
+#content .info .about dd a::after {
+  content: "";  display: inline-block;
+  width: 15px; height: 15px;
+  background: url('../mainimages/more_03.png') no-repeat 0 0;
+  opacity: 0; transition: all .5s;
+}
+#content .info .about a:hover::after{
+  opacity: 1;
+}
+
+/* 2.사업영역 */
+#content .business {
+  width: 2000px; height: 1000px; position: relative;
+  overflow: hidden; left:50%; 
+  transform: translateX(-50%);
+}
+#content .business .swiper-container {
+    width: 100%;
+    height: 600px;
+    top:200px ;
+    overflow:visible;
+  }
+#content .business .swiper-slide {
+    width: 600px;
+    position: relative;
+  }
+  #content .business img{
+    width: 100%;height: 100%; object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,.2);
+  }  
+  #content .business dl{
+    position: absolute; top:0; left:0;
+    color: #fff; text-align: left;
+    display: none;
+  }
+  #content .business ul li dt{
+    font-size: 3.06rem; margin-bottom: 40px;
+  }
+  #content .business ul li dt span{
+    display: block;
+    font-size:1.4rem ;
+    margin:0 0 40px 5px;
+  }
+  #content .business ul li dt span strong{
+    font-size:1.7rem ;
+  }
+  #content .business ul li dd{
+    line-height: 1.5rem;
+  }
+  #content .business ul li dd a{
+    margin-top: 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    width: 150px;
+    font-weight: 500;
+    background: rgba(255, 255, 255, .2);
+  } 
+  .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+    font-size: 2rem;
+    color: #fff;position: absolute;
+    top: -70px;left: -440px;height: 80px;
+  }
+  #content .business ul .swiper-slide-active dl{
+    display: block;
+  }
+  #content .business ul .swiper-slide-active img{
+    display: none;
+  }
+  #content .business span.swiper-pagination-current {
+    font-size: 2.5rem;
+  }
+  #content .business  .swiper-button-prev{left: 390px;
+    color: #fff;
+    padding: 20px 30px;
+    background:#007ac3;
+    z-index: 20;
+  }
+  #content .business  .swiper-button-next{
+    right: 390px;
+    color: #fff;
+    padding: 20px 30px;
+    background:#007ac3;
+  }
+
+/* 3.네트워크 */
+#content .network{
+  width: 2000px; height: 1281px;
+  overflow: hidden;
+  position: relative;
+  left:50%;
+  transform: translateX(-50%);
+  background: #007ac3;
+  color: #fff;
+}
+
+#content .network div{
+  margin-left: 400px;
+}
+
+#content .network ul li{
+  position: absolute;
+}
+
+#content .network ul li::before{
+  content: '';
+  display: block;
+  width: 350px; height: 250px;
+  border: 2px solid #fff;
+  background: rgba(255,255,255,.8);
+  position: absolute;
+  display: none;
+  padding-top: 15px;
+  color: #007ac3;
+  text-align: center;
+  font-weight: 700;
+}
+
+#content .network ul li.check::before {
+  content: '';
+  display: block;
+}  
+
+#content .network ul li a{
+  font-size: 1.5rem;
+  font-weight: 700; color: #fff;
+  transition: all .5s;
+}
+
+
+/*중국*/
+#content .network ul li:nth-child(1){right:365px; top:667px;}
+
+/*일본*/
+#content .network ul li:nth-child(2){right:100px; top:655px;}
+
+/*홍콩*/
+#content .network ul li:nth-child(3){right:388px; top:723px;}
+
+/*베트남*/
+#content .network ul li:nth-child(4){right:220px; top:783px;}
+
+/*인도네시아*/
+#content .network ul li:nth-child(5){ right:433px; top:877px;}
+
+/*태국*/
+#content .network ul li:nth-child(6){right:460px; top:765px;}
+
+/*영국*/
+#content .network ul li:nth-child(7){right:1030px; top:555px;}
+
+/*이탈리아*/
+#content .network ul li:nth-child(8){right:965px; top:590px;}
+
+/*미국*/
+#content .network ul li:nth-child(9){right:1600px; top:500px;}
+
+/*한국*/
+#content .network ul li:nth-child(10){right:335px; top:630px;} 
+
+/* 각 나라 설명 */
+/* 중국 */
+#content .network ul li:nth-child(1):before{
+  content: "KOLON GLOBAL CORP. \A chaina@kolonglobal.com";
+  background-image: url( "../mainimages/World_Map_china.jpg" );
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  position: absolute;
+  left: -265px;
+  top: 45px;
+  z-index: 1;
+}
+
+/* 일본 */
+#content .network ul li:nth-child(2):before{
+  content: "KOLON GLOBAL CORP. \A japan@kolonglobal.com";
+  background-image: url( "../mainimages/World_Map_japan.jpg" );
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  position: absolute;
+  left: -265px;
+  z-index: 1;
+  top: 45px;
+}
+
+/* 홍콩 */
+#content .network ul li:nth-child(3):before{
+  content: "KOLON GLOBAL CORP. \A hongkong@kolonglobal.com";
+  background-image: url( "../mainimages/World_Map_hongkong.jpg" );
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  position: absolute;
+  left: -189px;
+  z-index: 1;
+  top: 45px;
+}
+
+/* 베트남 */
+#content .network ul li:nth-child(4):before{
+  content: "KOLON GLOBAL CORP. \A vietnam@kolonglobal.com";
+  background-image: url( "../mainimages/World_Map_vietnam.jpg" );
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  position: absolute;
+  left: -189px;
+  z-index: 1;
+  top: 45px;
+}
+
+/* 인도네시아 */
+#content .network ul li:nth-child(5):before{
+  content: "KOLON GLOBAL CORP. \A indonesia@kolonglobal.com";
+  background-image: url( "../mainimages/World_Map_indonesia.jpg" );
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  position: absolute;
+  left: -189px;
+  z-index: 1;
+  top: 45px;
+}
+
+/* 태국 */
+#content .network ul li:nth-child(6):before{
+  content: "KOLON GLOBAL CORP. \A thailand@kolonglobal.com";
+  background-image: url( "../mainimages/World_Map_thailand.jpg" );
+  background-size:contain;
+  background-repeat: no-repeat;
+  /* background-position: center 80px; */
+  position: absolute;
+  z-index: 1;
+  left: -209px;
+  top: 45px;
+}
+  
+/* 영국 */
+#content .network ul li:nth-child(7):before{
+  content: "KOLON GLOBAL CORP. \A united kingdom@kolonglobal.com";
+  background-image: url( "../mainimages/World_Map_united_kindom.jpg" );
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  position: absolute;
+  z-index: 1;
+  left: -110px;
+  top: 45px;
+}
+
+/* 이탈리아 */
+#content .network ul li:nth-child(8):before{
+  content: "KOLON GLOBAL CORP. \A italia@kolonglobal.com";
+  background-image: url( "../mainimages/World_Map_italy.jpg" );
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  position: absolute;
+  left: -265px;
+  top: 45px;
+  z-index: 1;
+}
+
+/* 미국 */
+#content .network ul li:nth-child(9):before{
+  content: "KOLON GLOBAL CORP. \A united states@kolonglobal.com";
+  background-image: url( "../mainimages/World_Map_united_states.jpg" );
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  position: absolute;
+  left: -150px;
+  z-index: 1;
+  top: 45px;
+}
+
+/* 한국 */
+#content .network ul li:nth-child(10):before{
+  content: "KOLON GLOBAL CORP. \A kora@kolonglobal.com";
+  background-image: url( "../mainimages/World_Map_korea.jpg" );
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  position: absolute;
+  z-index: 1;
+  left: -260px;
+  top: 45px;
+}
+
+/* 4.EGS경영 */
+#content .esg{
+  width: 2000px;
+  overflow: hidden; position: relative;
+  left:50%;margin-left: -1000px; 
+}
+
+#content .esg div{
+  position: absolute;
+  left:400px; top:100px;
+  color: #fff;
+}
+
+#content .esg div a{
+  margin-top: 20px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  width: 150px;
+  font-weight: 500;
+  background: rgba(255, 255, 255, .2);
+}
+
+/* 5.인재채용 */
+#content .recruit{
+  width: 100%;  padding:0 0 100px 0;
+  background: #007ac3;
+  position: relative;
+  overflow: hidden;
+}
+#content .recruit div{
+  position: relative;
+  z-index: 1;
+}
+#content .recruit ul{
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#content .recruit li{
+  float: left;
+  width: 300px;
+  position: relative;
+}
+#content .recruit li a{
+  color: #fff;
+  padding: 20px 0; border-radius: 20px;
+  transition: all .5s ease-out;
+}
+#content .recruit li:hover a{
+  color: #333;
+  background: rgba(255,255,255,.7);
+}
+#content .recruit li img{
+  transition: all .5s ease-out;
+}
+#content .recruit li:hover img{
+  filter: brightness(0);
+}
+#content .recruit::after{
+  content: "";
+  background-image: url(../mainimages/recruit_back.png);
+  position: absolute; top: 237px; left: 0;
+  width: 100%; height: 100%; opacity: 15%; 
+}
+#content .recruit h3{text-align: center;color: #fff; }
+#content .recruit p{text-align: center;color: #fff;}
+#content .recruit dd{text-align: center;}
+#content .recruit dt{text-align: center;  font-weight: 500; font-size:1.5em;}
+
+#content .recruit li::after{
+  content: ""; width: 2px; background: rgba(255,255,255,.3);
+  height: 240px;
+  display: block;
+  position: absolute; top: 30px; right: 0;
+}
+
+#content .recruit li:last-child::after{
+  content: '';
+  display: none;}
+
+
+/* 6.홍보자료 */
+#content .notice{
+  width: 2000px; overflow: hidden; position: relative;
+  left: 50%; transform: translate(-50%);
+}
+#content .notice>div{
+  position: absolute;
+  left:400px; top:100px;
+  color: #fff;
+}
+#content .notice .notice_left{
+  overflow: hidden;
+  position: absolute; top: 350px;
+  right: 780px;}
+#content .notice .notice_right{
+  overflow: hidden; position: absolute;
+  top: 100px; right: 400px;
+}
+#content .notice li{
+  width: 366px; height: 239px; position: relative;
+  border-radius: 70px 0 0 0; overflow: hidden;
+  margin-bottom: 10px;
+}
+#content .notice a{
+  width: 366px; height: 239px;
+}
+#content .notice ul li div{
+  color: #fff;width:366px ; height: 239px;
+  position: absolute; bottom:0; left:0; transition: all .5s;
+}
+#content .notice ul li div h4{
+  font-size:2em;margin:110px 0 5px 30px;
+}
+#content .notice ul li div p{
+  margin: 0 0 0 30px; font-size: 1rem;
+}
+
+#content .notice .notice_left li:first-child div{
+  padding-left:120px; box-sizing: border-box;
+  background:url(../mainimages/notice_youtube_13_button.png) 30px 100px no-repeat;
+}
+#content .notice .notice_left li:first-child div h4{
+  font-weight: 400;
+  line-height: 1.1em;
+}
+#content .notice li:hover div{
+  background:#ffcbb6;
+  color:#ee1b2e;
+}
+#content .notice .notice_left li:first-child:hover div{
+  background:#ffcbb6 url(../mainimages/notice_youtube_13_button2.png) 30px 100px no-repeat;}
+#content .notice li:hover div h4{
+  background: url(../mainimages/ico.png) 140px 15px no-repeat;
+}
+#content .notice .notice_left li:hover div h4{background:none;
+}
+#content .notice .notice_left li:last-child:hover div h4{
+  background: url(../mainimages/ico.png) 170px 15px no-repeat;
+}
+
+

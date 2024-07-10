@@ -1,0 +1,29 @@
+/* 인사채용 - 인사제도 실제 본문 내용 css */
+
+#content .content_area h3{font-size: 2.75rem; margin-bottom: 50px; text-align: center;} 
+#content .content_area h3 span{display: block; font-size: 1.39rem; color: #007AC3; font-weight: 200;}
+#content .content_area h4{font-size: 2.22rem; text-align: center; font-weight: 400;} 
+
+#content .content_area section{overflow: hidden; margin-bottom: 180px; text-align: center; font-size: 1rem;}
+
+#content .content_area .content_1>p{margin-top: 40px;}
+#content .content_area .content_1 img{margin: 80px 0 80px 0;}
+#content .content_area .content_1>ul{ display: flex; gap: 30px; justify-content:center;}
+
+#content .content_area .content_1>ul>li{width: 33.33%; }
+#content .content_area .content_1 ul li div{border-radius: 30px 0 0 0; background: #007AC3; color: #fff; font-weight: 500; text-align: left; padding: 8px 0 8px 30px; margin-bottom: 10px;}
+
+#content .content_area .content_1 ul li ul li{text-align: left; padding-left: 10px; list-style:square; list-style-position: inside; line-height: 1.5rem;}
+
+
+#content .content_area .content_2 ul{display: flex; gap: 20px; border: 1px solid blue; }
+#content .content_area .content_2 ul:nth-of-type(1)>li{border-radius: 30px; border: 1px solid red;}
+
+
+/* 
+#content .content_area .content_3>p{margin-top: 40px;}
+#content .content_area .content_3 dl{display: flex;  margin-top: 50px; justify-content: space-between; }
+#content .content_area .content_3 dl dt{border-radius: 30px 0 0 0; padding: 8px 25px; background: #00AFE6; color: #fff; font-weight: 400; border: 1px solid red;}
+#content .content_area .content_3 dl dd{text-align: left; padding-left: 10px; border: 1px solid #ccc; } */
+
+

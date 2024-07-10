@@ -1,0 +1,46 @@
+/* 국내 네트워크의 실제 본문 내용 css */
+
+/* 공동 */
+#content .content_area h3{font-size: 2.75rem; text-align: center; display: block;} 
+#content .content_area h3 span{display: block; font-size: 1.39rem; color: #007AC3; font-weight: 200;}
+#content .content_area p{font-size: 1.3rem; text-align: center; position: relative; font-weight: 400; padding: 50px 0 75px 0;}
+#content .content_area .network>img{width: 1200px; margin-bottom: 50px;}
+
+/* 중간 버튼 */
+#content .global_nav ul{
+    width: 1200px; display: flex; gap: 20px; margin-bottom: 50px;
+    justify-content: center;
+
+}
+#content .global_nav li{
+    width: 150px; border-radius: 8px;
+    border: 1.5px solid #007AC3;
+    background: #F3F3F3;
+    color: #007AC3; font-weight: 500;
+    text-align: center;
+}
+
+#content .global_nav li:hover{
+    color:#fff ;
+    background: #007AC3;
+}
+#content .global_nav li a{
+    color: #007AC3;
+    padding: 5px 15px;
+}
+#content .global_nav li a:hover{
+    color:#fff;
+}
+
+/* 본문 */
+#content .content_area .nation_name{overflow: hidden; margin: 150px 0; }
+#content .content_area .nation_name .trade{width: 55px; float: left; border: 1px solid #ED1B2E; text-align: center; border-radius: 10px; font-size: 1.11rem; color: #ED1B2E; margin-top: 12px; margin-right: 15px;}
+#content .content_area .nation_name .construction{width: 55px; float: left; border: 1px solid #007AC3; text-align: center; border-radius: 10px; font-size: 1.11rem; color: #007AC3; margin-top: 12px; margin-right: 15px;}
+#content .content_area .nation_name h4{text-align: left; float: left; font-size: 2rem; margin-right: 150px;}
+
+#content .content_area .nation_name>div{float: right; width: 650px; }
+#content .content_area .nation_name dl{overflow: hidden; padding-bottom: 5px; }
+#content .content_area .nation_name dt{width: 100px; display: block; text-align: left; float: left; font-size: 1.11rem; font-weight: 800;}
+#content .content_area .nation_name dt>img{padding: 10px;}
+#content .content_area .nation_name dd{ display: block;  margin-left: 150px; margin-bottom: 10px; }
+#content .content_area .nation_name dd strong{font-weight: 500;}

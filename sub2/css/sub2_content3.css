@@ -1,0 +1,146 @@
+#content .content_area{
+    width: 1200px;
+    margin: 50px auto;
+    position: relative;
+}
+
+
+/* 스포렉스 - 상사 본문 내용 css */
+#content h3{
+    font-size: 2.75rem;
+    text-align: center;
+    display: block;
+    margin: 0 0 50px 0;
+} 
+
+#content h3{
+    font-size: 2.75rem;
+    text-align: center;
+    display: block;
+    margin: 0 0 50px 0;
+    position: relative;
+} 
+
+#content h3::after{
+    content: "SPOREX";
+    position: absolute;
+    top: 75px;
+    transform: translateX(-50%);
+    left: 50%;
+    font-size: 1.39rem;
+    color: #007AC3;
+    font-weight: 200;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#content h4{
+    font-size: 2.3rem;
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#content .content_area h5{
+    font-size: 2rem;
+    color: #007AC3;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#content .content_area .text_area_1{
+    font-size: 1.1rem;
+    position: relative;
+    font-weight: 200;
+    margin: 0px auto;
+}
+
+#content .content_area .text_area_3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#content .content_area .text_area_3>i{
+    margin-right: 20px;
+    color: #ed1b2e;
+}
+
+#content >.text_area_1{
+    font-size: 1.3rem;
+    text-align:center;
+    position: relative;
+    font-weight: 400;
+    padding: 20px 0 50px 0;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#content .point{
+    border-radius: 20px;
+    border: 2px solid #007AC3;
+    width: 100%;
+    padding: 30px;
+    font-size: 1.1rem;
+    text-align: justify;
+    font-weight: 400;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#content .point>span{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #007AC3;
+}
+
+#content .content_area .con_text{
+    margin:80px auto;
+}
+
+#content .content_area .con_text .serch_box{
+    width:550px;
+    margin: 20px auto 50px;
+}
+#content .content_area .con_text .serch_box label{
+    font-size: 22px;
+}
+#content .content_area .con_text .serch_box input{
+    font-size: 20px;
+    padding:5px 10px;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+}
+#content .content_area .con_text .serch_box button{
+    width: 100px;
+    padding: 5px 0;
+    font-size: 18px; border: 0;
+    background: orange;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#content .content_area .con_text .serch_box .btn_all{
+    background: green;
+}
+
+#content .content_area .con_text .sporex li{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-bottom: 50px;
+}
+#content .content_area .con_text .sporex li img{
+    width: 50%;
+}
+#content .content_area .con_text .sporex li div{
+    width: 45%;
+}
+#content .content_area .con_text .sporex li p{
+    margin-bottom: 15px;} 
+

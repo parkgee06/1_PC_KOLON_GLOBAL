@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./css/join.css">
+</head>
+<body>
+    <header>
+        <h1><a href="../index.html">삼성SDI로고</a></h1>
+    </header>
+    <article id="content">
+        <span>회원가입 정보</span>
+        <p>는 필수 입력항목입니다.</p>
+        <form action="" method="post">
+            <ul>
+                <li>
+                    <label for="memberId">아이디</label>
+                    <input type="text" id="memberId" name="memberId" placeholder="samsung123">
+                </li>
+                <li>
+                    <label for="memberPass">비밀번호</label>
+                    <input type="password" id="memberPass" name="memberPass" placeholder="****">
+                </li>
+                <li>
+                    <label for="memberPass2">비밀번호확인</label>
+                    <input type="password" id="memberPass2" name="memberPass2" placeholder="****">
+                </li>
+                <li>
+                    <label for="memberName">이름</label>
+                    <input type="text" id="memberName" name="memberName" placeholder="홍길동"> 
+                </li>
+                <li>
+                    <label for="memberNick">닉네임</label>
+                    <input type="text" id="memberNick" name="memberNick" placeholder="삼성">
+                </li>
+                <li>
+                    <!-- 휴대폰은 접근성으로 인해 라벨을 직접 달지 않고 번호에... -->
+                    휴대폰<span>*</span><br>
+                    <label for="hp1" class="hidden">전화번호국번</label>
+                    <select name="hp1" id="hp1">
+                        <option value="010">010</option>
+                        <option value="011">011</option>
+                        <option value="016">016</option>
+                        <option value="017">017</option>
+                        <option value="019">019</option>
+                    </select> -
+                    <label for="hp2" class="hidden">전화번호중간4자리</label>
+                    <input type="text" id="hp2" name="hp2" placeholder="0000"> -
+                    <label for="hp3" class="hidden">전화번호끝4자리</label>
+                    <input type="text" id="hp3" name="hp3" placeholder="0000">
+                </li>
+                <li>
+                    이메일<span>*</span><br>
+                    <label for="mail1" class="hidden">이메일id</label>
+                    <input type="text" id="mail1" name="mail1" placeholder="samsumsdi"> @
+                    <label for="mail2" class="hidden">이메일계정</label>
+                    <input type="text" id="mail2" name="mail2" placeholder="samsum.co.kr">
+                </li>
+            </ul>
+            <input type="submit" value="회원가입">
+            <input type="reset" value="다시쓰기">
+        </form>
+    </article>
+</body>
+</html>

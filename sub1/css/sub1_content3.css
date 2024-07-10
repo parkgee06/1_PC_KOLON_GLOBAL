@@ -1,0 +1,127 @@
+/* 안전보건경영의 실제 본문 내용 css */
+
+#content h3{
+   font-size: 2.75rem;
+   text-align: center;
+   margin: 50px 0; position: relative;
+}
+
+#content h4{
+   font-size: 2.22rem;
+   margin:30px 0 50px;
+   text-align: center;
+   font-weight: 500;
+} 
+#content .content_area section{
+   overflow: hidden;
+   margin-bottom: 100px;
+}
+
+#content .safty_nav p{
+   text-align: center; }
+
+#content .safty_nav ul{
+   display: flex;
+   justify-content: center;
+   width:1200px;
+   margin: 50px auto 0 auto;
+   gap: 20px;
+   }
+
+#content .safty_nav li{
+   box-sizing: border-box;
+   text-align: center;
+   border-radius: 8px;
+   border: 1.5px solid #007AC3;
+   background: #F3F3F3;
+   color: #007AC3;
+   font-weight: 500;
+   width: 25%;
+}
+
+#content .safty_nav li:hover{
+   color:#fff ;
+   background: #007AC3;
+}
+
+#content .safty_nav li a{
+   color: #007AC3;
+   padding: 5px 30px;
+}
+#content .safty_nav li a:hover{
+   color:#fff;
+}
+
+
+/* #content .content_area .safty h4{
+   font-size: 2.22rem;
+   text-align: center;
+   font-weight: 500;
+   padding-top: 50px;
+}  */
+
+#content .content_area .safty p{text-align: justify;}
+
+#content .content_area .principles{overflow: hidden;}
+#content .content_area .principles p{font-size: 1rem; text-align: justify; margin: 25px 0 80px 0;}
+#content .content_area .principles p strong{color: #007AC3;}
+#content .content_area .principles .principles_box{overflow: hidden; counter-reset: number 0;}
+#content .content_area .principles dl{width: 360px; margin: 0 20px 50px;  float: left; font-size: 0.89rem; color: #858885 ; padding-bottom: 85px; position: relative; }
+#content .content_area .principles dl::after{content: '0' counter(number); 
+    counter-increment:number 1;font-size: 8em; color: #f8f8f8; position: absolute;
+  right:-20px; bottom:-80px;}
+#content .content_area .principles dt{ margin-bottom: 10px; position: relative;}
+#content .content_area .principles dt::after{content: ''; display: block;
+     width:360px ; height: 2px; background: #f8f8f8; position: absolute; top:75px; left:0; z-index: -1;}
+#content .content_area .principles dt img{width: 62px; height: 59px;margin-bottom: 15px ;
+    padding-bottom: 15px;border-bottom: 3px solid #007AC3;}
+#content .content_area .principles dt span{display: block; font-size: 1.2em; font-weight:600; color:#333}
+#content .content_area .principles dd {font-size: 1rem; font-weight: 500; color: #333333; 
+    padding: 10px 0; text-align: justify;}
+
+
+
+
+#content .content_area .managerial ul{padding: 45px 0 100px 0; display: flex; justify-content:center; gap: 30px; }
+#content .content_area .managerial li{border: 4px solid #007AC3; border-radius: 30px 0 0 0; padding: 20px 35px ; font-size: 1.22rem; font-weight: 500; position: relative;}
+#content .content_area .managerial li::after{content: '+'; display: block; position: absolute; right:-25px; top:20px}
+#content .content_area .managerial li:last-child:after{content: ''; display: none;}
+#content .content_area .managerial table{margin: 30px 0 100px 0; width: 1200px; line-height: 1.5rem;}
+#content .content_area .managerial table th, #content .content_area .managerial table td{border: 1px solid #ccc; padding: 20px; line-height: 1.5em;}
+#content .content_area .managerial table thead tr{background: #ccc;}
+#content .content_area .managerial table tbody th{text-align: left;}
+
+#content .content_area .management{width: 100%;}
+#content .content_area .management .management_bg{width: 1164px; height: 483px; background: url(../imgaes/content3/management_sys.png); position: relative;}
+#content .content_area .management p{text-align: justify; margin-bottom: 50px;}
+#content .content_area .management dl{position: absolute; width: 300px;}
+#content .content_area .management dl:nth-of-type(1){left:0; top: 30px;}
+#content .content_area .management dl:nth-of-type(2){right: 0; top:30px;}
+#content .content_area .management dl:nth-of-type(3){left:0; bottom:40px;}
+#content .content_area .management dl:nth-of-type(4){right: 0; bottom: 50px;}
+#content .content_area .management dt{font-size: 1em; font-weight: 600; margin-bottom: 10px;}
+#content .content_area .management dd{font-size: .85em; padding-left: 10px; position: relative; margin-left: 15px;}
+#content .content_area .management dd::before{content: ''; display: block; width: 4px; height: 4px;
+   border-radius: 50%; background: #333;position: absolute; left:0; top:11px}
+
+
+
+/* #content .content_area .certification{} */
+#content .content_area .certification p{text-align: center; margin-bottom: 30px;}
+#content .content_area .certification img{width: 304px; height: 430px; border: 1px solid #333333; margin: 15px 0 50px; }
+#content .content_area .certification a{width: 177px ; padding: 10px; border-radius: 5px; border: 1px solid #333333;  margin: 0 auto;}
+#content .content_area .certification>div{text-align: center;}
+#content .content_area .certification_click p{text-align: center; font-size: 1rem; color: #858585 ; margin: 0 auto;}
+
+
+/* #content .content_area .management2{} */
+#content .content_area .management2 p{text-align: justify;}
+#content .content_area .management2 ul{margin-bottom: 50px;}
+#content .content_area .management2 li{margin-bottom: 30px;}
+#content .content_area .management2 li dl{display: flex; justify-content: space-between;}
+#content .content_area .management2 li dt{width: 200px; background: #007AC3; color: #fff;
+   font-size: 1.15em; font-weight: 600; text-align: center; border-radius: 30px 0 0 0; padding-top: 14px; position: relative;}
+#content .content_area .management2 li dt::after{content: ''; display: block; width: 30px; height: 3px;
+   background: #007AC3; position:absolute; right:-30px; top:30px}
+#content .content_area .management2 li dd{width: 950px;}
+#content .content_area .management2 li dd strong{display: block; margin-bottom: 10px; font-size: 1.05em;}
