@@ -1,7 +1,7 @@
 /* 기업소개의 공통 css */
 
 /* visual 영역 */
-.visual{
+.visual {
     width: 2000px;
     height: 399px;
     position: relative;
@@ -12,7 +12,7 @@
     font-weight: 400;
     font-size: 3.5rem;
 }
-.visual span{
+.visual span {
     font-size: 2.25rem;
     display: block;
     position: absolute;
@@ -21,8 +21,8 @@
     text-align: center;
     font-weight: 500;
 }
-.visual span::before{
-    content: 'About KOLON GLOBAL';
+.visual span::before {
+    content: "About KOLON GLOBAL";
     display: block;
     position: absolute;
     width: 100%;
@@ -31,7 +31,7 @@
     font-size: 0.85rem;
     font-weight: 100;
 }
-.visual p{
+.visual p {
     position: absolute;
     top: 280px;
     width: 100%;
@@ -40,86 +40,88 @@
 }
 
 /* 서브메뉴 영역 */
-.sub_nav{
+.sub_nav {
     width: 100%;
     border-bottom: 1px solid #ccc;
 }
-.sub_nav ul{
+.sub_nav ul {
     overflow: hidden;
     width: 1200px;
     margin: 0 auto;
 }
-.sub_nav li{width: 20%;
+.sub_nav li {
+    width: 20%;
     float: left;
     text-align: center;
 }
-.sub_nav li a{
+.sub_nav li a {
     font-size: 1.25rem;
     font-weight: 400;
     padding: 13px 0;
-    transition: all .5s;
+    transition: all 0.5s;
     background: #fcfcfc;
     color: #333;
 }
-.sub_nav li a:hover, .sub_nav li .current{
-    background: #ED1B2E;
+.sub_nav li a:hover,
+.sub_nav li .current {
+    background: #ed1b2e;
     color: #fff;
     font-weight: 600;
 }
 
 /* content 영역 */
-#content{
-    width:100%;
+#content {
+    width: 100%;
     overflow: hidden;
 }
-#content .title_area{
+#content .title_area {
     width: 1200px;
     margin: 0 auto;
-    overflow:hidden;
+    overflow: hidden;
 }
-#content .content_area{
+#content .content_area {
     width: 1200px;
     margin: 0 auto;
     position: relative;
 }
 
 /* title_area 영역 */
-#content .title_area{
+#content .title_area {
     height: 360px;
     position: relative;
 }
-#content .title_area .line_map{
+#content .title_area .line_map {
     position: absolute;
     right: 0;
     top: 20px;
 }
-#content .title_area h2{
+#content .title_area h2 {
     font-size: 3.5rem;
     text-align: center;
     margin-top: 150px;
 }
 
-#content .sub_title_area h3{
+#content .sub_title_area h3 {
     font-size: 2.75rem;
     text-align: center;
     position: relative;
 }
 
-#content .sub_title_area h3::after{
-    content: '';
+#content .sub_title_area h3::after {
+    content: "";
     display: block;
     width: 3px;
     height: 80px;
-    background: #ED1B2E;
+    background: #ed1b2e;
     position: absolute;
     top: -95px;
     left: 50%;
 }
 
-#content .sub_title_area .head3_en{
-    font-size: 1.39;
+#content .head3_en {
+    font-size: 1.39rem;
     text-align: center;
-    color: #007AC3; 
+    color: #007ac3;
     font-weight: 200;
     display: block;
     margin-bottom: 70px;
@@ -131,7 +133,7 @@
     margin-bottom: 30px;
     text-align: center;
 }
-#content .main_text{
+#content .main_text {
     font-size: 1rem;
     text-align: justify;
 }
