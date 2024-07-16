@@ -99,13 +99,13 @@
     margin-top: 150px;
 }
 
-#content .content_area h3{
+#content .sub_title_area h3{
     font-size: 2.75rem;
     text-align: center;
     position: relative;
 }
 
-#content .content_area h3::after{
+#content .sub_title_area h3::after{
     content: '';
     display: block;
     width: 3px;
@@ -116,7 +116,7 @@
     left: 50%;
 }
 
-#content .content_area span{
+#content .sub_title_area .head3_en{
     font-size: 1.39;
     text-align: center;
     color: #007AC3; 
