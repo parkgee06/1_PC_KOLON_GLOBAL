@@ -1,2 +1,15 @@
+/* --------------------------------------------------------------------------- */
 /* 기업연혁 */
-
+#content .list_tab {
+    transition: all 0.5s ease-out;
+}
+#content .list_tab .active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+}
+#content .list_tab li {
+    width: 25%;
+}
