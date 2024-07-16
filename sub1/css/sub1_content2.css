@@ -45,33 +45,57 @@
 }
 
 /* 연혁 list */
-#content .content_area {
-    /* border: 1px solid blue; */
-}
+/* #content .content_area {
+    border: 1px solid blue;
+} */
 
 #content .history {
-    width: 750px;
+    width: 700px;
     position: relative;
-    left: 450px;
+    left: 500px;
     top: 0;
     /* border: 1px solid red; */
 }
 
 #content .history li {
-    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row-reverse; /* 이미지를 왼쪽으로 배치 */
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 100px;
     position: relative;
+    padding-bottom: 30px;
 }
 
-#content .history li div {
+#content .history li .history_img {
+    flex: 0 0 365px; /* 이미지 너비 조절 */
+    margin-right: 135px;
+    position: absolute;
+    left: -500px; /* 왼쪽으로 이동 */
+    top: 25px;
+    margin-bottom: 30px;
+}
+
+#content .history li .history_img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#content .history li .line {
     position: absolute;
     top: 30px;
-    left: -30px;
-    height: 140%;
+    left: -50px;
+    height: calc(100% + 70px); /* 높이를 li의 전체 높이 + 여분으로 설정 */
     width: 12.5px;
-    border-right: 1px solid #ccc;
+    border-right: 2px solid #ccc;
 }
 
-#content .history li span {
+/* #content .history li:last-child .line {
+    height: 100%;  마지막 li의 선은 li 높이만큼만 
+} */
+
+#content .history li .marker {
     content: "";
     display: block;
     width: 15px;
@@ -81,12 +105,22 @@
     /* block-size: content-box; */
     background: #f3f3f3;
     position: absolute;
-    left: -10px;
-    top: -15px;
+    left: 2px;
+    top: -12px;
 }
 
+#content .history li dl {
+    flex: 1;
+    position: relative;
+    padding-bottom: 30px; /* dl 하단 패딩 추가 */
+}
+
+/* #content .history li dl dd:last-child {
+    margin-bottom: 0;  마지막 dd의 아래 마진 제거 
+} */
+
 #content .history li dl dt {
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 700;
     color: #007ac3;
     display: block;
@@ -97,7 +131,7 @@
     display: flex;
     align-items: flex-start;
     margin-left: 15px;
-    font-size: 1.25rem;
+    font-size: 1.3rem;
     line-height: 2rem;
 }
 
@@ -106,21 +140,6 @@
     flex-shrink: 0;
     width: 10px;
 }
-
-/* #content .history li dl {
-    display: flex;
-    flex-direction: row;
-} */
-
-/* #content .history li dl dt {
-    font-size: 1.56rem;
-    font-weight: 700;
-    color: #007ac3;
-    text-align: center;
-    display: block;
-    width: 50px;
-    padding-top: 6px;
-} */
 
 /* #content .history li dl dt::after {
     content: "";
@@ -132,10 +151,4 @@
     position: relative;
     left: 0;
     bottom: 0;
-} */
-
-/* #content .history li dl dd {
-    font-size: 1.38rem;
-    line-height: 2.5rem;
-    margin-left: 30px;
 } */
