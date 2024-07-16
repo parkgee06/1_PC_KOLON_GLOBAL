@@ -1,15 +1,32 @@
 /* --------------------------------------------------------------------------- */
 /* 기업연혁 */
-#content .list_tab {
-    transition: all 0.5s ease-out;
-}
-#content .list_tab .active {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 100;
+#content .his_nav_tab {
     width: 100%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2%;
 }
-#content .list_tab li {
-    width: 25%;
+#content .his_nav_tab li {
+    width: 23.5%;
+    text-align: center;
+    font-size: 1.56rem;
+    font-weight: 400;
+    background: #f3f3f3;
+    border-radius: 15px;
+    border: 1.5px solid #007aca;
+}
+
+#content .his_nav_tab li:hover {
+    color: #fff;
+    background: #007ac3;
+}
+
+#content .his_nav_tab li a {
+    color: #007aca;
+    padding: 3px 0;
+}
+
+#content .his_nav_tab li a:hover {
+    color: #fff;
+    font-weight: 500;
 }

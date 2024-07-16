@@ -1,4 +1,4 @@
-#content .content_area{
+#content .content_area {
     width: 100%;
     margin: 0 auto;
     position: relative;
@@ -6,37 +6,36 @@
 
 /* 사업영역 - 건설 본문 내용 css */
 
-#content h3{
+#content h3 {
     font-size: 2.75rem;
     text-align: center;
     display: block;
     margin: 0 0 50px 0;
-} 
+}
 
-#content h3{
+#content h3 {
     font-size: 2.75rem;
     text-align: center;
     display: block;
     margin: 0 0 50px 0;
     position: relative;
-} 
+}
 
-#content h3::after{
+#content h3::after {
     content: "CONTSRUCTION";
     position: absolute;
     top: 75px;
     transform: translateX(-50%);
     left: 50%;
     font-size: 1.39rem;
-    color: #007AC3;
+    color: #007ac3;
     font-weight: 200;
     width: 100%;
     height: 100%;
     text-align: center;
 }
 
-
-#content h4{
+#content h4 {
     font-size: 2.3rem;
     text-align: center;
     display: block;
@@ -44,77 +43,68 @@
     margin-bottom: 20px;
 }
 
-#content .content_area h4::after{
+#content .content_area h4::after {
     content: "";
     position: absolute;
     top: 60px;
     transform: translateX(-50%);
     left: 50%;
     font-size: 1.19rem;
-    color: #007AC3;
+    color: #007ac3;
     font-weight: 200;
     width: 100%;
     height: 100%;
     text-align: center;
 }
 
-
-#content .civil_work h4::after{
+#content .civil_work h4::after {
     content: "CIVIL WORK";
 }
 
-#content .soc h4::after{
+#content .soc h4::after {
     content: "SOC";
 }
 
-#content .architecture h4::after{
+#content .architecture h4::after {
     content: "ARCHITECTURE";
 }
 
-#content .housing h4::after{
+#content .housing h4::after {
     content: "HOUSING";
 }
 
-#content .environment h4::after{
+#content .environment h4::after {
     content: "HOUSING";
 }
 
-#content .plants h4::after{
+#content .plants h4::after {
     content: "PLANTS";
 }
 
-
-
-#content .tab_menu_all ul{
+#content .tab_menu_all ul {
     display: flex;
     gap: 20px;
     margin: 120px auto 50px auto;
     justify-content: center;
 }
-#content .tab_menu_all li a{
+#content .tab_menu_all li a {
     border-radius: 8px;
-    border: 1.5px solid #007AC3;
-    background: #F3F3F3;
-    color: #007AC3;
+    border: 1.5px solid #007ac3;
+    background: #f3f3f3;
+    color: #007ac3;
     font-weight: 500;
     padding: 5px 15px;
     width: 80px;
     text-align: center;
 }
-#content .tab_menu_all li a:hover{
-    color:#fff ;
-    background: #007AC3;
-}
-#content .tab_menu_all li a{
-    color: #007AC3;
-}
-#content .tab_menu_all li a:hover{
-    color:#fff;
+#content .tab_menu_all li a:hover {
+    color: #fff;
+    background: #007ac3;
 }
 
-#content .content_area .text_area_1{
+#content .content_area .text_area_1 {
     font-size: 1.3rem;
-    text-align:center;
+    text-align: center;
     position: relative;
     font-weight: 400;
     padding: 20px 0 0 0;
@@ -122,8 +112,7 @@
     margin: 30px auto 0px auto;
 }
 
-
-#content .content_area .text_area_2{
+#content .content_area .text_area_2 {
     font-size: 1rem;
     font-weight: 400;
     width: 1200px;
@@ -131,26 +120,25 @@
     margin: 50px auto;
 }
 
-#content .housing .text_area_2{
+#content .housing .text_area_2 {
     text-align: center;
 }
 
-#content .housing .text_area_2>p{
+#content .housing .text_area_2 > p {
     text-align: justify;
     margin-top: 50px;
 }
 
 /* 회색배경 */
 
-#content .content_area .odd_area{
-    background: #D9D9D9;
+#content .content_area .odd_area {
+    background: #d9d9d9;
     width: 100%;
     padding: 80px 0px;
     margin: 0 auto;
-
 }
 
-#content .content_area .odd_area>ul{
+#content .content_area .odd_area > ul {
     display: flex;
     gap: 100px;
     justify-content: center;
@@ -166,79 +154,77 @@
     float: left;
 }    */
 
-#content .content_area .even_area>ul{
+#content .content_area .even_area > ul {
     display: flex;
     justify-content: center;
     gap: 100px;
 }
 
-#content .content_area .odd_area>ul .list{
+#content .content_area .odd_area > ul .list {
     margin-left: 100px;
 }
 
-#content .content_area .even_area>ul .list{
+#content .content_area .even_area > ul .list {
     margin-left: 100px;
 }
 
-
-
-#content .content_area .even_area{
+#content .content_area .even_area {
     background: #fff;
     padding: 80px 0px;
     margin: 0 auto;
     width: 100%;
 }
 
-#content .content_area h5{
+#content .content_area h5 {
     font-size: 1.3rem;
-    color: #007AC3;
+    color: #007ac3;
     font-weight: 600;
     margin: 20px 0 30px 0;
     position: relative;
 }
 
-#content .content_area .odd_area h5{
+#content .content_area .odd_area h5 {
     text-align: left;
 }
 
-#content .content_area .even_area h5{
+#content .content_area .even_area h5 {
     text-align: right;
 }
 
-#content .content_area .odd_area h5::before{
+#content .content_area .odd_area h5::before {
     content: "";
     position: absolute;
     width: 630px;
-    border: 2px solid #007AC3;
+    border: 2px solid #007ac3;
     left: -100px;
     bottom: -10px;
 }
 
-#content .content_area .even_area h5::before{
+#content .content_area .even_area h5::before {
     content: "";
     position: absolute;
     width: 630px;
-    border: 2px solid #007AC3;
+    border: 2px solid #007ac3;
     right: -100px;
     bottom: -10px;
 }
 
-#content .content_area dl dt{
+#content .content_area dl dt {
     font-weight: 700;
     float: left;
     width: 80px;
     margin-right: 25px;
-    text-align:justify;
+    text-align: justify;
     /* border: 1px solid red; */
 }
 
-#content .content_area .text_area_2 .arc_1{
+#content .content_area .text_area_2 .arc_1 {
     display: flex;
     gap: 20px;
-    margin-bottom : 50px;
+    margin-bottom: 50px;
 }
 
-#content .content_area .text_area_2 .arc_2{
+#content .content_area .text_area_2 .arc_2 {
     gap: 20px;
     display: flex;
 }
