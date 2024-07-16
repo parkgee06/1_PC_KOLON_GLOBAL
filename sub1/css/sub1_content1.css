@@ -2,17 +2,6 @@
 #content .content_area .zone{
     margin-bottom: 220px;
 }
-#content .sub_head {
-    margin-bottom: 20px;
-    font-size: 1.3rem;
-    font-weight: 400;
-    margin-bottom: 50px;
-}
-#content .main_text{
-    font-size: 1rem;
-    text-align: justify;
-}
-
 /* --------------------------------------------------------------------------- */
 /* 1_CEO 인사말 css */
 #content .content_area::before{
@@ -30,7 +19,7 @@
 
 #content .content_area .greeting_area ul{
     display: flex;
-    gap: 30px;
+    gap: 35px;
 }
 
 #content .content_area .greeting_area ul .ceo_pic{
@@ -48,7 +37,7 @@
 /* 2_globla_area 영역 */
 #content .global_area ul{
     display: flex;
-    gap: 20px;
+    gap: 35px;
 }
 
 #content .global_area ul .global_pic{
