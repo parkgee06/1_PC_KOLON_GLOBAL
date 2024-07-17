@@ -46,6 +46,7 @@ $(document).ready(function () {
             $(".his_nav_tab li:eq(3)").find("a").addClass("spy"); //네번째 서브메뉴 활성화
             $(".his_fou").addClass("boxMove");
         }
+        
     });
 
     $(".his_nav_tab li a").click(function (e) {

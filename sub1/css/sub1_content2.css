@@ -19,12 +19,14 @@
 
 /* 상단에 고정 sticky menu */
 #content .content_area .his_nav_tab.active {
+    background: #fff;
+    padding: 50px 0 5px 0;
     position: fixed;
     width: 1200px;
     z-index: 1000;
     left: 50%;
     transform: translateX(-50%);
-    top: 50px;
+    top: 00px;
     margin: 0;
 }
 
@@ -70,7 +72,7 @@
     margin: 100px 0;
 }
 
-#content .history {
+#content .history_cur {
     width: 700px;
     position: relative;
     left: 500px;
@@ -78,7 +80,7 @@
     margin-bottom: 100px;
 }
 
-#content .history li {
+#content .history_cur li {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
@@ -88,7 +90,7 @@
     padding-bottom: 70px;
 }
 
-#content .history li .history_img {
+#content .history_cur li .history_img {
     flex: 0 0 365px; /* 이미지 너비 조절 */
     position: absolute;
     left: -500px; /* 왼쪽으로 이동 */
@@ -100,14 +102,14 @@
     overflow: hidden;
 }
 
-#content .history li .history_img img {
+#content .history_cur li .history_img img {
     width: 100%;
     height: auto;
     object-fit: cover;
     object-position: center;
 }
 
-#content .history li .line {
+#content .his_list ol li .line {
     position: absolute;
     top: 50px;
     left: -35px;
@@ -116,26 +118,25 @@
     border-right: 2px solid #ccc;
 }
 
-#content .history li .marker {
-    content: "";
+#content .his_list ol li .marker {
     display: block;
     width: 15px;
     height: 15px;
-    border-radius: 50%;
     border: 5px solid #007ac3;
-    background: #f3f3f3;
+    border-radius: 50%;
+    background: #fff;
     position: absolute;
     left: -9px;
     top: -7px;
 }
 
-#content .history li dl {
+#content .history_cur li dl {
     flex: 1;
     padding-left: 20px; /* 텍스트 왼쪽 여백 추가 */
     margin-top: 25px; /* 텍스트 위치 조정 */
 }
 
-#content .history li dl dt {
+#content .history_cur li dl dt {
     font-size: 2rem;
     font-weight: 700;
     color: #007ac3;
@@ -143,7 +144,7 @@
     margin-bottom: 20px;
 }
 
-#content .history li dl dd {
+#content .history_cur li dl dd {
     display: flex;
     align-items: flex-start;
     margin-bottom: 10px;
@@ -151,7 +152,7 @@
     line-height: 2rem;
 }
 
-#content .history li dl dd strong {
+#content .history_cur li dl dd strong {
     margin-right: 10px;
     flex-shrink: 0;
     width: 10px;
