@@ -12,7 +12,7 @@
     text-align: center;
     font-size: 1.56rem;
     font-weight: 400;
-    border-radius: 15px;
+    border-radius: 10px;
     transition: all 0.3s ease-out;
     overflow: hidden;
 }
@@ -34,7 +34,6 @@
 #content .his_nav_tab li a.spy {
     background: #007ac3;
     color: #fff;
-    /* border-radius: 15px; */
     font-weight: 500;
 }
 
@@ -49,7 +48,7 @@
     padding: 3px 0;
     background: #f3f3f3;
     border: 1.5px solid #007aca;
-    border-radius: 15px;
+    border-radius: 10px;
     box-sizing: border-box;
     transition: all 0.3s ease-out;
 }
@@ -57,7 +56,6 @@
 #content .his_nav_tab .current {
     background: #007ac3;
     color: #fff;
-    /* border-radius: 15px; */
     font-weight: 500;
 }
 
@@ -68,9 +66,9 @@
 }
 
 /* 연혁 list */
-/* #content .content_area .his_list {
+#content .content_area .his_list {
     margin: 100px 0;
-} */
+}
 
 #content .history_cur {
     width: 700px;
