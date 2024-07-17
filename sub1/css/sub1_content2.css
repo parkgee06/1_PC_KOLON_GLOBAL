@@ -68,9 +68,9 @@
 }
 
 /* 연혁 list */
-#content .content_area .his_list {
+/* #content .content_area .his_list {
     margin: 100px 0;
-}
+} */
 
 #content .history_cur {
     width: 700px;
