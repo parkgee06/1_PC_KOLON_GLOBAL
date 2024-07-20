@@ -1,5 +1,4 @@
 /* 기업소개의 공통 css */
-
 /* visual 영역 */
 .visual {
     width: 2000px;
@@ -77,6 +76,8 @@
 #content .title_area {
     width: 1200px;
     margin: 0 auto;
+    height: 360px;
+    position: relative;
     overflow: hidden;
 }
 #content .content_area {
@@ -86,35 +87,33 @@
 }
 
 /* title_area 영역 */
-#content .title_area {
-    height: 360px;
-    position: relative;
-}
 #content .title_area .line_map {
     position: absolute;
     right: 0;
     top: 20px;
 }
+
+/* Head 정리 */
 #content .title_area h2 {
     font-size: 3.5rem;
     text-align: center;
     margin-top: 150px;
 }
 
-#content .sub_title_area h3 {
+#content h3 {
     font-size: 2.75rem;
     text-align: center;
     position: relative;
 }
 
-#content .sub_title_area h3::after {
+#content h3::after {
     content: "";
     display: block;
     width: 3px;
     height: 80px;
     background: #ed1b2e;
     position: absolute;
-    top: -95px;
+    top: -105px;
     left: 50%;
 }
 
@@ -124,16 +123,28 @@
     color: #007ac3;
     font-weight: 200;
     display: block;
-    margin-bottom: 70px;
+    margin: 5px 0 50px 0;
+}
+
+#content h4 {
+    font-size: 2.22rem;
+    margin: 30px 0 50px;
+    text-align: center;
+    font-weight: 500;
 }
 
 #content .sub_head {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
     font-weight: 400;
-    margin-bottom: 30px;
+    margin: 50px 0;
     text-align: center;
 }
 #content .main_text {
     font-size: 1rem;
     text-align: justify;
+}
+
+#content .content_area p {
+    text-align: justify;
+    font-size: 1.15rem;
 }
