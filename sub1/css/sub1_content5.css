@@ -44,7 +44,9 @@
     padding: 1px 0 3px 0;
     text-align: center;
     border-radius: 20px;
-    float: left; font-size: .8rem;
+    float: left;
+    font-size: .8rem;
+    font-weight: 600;
 }
 #content .content_area .bus_blue{
     background: #1888ce;
@@ -61,6 +63,12 @@
 #content .content_area .bus dd{
     margin-left: 95px;
 }   
+
+#content .content_area .bus dd:first-of-type{
+    font-weight: 800;
+    margin-bottom: 5px;
+    /* border: 1px solid red; */
+}
 
 #content .content_area .subway{
     overflow: hidden;
