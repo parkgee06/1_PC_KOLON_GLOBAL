@@ -1,4 +1,7 @@
-/* CI소개의 실제 본문 내용 css */
+#content .content_area h4{
+    margin-bottom: 20px;
+}
+
 #content .content_area p{
     font-size: 1.3rem;
     text-align: left;

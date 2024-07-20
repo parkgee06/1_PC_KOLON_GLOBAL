@@ -1,16 +1,22 @@
+#content .content_area .title{
+    float: left;
+    width: 250px;
+} 
+
+#content .content_area .right{
+    width: 870px;
+    float: right;
+} 
+
 /* 찾아오시는 길 실제 본문 내용 css */
 #content .content_area .location{
     overflow: hidden;
     margin-bottom: 100px;
 }
-#content .content_area div:first-of-type{
-    width: 290px;
-    float: left;
-}
+
 #content .content_area .location #map{
-    width:900px;
+    /* border: 1px solid red; */
     height: 600px;
-    float: right;
 }
 
 #content .content_area .location dt{
@@ -26,13 +32,7 @@
     overflow: hidden;
     margin-bottom: 100px;
 }
-#content .content_area .bus h3{
-    float: left;
-}
-#content .content_area .bus div{
-    width:900px;
-    float: right;
-}
+
 #content .content_area .bus dl{
     overflow: hidden;
     margin-bottom: 30px;
@@ -66,9 +66,7 @@
     overflow: hidden;
     margin-bottom: 150px;
 }
-#content .content_area .subway h3{
-    float: left;
-}
+
 #content .content_area .subway p{
     width:900px;
     float: right;

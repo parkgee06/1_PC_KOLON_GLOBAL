@@ -1,7 +1,12 @@
-/* 안전보건경영의 실제 본문 내용 css */
 #content h3 {
     margin: 150px auto 0 auto;
 }
+
+#content h4 {
+    margin: 30px 0 50px;
+    text-align: center;
+}
+/* 안전보건경영의 실제 본문 내용 css */
 
 #content .content_area {
     overflow: hidden;
