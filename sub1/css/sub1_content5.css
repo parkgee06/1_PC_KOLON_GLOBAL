@@ -1,31 +1,76 @@
 /* 찾아오시는 길 실제 본문 내용 css */
-
-#content .content_area h3{font-size: 2.75rem; margin-bottom: 100px;} 
-#content .content_area h3 span{display: block; font-size: 1.39rem; color: #007AC3; font-weight: 200;}
-
-#content .content_area .location{overflow: hidden; margin-bottom: 100px;}
-#content .content_area div:first-of-type{width: 290px; float: left;}
-#content .content_area .location #map{
-    width:900px ;height: 600px; float: right;
-    /* border: 1px solid red; */
+#content .content_area .location{
+    overflow: hidden;
+    margin-bottom: 100px;
 }
-#content .content_area .location dt{font-size: 1.3em; font-weight: 600; margin: 20px 0 10px;}
-#content .content_area .location dd{line-height: 1.5em;}
+#content .content_area div:first-of-type{
+    width: 290px;
+    float: left;
+}
+#content .content_area .location #map{
+    width:900px;
+    height: 600px;
+    float: right;
+}
 
-#content .content_area .bus{overflow: hidden; margin-bottom: 100px;}
-#content .content_area .bus h3{float: left;}
-#content .content_area .bus div{width:900px ;float: right;}
-#content .content_area .bus dl{overflow: hidden; margin-bottom: 30px;}
+#content .content_area .location dt{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin: 20px 0 10px;
+}
+#content .content_area .location dd{
+    line-height: 1.5em;
+}
 
-#content .content_area .bus dt{width: 65px;  color: #fff; padding: 1px 0 3px 0; text-align: center; border-radius: 20px; float: left; font-size: .8rem;}
-#content .content_area .bus_blue{background: #1888ce;}
+#content .content_area .bus{
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+#content .content_area .bus h3{
+    float: left;
+}
+#content .content_area .bus div{
+    width:900px;
+    float: right;
+}
+#content .content_area .bus dl{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
 
-#content .content_area .bus_green{background: #0bb12f; }
+#content .content_area .bus dt{
+    width: 65px;
+    color: #fff;
+    padding: 1px 0 3px 0;
+    text-align: center;
+    border-radius: 20px;
+    float: left; font-size: .8rem;
+}
+#content .content_area .bus_blue{
+    background: #1888ce;
+}
 
-#content .content_area .bus_red{ background: #db2209; }
+#content .content_area .bus_green{
+    background: #0bb12f;
+}
 
-#content .content_area .bus dd{margin-left: 95px;}   
+#content .content_area .bus_red{
+    background: #db2209;
+}
 
-#content .content_area .subway{overflow: hidden; margin-bottom: 150px;}
-#content .content_area .subway h3{float: left;}
-#content .content_area .subway p{width:900px ;float: right; margin-top: 10px;}
+#content .content_area .bus dd{
+    margin-left: 95px;
+}   
+
+#content .content_area .subway{
+    overflow: hidden;
+    margin-bottom: 150px;
+}
+#content .content_area .subway h3{
+    float: left;
+}
+#content .content_area .subway p{
+    width:900px;
+    float: right;
+    margin-top: 10px;
+}

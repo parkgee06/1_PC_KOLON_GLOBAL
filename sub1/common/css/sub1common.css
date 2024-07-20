@@ -124,6 +124,7 @@
     font-weight: 200;
     display: block;
     margin: 5px 0 50px 0;
+    text-transform: uppercase;
 }
 
 #content h4 {
@@ -140,11 +141,7 @@
     text-align: center;
 }
 #content .main_text {
-    font-size: 1rem;
+    font-size: 1.15rem;
     text-align: justify;
 }
 
-#content .content_area p {
-    text-align: justify;
-    font-size: 1.15rem;
-}
