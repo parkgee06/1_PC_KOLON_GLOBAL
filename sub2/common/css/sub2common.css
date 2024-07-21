@@ -79,23 +79,70 @@
     right: 0;
     top: 20px;
 }
-#content .title_area h2{
+
+/* Head 정리 */
+#content .title_area h2 {
     font-size: 3.5rem;
     text-align: center;
     margin-top: 150px;
+}
+
+#content h3 {
+    font-size: 2.75rem;
+    text-align: center;
     position: relative;
 }
 
-#content .title_area h2::after{
-    content: '';
+#content h3::after {
+    content: "";
     display: block;
-    width: 3px; height: 80px;
-    background: #ED1B2E;
+    width: 3px;
+    height: 80px;
+    background: #ed1b2e;
     position: absolute;
-    top: 120px; left: 50%;
+    top: -105px;
+    left: 50%;
 }
 
+#content .head3_en {
+    font-size: 1.39rem;
+    text-align: center;
+    color: #007ac3;
+    font-weight: 200;
+    display: block;
+    margin: 5px 0 50px 0;
+    text-transform: uppercase;
+}
 
+#content h4 {
+    font-size: 2.3rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+#content .head4_en{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    font-size: 1rem;
+    color: #fff;
+    background: #ED1B2E;
+    padding: 2.5px 13px;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#content .sub_head {
+    font-size: 1.35rem;
+    font-weight: 400;
+    margin: 50px 0;
+    text-align: center;
+}
+#content .main_text {
+    font-size: 1.15rem;
+    text-align: justify;
+}
 
 
 

@@ -4,91 +4,10 @@
     position: relative;
 }
 
-
 /* 사업영역 - 상사 본문 내용 css */
-
-#content h3{
-    font-size: 2.75rem;
-    text-align: center;
-    display: block;
-    margin: 0 0 50px 0;
-} 
-
-#content h3{
-    font-size: 2.75rem;
-    text-align: center;
-    display: block;
-    margin: 0 0 50px 0;
-    position: relative;
-} 
-
-#content h3::after{
-    content: "TRADE";
-    position: absolute;
-    top: 75px;
-    transform: translateX(-50%);
-    left: 50%;
-    font-size: 1.39rem;
-    color: #007AC3;
-    font-weight: 200;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-
-
-#content h4{
-    font-size: 2.3rem;
-    text-align: center;
-    display: block;
-    position: relative;
-    margin-bottom: 20px;
-}
-
-#content .content_area h4::after{
-    content: "";
-    position: absolute;
-    top: 60px;
-    transform: translateX(-50%);
-    left: 50%;
-    font-size: 1.19rem;
-    color: #007AC3;
-    font-weight: 200;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-
-
-#content .chemical_industry h4::after{
-    content: "CHEMICAL INDUSTRY";
-}
-
-#content .soc h4::after{
-    content: "SOC";
-}
-
-#content .architecture h4::after{
-    content: "ARCHITECTURE";
-}
-
-#content .housing h4::after{
-    content: "HOUSING";
-}
-
-#content .environment h4::after{
-    content: "HOUSING";
-}
-
-#content .plants h4::after{
-    content: "PLANTS";
-}
-
-
-
 #content .tab_menu_all .tab_menu{
     display: flex;
-    gap: 20px;
+    gap: 30px;
     margin: 120px auto 50px auto;
     justify-content: center;
 }

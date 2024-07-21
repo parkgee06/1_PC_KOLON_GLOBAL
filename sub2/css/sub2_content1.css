@@ -4,87 +4,10 @@
     position: relative;
 }
 
-/* 사업영역 - 건설 본문 내용 css */
-
-#content h3 {
-    font-size: 2.75rem;
-    text-align: center;
-    display: block;
-    margin: 0 0 50px 0;
-}
-
-#content h3 {
-    font-size: 2.75rem;
-    text-align: center;
-    display: block;
-    margin: 0 0 50px 0;
-    position: relative;
-}
-
-#content h3::after {
-    content: "CONTSRUCTION";
-    position: absolute;
-    top: 75px;
-    transform: translateX(-50%);
-    left: 50%;
-    font-size: 1.39rem;
-    color: #007ac3;
-    font-weight: 200;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-
-#content h4 {
-    font-size: 2.3rem;
-    text-align: center;
-    display: block;
-    position: relative;
-    margin-bottom: 20px;
-}
-
-#content .content_area h4::after {
-    content: "";
-    position: absolute;
-    top: 60px;
-    transform: translateX(-50%);
-    left: 50%;
-    font-size: 1.19rem;
-    color: #007ac3;
-    font-weight: 200;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-
-#content .civil_work h4::after {
-    content: "CIVIL WORK";
-}
-
-#content .soc h4::after {
-    content: "SOC";
-}
-
-#content .architecture h4::after {
-    content: "ARCHITECTURE";
-}
-
-#content .housing h4::after {
-    content: "HOUSING";
-}
-
-#content .environment h4::after {
-    content: "HOUSING";
-}
-
-#content .plants h4::after {
-    content: "PLANTS";
-}
-
 #content .tab_menu_all ul {
     display: flex;
-    gap: 20px;
-    margin: 120px auto 50px auto;
+    gap: 30px;
+    margin: 60px auto 50px auto;
     justify-content: center;
 }
 #content .tab_menu_all li a {
@@ -101,7 +24,6 @@
     color: #fff;
     background: #007ac3;
 }
-
 #content .content_area .text_area_1 {
     font-size: 1.3rem;
     text-align: center;
@@ -129,8 +51,9 @@
     margin-top: 50px;
 }
 
-/* 회색배경 */
 
+/* 사업영역 - 건설 soc 본문 내용 css */
+/* 회색배경 */
 #content .content_area .odd_area {
     background: #d9d9d9;
     width: 100%;
@@ -141,31 +64,40 @@
 #content .content_area .odd_area > ul {
     display: flex;
     gap: 100px;
+    line-height: 1.8rem;
     justify-content: center;
-    /* overflow: hidden;
-    width: 1200px;
-    margin: 0 auto; */
 }
 
-/* #content .content_area_1 .odd_area>ul .text{
-    float: right;
-}  
-#content .content_area_1 .odd_area>ul .img{
-    float: left;
-}    */
+#content .content_area  .odd_area > ul .img,
+#content .content_area  .even_area > ul .img {
+    width: 480px;
+    height: 320px;
+    overflow: hidden;
+}    
+
+#content .content_area  .odd_area > ul .img img,
+#content .content_area  .even_area > ul .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* border: 1px solid red; */
+}   
 
 #content .content_area .even_area > ul {
     display: flex;
     justify-content: center;
     gap: 100px;
+    line-height: 1.8rem;
 }
 
-#content .content_area .odd_area > ul .list {
-    margin-left: 100px;
+#content .content_area .even_area > ul .list,
+#content .content_area .odd_area > ul .list{
+    margin-left: 105px;
 }
 
-#content .content_area .even_area > ul .list {
-    margin-left: 100px;
+#content .content_area  > ul .list {
+    margin-left: 105px;
 }
 
 #content .content_area .even_area {
@@ -215,7 +147,6 @@
     width: 80px;
     margin-right: 25px;
     text-align: justify;
-    /* border: 1px solid red; */
 }
 
 #content .content_area .text_area_2 .arc_1 {
