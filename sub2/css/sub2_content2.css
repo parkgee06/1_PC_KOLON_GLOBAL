@@ -1,61 +1,14 @@
-#content .content_area{
+#content .content_area {
     width: 1200px;
     margin: 0 auto;
     position: relative;
 }
 
 /* 사업영역 - 상사 본문 내용 css */
-#content .tab_menu_all .tab_menu{
-    display: flex;
-    gap: 30px;
-    margin: 120px auto 50px auto;
-    justify-content: center;
-}
-#content .tab_menu_all .tab_menu li a{
-    border-radius: 8px;
-    border: 1.5px solid #007AC3;
-    background: #F3F3F3;
-    color: #007AC3;
-    font-weight: 500;
-    padding: 5px 15px;
-    width: 80px;
-    text-align: center;
-}
-#content .tab_menu_all .tab_menu li a:hover{
-    color:#fff ;
-    background: #007AC3;
-}
-#content .tab_menu_all .tab_menu li a{
-    color: #007AC3;
-}
-#content .tab_menu_all .tab_menu li a:hover{
-    color:#fff;
-}
 
-#content .content_area .text_area_1{
-    font-size: 1.3rem;
-    text-align:center;
-    position: relative;
-    font-weight: 400;
-    padding: 20px 0 50px 0;
-    width: 1200px;
-    margin: 0px auto;
-}
-
-
-#content .content_area .text_area_2{
-    font-size: 1rem;
-    text-align: justify;
-    font-weight: 400;
-    /* width: 1200px; */
-    /* padding: 10px 50px 75px 50px; */
-    /* position: relative; */
-    margin:  0px auto 50px auto;
-}
-
-#content .content_area .point{
+#content .content_area .point {
     border-radius: 20px;
-    border: 2px solid #007AC3;
+    border: 2px solid #007ac3;
     width: 100%;
     padding: 30px;
     font-size: 1.1rem;
@@ -65,20 +18,20 @@
     margin: 0 auto;
 }
 
-#content .content_area .con_text{
+#content .content_area .con_text {
     margin-bottom: 80px;
 }
 
-#content .content_area .point>span{
+#content .content_area .point > span {
     text-align: center;
     font-size: 1.2rem;
     font-weight: 500;
-    color: #007AC3;
+    color: #007ac3;
 }
 
-#content .content_area h5{
+#content .content_area h5 {
     font-size: 1.3rem;
-    color: #007AC3;
+    color: #007ac3;
     font-weight: 600;
     margin: 30px 0 15px 0;
     position: relative;
@@ -87,10 +40,10 @@
 /* #content .content_area .con_text .product{
 } */
 
-#content .content_area .con_text .product li:not(:nth-of-type(1)){
+#content .content_area .con_text .product li:not(:nth-of-type(1)) {
     margin-left: 10px;
 }
 
-#content .content_area .con_text .pic{
+#content .content_area .con_text .pic {
     margin-top: 20px;
 }

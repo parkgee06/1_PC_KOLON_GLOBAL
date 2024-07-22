@@ -4,43 +4,8 @@
     position: relative;
 }
 
-#content .tab_menu_all ul {
-    display: flex;
-    gap: 30px;
-    margin: 60px auto 50px auto;
-    justify-content: center;
-}
-#content .tab_menu_all li a {
-    border-radius: 8px;
-    border: 1.5px solid #007ac3;
-    background: #f3f3f3;
-    color: #007ac3;
-    font-weight: 500;
-    padding: 5px 15px;
-    width: 80px;
-    text-align: center;
-}
-#content .tab_menu_all li a:hover {
-    color: #fff;
-    background: #007ac3;
-}
-#content .content_area .text_area_1 {
-    font-size: 1.3rem;
-    text-align: center;
-    position: relative;
-    font-weight: 400;
-    padding: 20px 0 0 0;
-    width: 1200px;
-    margin: 30px auto 0px auto;
-}
 
-#content .content_area .text_area_2 {
-    font-size: 1rem;
-    font-weight: 400;
-    width: 1200px;
-    text-align: justify;
-    margin: 50px auto;
-}
+
 
 #content .housing .text_area_2 {
     text-align: center;

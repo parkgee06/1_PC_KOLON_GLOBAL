@@ -1,80 +1,93 @@
 /* 기업소개의 공통 css */
 
 /* visual 영역 */
-.visual{
-    width: 2000px; height: 399px;
-    position: relative; left: 50%; top: 0;
+.visual {
+    width: 2000px;
+    height: 399px;
+    position: relative;
+    left: 50%;
+    top: 0;
     transform: translate(-50%);
     color: white;
-    font-weight: 400; font-size: 3.5rem;
+    font-weight: 400;
+    font-size: 3.5rem;
 }
-.visual span{
+.visual span {
     font-size: 2.25rem;
     display: block;
     position: absolute;
-    top: 185px; width: 100%;
-    text-align: center; font-weight: 500;
-}
-.visual span::before{
-    content: 'KOLON GLOBAL NETWORK';
-    display: block; position: absolute;
-    width: 100%; top: -15px;
+    top: 185px;
+    width: 100%;
     text-align: center;
-    font-size: 0.85rem; font-weight: 100;
+    font-weight: 500;
 }
-.visual p{
-    position: absolute; top: 280px; width: 100%;
-    text-align: center; font-size: 1.3rem;
+.visual span::before {
+    content: "Business area";
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: -15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    font-weight: 100;
+}
+.visual p {
+    position: absolute;
+    top: 280px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
 }
 
 /* 위의 폰트 사이즈, 높이 대략 잡아놓은거임. 나중에 바꿀것 */
 
-
 /* 서브메뉴 영역 */
-.sub_nav{
+.sub_nav {
     width: 100%;
     border-bottom: 1px solid #ccc;
 }
-.sub_nav ul{
+.sub_nav ul {
     overflow: hidden;
     width: 1200px;
     margin: 0 auto;
 }
-.sub_nav li{
-    width: 33.33% ;
+.sub_nav li {
+    width: 33.33%;
     float: left;
     text-align: center;
 }
-.sub_nav li a{
+.sub_nav li a {
     font-size: 1.25rem;
-    font-weight: 400; padding: 13px 0;
-    transition: all .5s;
+    font-weight: 400;
+    padding: 13px 0;
+    transition: all 0.5s;
     background: #fcfcfc;
     color: #333;
 }
-.sub_nav li a:hover, .sub_nav li .current{
-    background: #ED1B2E;
+.sub_nav li a:hover,
+.sub_nav li .current {
+    background: #ed1b2e;
     color: #fff;
     font-weight: 600;
 }
 
 /* content 영역 */
-#content{
-    width:100%;
+#content {
+    width: 100%;
     overflow: hidden;
 }
 
-
 /* title_area 영역 */
-#content .title_area{
+#content .title_area {
     width: 1200px;
     margin: 0 auto;
     position: relative;
     height: 400px;
-    overflow:hidden;
+    overflow: hidden;
 }
 
-#content .title_area .line_map{
+#content .title_area .line_map {
     position: absolute;
     right: 0;
     top: 20px;
@@ -118,19 +131,28 @@
     font-size: 2.3rem;
     text-align: center;
     font-weight: 500;
+    margin-bottom: 8px;
 }
 
-#content .head4_en{
+#content .head4_en {
     display: block;
     width: fit-content;
     margin: 0 auto;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #fff;
-    background: #ED1B2E;
-    padding: 2.5px 13px;
+    background: #ed1b2e;
+    padding: 2px 15px 5px 15px;
     font-weight: 100;
     text-transform: uppercase;
     text-align: center;
+}
+
+#content h5 {
+    font-size: 2rem;
+    color: #007ac3;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
 #content .sub_head {
@@ -144,5 +166,47 @@
     text-align: justify;
 }
 
+#content .text_area_1 {
+    font-size: 1.3rem;
+    text-align: center;
+    position: relative;
+    font-weight: 400;
+    width: 1200px;
+    margin: 50px auto;
+}
 
+#content .text_area_2 {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 1200px;
+    text-align: justify;
+    margin: 50px auto;
+}
 
+#content .text_area_3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* 중간탭 */
+#content .tab_menu_all .tab_menu {
+    display: flex;
+    gap: 30px;
+    margin: 80px auto 100px auto;
+    justify-content: center;
+}
+
+#content .tab_menu_all .tab_menu li a {
+    border-radius: 8px;
+    border: 1.5px solid #007ac3;
+    background: #f3f3f3;
+    color: #007ac3;
+    font-weight: 500;
+    padding: 5px 20px;
+    width: 80px;
+    text-align: center;
+}
+#content .tab_menu_all .tab_menu li a:hover {
+    color: #fff;
+    background: #007ac3;
+}
