@@ -4,9 +4,6 @@
     position: relative;
 }
 
-
-
-
 #content .housing .text_area_2 {
     text-align: center;
 }
@@ -15,7 +12,6 @@
     text-align: justify;
     margin-top: 50px;
 }
-
 
 /* 사업영역 - 건설 soc 본문 내용 css */
 /* 회색배경 */
@@ -33,21 +29,21 @@
     justify-content: center;
 }
 
-#content .content_area  .odd_area > ul .img,
-#content .content_area  .even_area > ul .img {
+#content .content_area .odd_area > ul .img,
+#content .content_area .even_area > ul .img {
     width: 480px;
     height: 320px;
     overflow: hidden;
-}    
+}
 
-#content .content_area  .odd_area > ul .img img,
-#content .content_area  .even_area > ul .img img {
+#content .content_area .odd_area > ul .img img,
+#content .content_area .even_area > ul .img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
     /* border: 1px solid red; */
-}   
+}
 
 #content .content_area .even_area > ul {
     display: flex;
@@ -57,11 +53,11 @@
 }
 
 #content .content_area .even_area > ul .list,
-#content .content_area .odd_area > ul .list{
+#content .content_area .odd_area > ul .list {
     margin-left: 105px;
 }
 
-#content .content_area  > ul .list {
+#content .content_area > ul .list {
     margin-left: 105px;
 }
 
@@ -73,9 +69,6 @@
 }
 
 #content .content_area h5 {
-    font-size: 1.3rem;
-    color: #007ac3;
-    font-weight: 600;
     margin: 20px 0 30px 0;
     position: relative;
 }
@@ -91,19 +84,19 @@
 #content .content_area .odd_area h5::before {
     content: "";
     position: absolute;
-    width: 630px;
+    width: 880px;
     border: 2px solid #007ac3;
     left: -100px;
-    bottom: -10px;
+    bottom: -20px;
 }
 
 #content .content_area .even_area h5::before {
     content: "";
     position: absolute;
-    width: 630px;
+    width: 880px;
     border: 2px solid #007ac3;
     right: -100px;
-    bottom: -10px;
+    bottom: -20px;
 }
 
 #content .content_area dl dt {

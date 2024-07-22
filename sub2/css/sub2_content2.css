@@ -1,44 +1,108 @@
 #content .content_area {
-    width: 1200px;
     margin: 0 auto;
     position: relative;
+}
+#content .tab_menu_all .tab_menu li:last-child {
+    margin-right: 0;
 }
 
 /* 사업영역 - 상사 본문 내용 css */
 
-#content .content_area .point {
+#content .point {
     border-radius: 20px;
     border: 2px solid #007ac3;
-    width: 100%;
     padding: 30px;
-    font-size: 1.1rem;
-    text-align: justify;
-    font-weight: 400;
+    margin: 80px auto;
     width: 1200px;
-    margin: 0 auto;
-}
-
-#content .content_area .con_text {
-    margin-bottom: 80px;
-}
-
-#content .content_area .point > span {
-    text-align: center;
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: #007ac3;
-}
-
-#content .content_area h5 {
-    font-size: 1.3rem;
-    color: #007ac3;
-    font-weight: 600;
-    margin: 30px 0 15px 0;
     position: relative;
 }
 
-/* #content .content_area .con_text .product{
-} */
+#content .content_area .point > span {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    background: #007ac3;
+    border-radius: 20px;
+    padding: 5px 50px 8px 50px;
+    width: 860px;
+}
+
+#content .point p {
+    font-size: 1.1rem;
+    text-align: justify;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#content .content_area .con_back {
+    width: 100%;
+    height: 150px;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+}
+
+#content .content_area .trade_1 .con_back {
+    background: url(../images/content2/chemical_1.jpg) 50% 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#content .content_area .trade_2 .con_back {
+    background: url(../images/content2/chemical_2.jpg) 50% 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#content .content_area .trade_3 .con_back {
+    background: url(../images/content2/chemical_3.jpg) 50% 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#content .content_area .trade_4 .con_back {
+    background: url(../images/content2/chemical_4.jpg) 50% 50% no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#content .content_area .pic {
+    margin: -100px auto 0 auto;
+    width: 1200px;
+}
+
+#content .content_area .pic ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#content .content_area .pic ul li {
+    width: 250px;
+    height: auto;
+}
+#content .content_area .pic ul li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+#content .content_area h5 {
+    margin: 30px 0 15px 0;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
 
 #content .content_area .con_text .product li:not(:nth-of-type(1)) {
     margin-left: 10px;

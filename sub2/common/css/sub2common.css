@@ -22,7 +22,7 @@
     font-weight: 500;
 }
 .visual span::before {
-    content: "Business area";
+    content: "KOLON's Business area";
     display: block;
     position: absolute;
     width: 100%;
@@ -94,7 +94,7 @@
 }
 
 /* Head 정리 */
-#content .title_area h2 {
+#content h2 {
     font-size: 3.5rem;
     text-align: center;
     margin-top: 150px;
@@ -148,7 +148,7 @@
 }
 
 #content h5 {
-    font-size: 2rem;
+    font-size: 1.85rem;
     color: #007ac3;
     font-weight: 600;
     text-align: left;
@@ -189,11 +189,17 @@
 }
 
 /* 중간탭 */
+#content .tab_menu_all {
+    margin: 0 auto;
+    width: 1200px;
+}
+
 #content .tab_menu_all .tab_menu {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     margin: 80px auto 100px auto;
     justify-content: center;
+    width: 100%;
 }
 
 #content .tab_menu_all .tab_menu li a {
@@ -202,7 +208,8 @@
     background: #f3f3f3;
     color: #007ac3;
     font-weight: 500;
-    padding: 5px 20px;
+    font-size: 1.35rem;
+    padding: 8px 50px;
     width: 80px;
     text-align: center;
 }
