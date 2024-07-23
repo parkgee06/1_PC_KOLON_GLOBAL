@@ -87,106 +87,7 @@
     overflow: hidden;
 }
 
-#content .title_area .line_map {
-    position: absolute;
-    right: 0;
-    top: 20px;
-}
-
 /* Head 정리 */
-#content h2 {
-    font-size: 3.5rem;
-    text-align: center;
-    margin-top: 150px;
-}
-
-#content h3 {
-    font-size: 2.75rem;
-    text-align: center;
-    position: relative;
-}
-
-#content h3::after {
-    content: "";
-    display: block;
-    width: 3px;
-    height: 80px;
-    background: #ed1b2e;
-    position: absolute;
-    top: -105px;
-    left: 50%;
-}
-
-#content .head3_en {
-    font-size: 1.39rem;
-    text-align: center;
-    color: #007ac3;
-    font-weight: 200;
-    display: block;
-    margin: 5px 0 50px 0;
-    text-transform: uppercase;
-}
-
-#content h4 {
-    font-size: 2.3rem;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 8px;
-}
-
-#content .head4_en {
-    display: block;
-    width: fit-content;
-    margin: 0 auto;
-    font-size: 0.9rem;
-    color: #fff;
-    background: #ed1b2e;
-    padding: 2px 15px 5px 15px;
-    font-weight: 100;
-    text-transform: uppercase;
-    text-align: center;
-}
-
-#content h5 {
-    font-size: 1.85rem;
-    color: #007ac3;
-    font-weight: 600;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-#content .sub_head {
-    font-size: 1.35rem;
-    font-weight: 400;
-    margin: 50px 0;
-    text-align: center;
-}
-#content .main_text {
-    font-size: 1.15rem;
-    text-align: justify;
-}
-
-#content .text_area_1 {
-    font-size: 1.3rem;
-    text-align: center;
-    position: relative;
-    font-weight: 400;
-    width: 1200px;
-    margin: 50px auto;
-}
-
-#content .text_area_2 {
-    font-size: 1rem;
-    font-weight: 400;
-    width: 1200px;
-    text-align: justify;
-    margin: 50px auto;
-}
-
-#content .text_area_3 {
-    font-size: 1.5rem;
-    font-weight: 400;
-}
 
 /* 중간탭 */
 #content .tab_menu_all {
@@ -208,8 +109,8 @@
     background: #f3f3f3;
     color: #007ac3;
     font-weight: 500;
-    font-size: 1.35rem;
-    padding: 8px 50px;
+    font-size: 1.2rem;
+    padding: 7px 45px;
     width: 80px;
     text-align: center;
 }

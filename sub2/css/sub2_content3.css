@@ -3,12 +3,40 @@
     margin: 50px auto;
     position: relative;
 }
+#content .content_area h4 {
+    text-align: center;
+    margin-bottom: 8px;
+}
 
-/* 스포렉스 - 상사 본문 내용 css */
+#content > .text_area_1 {
+    font-size: 1.3rem;
+    text-align: center;
+    position: relative;
+    font-weight: 400;
+    padding: 20px 0 50px 0;
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#content .content_area .text_area_2 {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 1200px;
+    text-align: justify;
+    margin: 50px auto;
+}
+
+#content .content_area .text_area_3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
 #content .content_area .text_area_3 > i {
     margin-right: 20px;
     color: #ed1b2e;
 }
+
+/* 스포렉스 - 상사 본문 내용 css */
 
 #content .point {
     border-radius: 20px;

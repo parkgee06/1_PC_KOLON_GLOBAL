@@ -1,50 +1,34 @@
-#content .content_area {
-    margin: 0 auto;
-    position: relative;
-}
-#content .tab_menu_all .tab_menu li:last-child {
-    margin-right: 0;
-}
-
-/* 사업영역 - 상사 본문 내용 css */
-
-#content .point {
-    border-radius: 20px;
-    border: 2px solid #007ac3;
-    padding: 30px;
-    margin: 80px auto;
-    width: 1200px;
-    position: relative;
-}
-
-#content .content_area .point > span {
-    position: absolute;
-    top: -25px;
-    left: 50%;
-    transform: translateX(-50%);
+#content .content_area h4 {
     text-align: center;
-    font-size: 1.2rem;
-    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+#content .h5_sec {
+    margin-bottom: 150px;
+}
+
+#content .content_area h5 {
+    font-size: 2.5rem;
+    margin: 65px 0;
     color: #fff;
-    background: #007ac3;
-    border-radius: 20px;
-    padding: 5px 50px 8px 50px;
-    width: 860px;
+    text-align: center;
+    text-shadow: 0px 0px 10px #333;
 }
 
-#content .point p {
-    font-size: 1.1rem;
-    text-align: justify;
-    font-weight: 400;
-    margin-top: 10px;
+#content .content_area .sub_head {
+    width: 1200px;
+    margin: 0 auto;
 }
 
+/* ----- sub2_2 각영역 고정배경(문단분리) ----- */
 #content .content_area .con_back {
     width: 100%;
-    height: 150px;
+    height: 280px;
     padding: 100px 0;
     color: #fff;
     text-align: center;
+    filter: grayscale(50%);
+    z-index: 1;
 }
 
 #content .content_area .trade_1 .con_back {
@@ -75,39 +59,103 @@
     overflow: hidden;
 }
 
+/* ----- sub2_2 각영역 이미지 정리(고정배경 위 배치) ----- */
 #content .content_area .pic {
-    margin: -100px auto 0 auto;
+    margin: -100px auto 50px auto;
     width: 1200px;
+    position: relative;
+    z-index: 2;
 }
 
 #content .content_area .pic ul {
-    display: flex;
-    justify-content: space-between;
+    display: inline-flex;
+    gap: 30px;
+    justify-content: center;
 }
 
 #content .content_area .pic ul li {
-    width: 250px;
-    height: auto;
+    height: 280px;
+    /* border: 1px solid red; */
 }
+
+#content .content_area .trade_1 .pic ul li {
+    width: 25%;
+}
+
+#content .content_area .trade_2 .pic ul li {
+    width: 33.333%;
+}
+
+#content .content_area .trade_3 .pic ul li {
+    width: 25%;
+}
+
+#content .content_area .trade_4 .pic ul {
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#content .content_area .trade_4 .pic ul li {
+    width: 50%;
+}
+
 #content .content_area .pic ul li img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    object-position: center;
+    object-fit: fill;
     border-radius: 20px;
+    object-position: center;
 }
 
-#content .content_area h5 {
-    margin: 30px 0 15px 0;
+/* ----- sub2_2 상사영역 본문시작 ----- */
+#content .content_area .point {
+    border-radius: 20px;
+    border: 2px solid #007ac3;
+    padding: 30px;
+    margin: 80px auto;
+    width: 1200px;
     position: relative;
-    color: #fff;
+}
+
+#content .content_area .point > span {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    background: #007ac3;
+    border-radius: 20px;
+    padding: 5px 50px 8px 50px;
+    width: 860px;
 }
 
-#content .content_area .con_text .product li:not(:nth-of-type(1)) {
-    margin-left: 10px;
+#content .content_area .point p {
+    font-size: 1.1rem;
+    text-align: justify;
+    font-weight: 400;
+    margin-top: 10px;
 }
 
-#content .content_area .con_text .pic {
-    margin-top: 20px;
+/* ----- sub2_2 1. trade_1 ----- */
+#content .content_area .trade_1 .con_text .product {
+    width: 1200px;
+    margin: 0 auto;
+}
+#content .content_area .trade_1 .con_text .product li strong {
+    position: relative;
+}
+
+#content .content_area .trade_1 .con_text .product li strong::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -45px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color: #fff;
+    border: 11px solid #ed1b2e;
 }

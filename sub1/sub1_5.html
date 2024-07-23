@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>회사소개-기업소개</title>
-    <link rel="stylesheet" href="../common/css/common.css">
-    <link rel="stylesheet" href="./common/css/sub1common.css">
-    <link rel="stylesheet" href="./css/sub1_content5.css">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>회사소개-기업소개</title>
+        <link rel="stylesheet" href="../common/css/common.css" />
+        <link rel="stylesheet" href="./common/css/sub1common.css" />
+        <link rel="stylesheet" href="./css/sub1_content5.css" />
 
-    <!-- 구글폰트 -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <!-- 구글폰트 -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
 
-    <!-- 폰트어썸 -->
-    <script src="https://kit.fontawesome.com/86dcaacab3.js" crossorigin="anonymous"></script>
+        <!-- 폰트어썸 -->
+        <script
+            src="https://kit.fontawesome.com/86dcaacab3.js"
+            crossorigin="anonymous"
+        ></script>
 
-    <!-- 올릴때 아래의 주석 풀것 -->
-    <!-- <script src="./common/js/prefixfree.min.js"></script> -->
+        <!-- 올릴때 아래의 주석 풀것 -->
+        <!-- <script src="./common/js/prefixfree.min.js"></script> -->
 
-    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=b27c7e83c98937b5740545535d20463b"></script>
-    <script src="./js/map.js"></script>
-</head>
+        <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=b27c7e83c98937b5740545535d20463b"></script>
+        <script src="./js/map.js"></script>
+    </head>
 
+    <body>
+        <? include '../common/sub_header.html' ?>
 
-<body>
-    <? include '../common/sub_header.html' ?>
-
-    <!-- visual 영역 -->
-    <div class="visual">
-        <img src="./common/imgaes/sub_1_visual.png" alt="" />
-        <span>회사소개</span>
-        <p>변화와 혁신의 새로운 No.1 코오롱글로벌</p>
-    </div>
+        <!-- visual 영역 -->
+        <div class="visual">
+            <img src="./common/imgaes/sub_1_visual.png" alt="" />
+            <span>회사소개</span>
+            <p>변화와 혁신의 새로운 No.1 코오롱글로벌</p>
+        </div>
 
         <div class="sub_nav">
             <ul>
@@ -42,145 +47,192 @@
             </ul>
         </div>
 
-
-    <!-- 본문시작 -->
-    <article id="content">
-        <div class="title_area">
-            <div class="line_map">
-                home &gt; 회사소개 &gt; <strong>오시는 길</strong>
-            </div>
-            <h2>오시는 길</h2>
-        </div>
-
-        <div class="content_area">
-            <section class="location">
-                <div  class="title">
-                    <div>
-                        <h3>본사</h3>
-                        <span class="head3_en">LOCATION</span>
+        <!-- 본문시작 -->
+        <article id="content">
+            <section class="content_area">
+                <div class="title_area">
+                    <div class="line_map">
+                        home &gt; 회사소개 &gt; <strong>오시는 길</strong>
                     </div>
-                    <dl>
-                        <dt>주소</dt>
-                        <dd>주소 : 경기도 과천시 코오롱로11</dd>
-
-                        <dt>TEL</dt>
-                        <dd>000-0000-0000</dd>
-
-                        <dt>FAX</dt>
-                        <dd>02-0000-0000</dd>
-                    </dl>
+                    <h2>오시는 길</h2>
                 </div>
-                <div class="right" id="map"><!-- 여기에 카카오 지도 삽입 --></div>
-            </section>
-            <section class="bus">
-                <div class="title">
-                    <h3>버스</h3>
-                    <span class="head3_en">BUS</span>
+
+                <div class="location">
+                    <div class="title">
+                        <div>
+                            <h3>본사</h3>
+                            <span class="head3_en">LOCATION</span>
+                        </div>
+                        <dl>
+                            <dt>주소</dt>
+                            <dd>주소 : 경기도 과천시 코오롱로11</dd>
+
+                            <dt>TEL</dt>
+                            <dd>000-0000-0000</dd>
+
+                            <dt>FAX</dt>
+                            <dd>02-0000-0000</dd>
+                        </dl>
+                    </div>
+                    <div class="right" id="map">
+                        <!-- 여기에 카카오 지도 삽입 -->
+                    </div>
                 </div>
+                <div class="bus">
+                    <div class="title">
+                        <h3>버스</h3>
+                        <span class="head3_en">BUS</span>
+                    </div>
                     <div class="right">
                         <dl>
                             <dt class="bus_blue">441</dt>
                             <dd>월암공영차고지 ↔ 신사사거리</dd>
-                            <dd>승차 : 월암공영차고지(정류장 ID 27016) / 하차 : 정부과천청사(정류장 ID 21009) </dd>
+                            <dd>
+                                승차 : 월암공영차고지(정류장 ID 27016) / 하차 :
+                                정부과천청사(정류장 ID 21009)
+                            </dd>
                             <dd>도보 5분 소요</dd>
                         </dl>
                         <dl>
                             <dt class="bus_blue">502</dt>
                             <dd>월암공영차고지 ↔ 한국은행.신세계</dd>
-                            <dd>승차 : 월암공영차고지(정류장 ID 27016) / 하차 : 정부과천청사(정류장 ID 21009) </dd>
+                            <dd>
+                                승차 : 월암공영차고지(정류장 ID 27016) / 하차 :
+                                정부과천청사(정류장 ID 21009)
+                            </dd>
                             <dd>도보 5분 소요</dd>
                         </dl>
                         <dl>
                             <dt class="bus_blue">540</dt>
                             <dd>군포공영차고지 ↔ 서울성모병원</dd>
-                            <dd>승차 : 월암공영차고지(정류장 ID 27016) / 하차 : 정부과천청사(정류장 ID 21009) </dd>
+                            <dd>
+                                승차 : 월암공영차고지(정류장 ID 27016) / 하차 :
+                                정부과천청사(정류장 ID 21009)
+                            </dd>
                             <dd>도보 5분 소요</dd>
                         </dl>
                         <dl>
                             <dt class="bus_blue">541</dt>
                             <dd>군포공영차고지 ↔ 강남역</dd>
-                            <dd>승차 : 월암공영차고지(정류장 ID 27016) / 하차 : 정부과천청사(정류장 ID 21009) </dd>
+                            <dd>
+                                승차 : 월암공영차고지(정류장 ID 27016) / 하차 :
+                                정부과천청사(정류장 ID 21009)
+                            </dd>
                             <dd>도보 5분 소요</dd>
                         </dl>
                         <dl>
                             <dt class="bus_blue">542</dt>
                             <dd>부곡버스공영차고지 ↔ 신사역</dd>
-                            <dd>승차 : 부곡버스공영차고지(정류장 ID 26428) / 하차 : 정부과천청사(정류장 ID 21009)</dd>
+                            <dd>
+                                승차 : 부곡버스공영차고지(정류장 ID 26428) /
+                                하차 : 정부과천청사(정류장 ID 21009)
+                            </dd>
                             <dd>도보 5분 소요</dd>
                         </dl>
                         <dl>
                             <dt class="bus_green">1-1</dt>
                             <dd>월암공영차고지 ↔ 사당역</dd>
-                            <dd>승차 : 월암공영차고지(정류장 ID 27016) / 하차 : 정부과천청사(정류장 ID 21009)</dd>
+                            <dd>
+                                승차 : 월암공영차고지(정류장 ID 27016) / 하차 :
+                                정부과천청사(정류장 ID 21009)
+                            </dd>
                             <dd>도보 5분 소요</dd>
                         </dl>
                         <dl>
                             <dt class="bus_green">6</dt>
                             <dd>과천시청 ↔ 양재역 양재1동민원분소</dd>
-                            <dd>승차 : 과천시청(정류장 ID 21105) / 하차 : 정부과천청사(정류장 ID 21009)</dd>
+                            <dd>
+                                승차 : 과천시청(정류장 ID 21105) / 하차 :
+                                정부과천청사(정류장 ID 21009)
+                            </dd>
                             <dd>도보 5분 소요</dd>
                         </dl>
                         <dl>
                             <dt class="bus_green">9</dt>
                             <dd>차고지입구(안양)↔ 사당역</dd>
-                            <dd>승차 : 차고지입구(안양)(정류장 ID 09214) / 하차 : 정부과천청사(정류장 ID 21009)</dd>
+                            <dd>
+                                승차 : 차고지입구(안양)(정류장 ID 09214) / 하차
+                                : 정부과천청사(정류장 ID 21009)
+                            </dd>
                             <dd>도보 5분 소요</dd>
                         </dl>
                         <dl>
                             <dt class="bus_green">11-2</dt>
                             <dd>군포공영차고지 ↔ 갯마을앞</dd>
-                            <dd>승차 : 군포공영차고지(정류장 ID 26173) / 하차 : 정부과천청사(정류장 ID 21009)</dd>
+                            <dd>
+                                승차 : 군포공영차고지(정류장 ID 26173) / 하차 :
+                                정부과천청사(정류장 ID 21009)
+                            </dd>
                             <dd>도보 5분 소요</dd>
                         </dl>
                         <dl>
                             <dt class="bus_green">11-3</dt>
                             <dd>창박골 ↔ 잠실종합운동장</dd>
-                            <dd>승차 : 창박골(정류장 ID 09346) / 하차 : 정부과천청사(정류장 ID 21009)</dd>
+                            <dd>
+                                승차 : 창박골(정류장 ID 09346) / 하차 :
+                                정부과천청사(정류장 ID 21009)
+                            </dd>
                             <dd>도보 5분 소요</dd>
                         </dl>
                         <dl>
                             <dt class="bus_green">11-5</dt>
                             <dd>군포공영차고지 ↔ 갯마을앞</dd>
-                            <dd>승차 : 군포공영차고지(정류장 ID 26173) / 하차 : 정부과천청사(정류장 ID 21009)</dd>
+                            <dd>
+                                승차 : 군포공영차고지(정류장 ID 26173) / 하차 :
+                                정부과천청사(정류장 ID 21009)
+                            </dd>
                             <dd>도보 5분 소요</dd>
                         </dl>
                         <dl>
                             <dt class="bus_green">103</dt>
                             <dd>도촌동9단지앞 ↔ 사당역</dd>
-                            <dd>승차 : 도촌동9단지앞(정류장 ID 06199) / 하차 : 정부과천청사(정류장 ID 21009)</dd>
+                            <dd>
+                                승차 : 도촌동9단지앞(정류장 ID 06199) / 하차 :
+                                정부과천청사(정류장 ID 21009)
+                            </dd>
                             <dd>도보 5분 소요</dd>
                         </dl>
                         <dl>
                             <dt class="bus_green">777</dt>
                             <dd>군포공영차고지 ↔ 잠실종합운동장</dd>
-                            <dd>승차 : 수원역.AK플라자(정류장 ID 03195) / 하차 : 정부과천청사(정류장 ID 21009)</dd>
+                            <dd>
+                                승차 : 수원역.AK플라자(정류장 ID 03195) / 하차 :
+                                정부과천청사(정류장 ID 21009)
+                            </dd>
                             <dd>도보 5분 소요</dd>
                         </dl>
                         <dl>
                             <dt class="bus_red">3030</dt>
                             <dd>군포보건소 ↔ 신사역8번출구 가로수길</dd>
-                            <dd>승차 : 군포보건소(정류장 ID 26029) / 하차 : 정부과천청사(정류장 ID 21009)</dd>
+                            <dd>
+                                승차 : 군포보건소(정류장 ID 26029) / 하차 :
+                                정부과천청사(정류장 ID 21009)
+                            </dd>
                             <dd>도보 5분 소요</dd>
                         </dl>
                         <dl>
                             <dt class="bus_red">7007-1</dt>
                             <dd>군포보건소 ↔ 신사역8번출구 가로수길</dd>
-                            <dd>승차 : 군포보건소(정류장 ID 26029) / 하차 : 정부과천청사(정류장 ID 21009)</dd>
+                            <dd>
+                                승차 : 군포보건소(정류장 ID 26029) / 하차 :
+                                정부과천청사(정류장 ID 21009)
+                            </dd>
                             <dd>도보 5분 소요</dd>
                         </dl>
                     </div>
+                </div>
+                <div class="subway">
+                    <div class="title">
+                        <h3>지하철</h3>
+                        <span class="head3_en">subway</span>
+                    </div>
+                    <p class="right">
+                        - 정부과천청사역 4번 출구(지하철과 건물이 연결 되어있음)
+                        하차<br />- 도보로 10분 소요
+                    </p>
+                </div>
             </section>
-            <section class="subway">
-<div class="title">
-                    <h3>지하철</h3>
-                    <span class="head3_en">subway</span>
-</div>
-                <p class="right">- 정부과천청사역 4번 출구(지하철과 건물이 연결 되어있음) 하차<br>- 도보로 10분 소요</p>
-            </section>
-        </div>
-
-    </article>
-    
-    <? include '../common/sub_footer.html' ?>
-</body>
+        </article>
+        <? include '../common/sub_footer.html' ?>
+    </body>
 </html>
