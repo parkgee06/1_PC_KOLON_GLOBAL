@@ -1,6 +1,4 @@
 // JavaScript Document //탭메뉴
-
-
 $(document).ready(function(){
     //var cnt=3;  //탭메뉴 개수 ***
     $('.contlist').hide(); 
