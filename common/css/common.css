@@ -540,3 +540,45 @@ img {
     /* width: 1200px; */
     /* margin: 50px auto; */
 }
+
+
+/* 중간탭 */
+#content .tab_menu_all {
+    margin: 0 auto;
+    width: 1200px;
+    /* padding: 0 10px; */
+}
+
+#content .tab_menu_all .tab_menu {
+    display: flex;
+    gap: 15px;
+    margin: 80px auto 100px auto;
+    padding:  0; 
+    flex-wrap: wrap; /* 필요시 여러 줄로 나누기 */
+    justify-content: center; /* 중앙 정렬 */
+}
+
+#content .tab_menu_all .tab_menu li {
+    flex: 1 1 auto;
+}
+
+#content .tab_menu_all .tab_menu li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px; /* 높이 고정 */
+    border-radius: 8px;
+    border: 1.5px solid #007ac3;
+    background: #f3f3f3;
+    color: #007ac3;
+    font-weight: 500;
+    font-size: 1.25rem;
+    /* text-align: center; */
+    /* white-space: nowrap; */
+    padding: 5px 10px;
+    transition: all ease-in-out .3s;
+}
+#content .tab_menu_all .tab_menu li a:hover {
+    color: #fff;
+    background: #007ac3;
+}

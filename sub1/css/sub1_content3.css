@@ -16,41 +16,7 @@
     margin-bottom: 150px;
 }
 
-#content .tab_menu_all p {
-    text-align: center;
-}
 
-#content .tab_menu_all ul {
-    display: flex;
-    justify-content: center;
-    width: 1200px;
-    margin: 50px auto ;
-    gap: 20px;
-}
-
-#content .tab_menu_all li {
-    box-sizing: border-box;
-    text-align: center;
-    border-radius: 8px;
-    border: 1.5px solid #007ac3;
-    background: #f3f3f3;
-    color: #007ac3;
-    font-weight: 500;
-    width: 25%;
-}
-
-#content .tab_menu_all li:hover {
-    color: #fff;
-    background: #007ac3;
-}
-
-#content .tab_menu_all li a {
-    color: #007ac3;
-    padding: 8px 30px;
-}
-#content .tab_menu_all li a:hover {
-    color: #fff;
-}
 
 /* #content .content_area .safty h4{
 font-size: 2.22rem;

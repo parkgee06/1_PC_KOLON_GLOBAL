@@ -23,31 +23,7 @@
     margin-bottom: 50px;
 }
 
-#content .global_nav ul{
-    display: flex;
-    gap: 20px;
-    margin-bottom: 50px;
-    justify-content: center;
 
-}
-#content .global_nav li{
-    border-radius: 8px;
-    border: 1.5px solid #007AC3;
-    background: #F3F3F3;
-    color: #007AC3;
-    font-weight: 500;
-}
-#content .global_nav li:hover{
-    color:#fff ;
-    background: #007AC3;
-}
-#content .global_nav li a{
-    color: #007AC3;
-    padding: 5px 15px;
-}
-#content .global_nav li a:hover{
-    color:#fff;
-}
 
 #content .content_area .nation_name{
     overflow: hidden; margin: 100px 0; position: relative;

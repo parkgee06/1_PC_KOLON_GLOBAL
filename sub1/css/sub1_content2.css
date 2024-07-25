@@ -10,9 +10,9 @@
 #content .his_nav_tab li {
     width: 23.5%;
     text-align: center;
-    font-size: 1.56rem;
-    font-weight: 400;
-    border-radius: 10px;
+    font-size: 1.45rem;
+    font-weight: 500;
+    border-radius: 8px;
     transition: all 0.3s ease-out;
     overflow: hidden;
 }
@@ -45,7 +45,7 @@
 #content .his_nav_tab li a {
     color: #007aca;
     display: block;
-    padding: 3px 0;
+    padding: 5px 0;
     background: #f3f3f3;
     border: 1.5px solid #007aca;
     border-radius: 10px;
