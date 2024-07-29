@@ -1,29 +1,28 @@
 #content .content_area {
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto 80px auto;
     position: relative;
 }
 
-#contetn .content_area .contlist {
-    margin-bottom: 80px;
-}
 
 #content .content_area h4 {
     text-align: center;
 }
 
-#content .content_area .main_text {
+#content .content_area .civil_work .main_text,
+#content .content_area .soc .main_text{
     width: 1200px;
     margin: 0 auto 80px auto;
 }
 
-#content .housing .main_text {
+#content .housing {
     text-align: center;
 }
 
-#content .housing .main_text > p {
+#content .content_area .housing .main_text{
     text-align: justify;
-    margin-top: 50px;
+    width: 1200px;
+    margin: 50px auto 0px auto;
 }
 
 /* 사업영역 - 건설 soc 본문 내용 css */
@@ -120,16 +119,36 @@
     text-align: justify;
 }
 
-#content .content_area .arc_1 {
+#content .content_area .architecture ul,
+#content .content_area .environment ul,
+#content .content_area .plants ul{
     display: flex;
-    gap: 20px;
+    gap: 25px;
     margin: 0 auto 50px auto;
     width: 1200px;
 }
 
-#content .content_area .arc_2 {
+#content .content_area .architecture ul li,
+#content .content_area .environment ul li,
+#content .content_area .plants ul li{
+
+
+    width: 50%;
+}
+
+#content .content_area .architecture ul li img,
+#content .content_area .environment ul li img,
+#content .content_area .plants ul li img{
+
+
+
+    width: 100%;
+}
+
+
+/* #content .content_area .arc_2 {
     gap: 20px;
     width: 1200px;
     display: flex;
     margin: 0 auto;
-}
+} */
