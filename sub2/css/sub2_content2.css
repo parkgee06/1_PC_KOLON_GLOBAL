@@ -237,36 +237,53 @@
 
 #content .content_area .con_text .main_text {
     padding-left: 42px;
-    margin-bottom: 15px;
+    margin-bottom: 65px;
     /* border: 1px solid red; */
 }
 
 #content .content_area .con_text .product li {
-    line-height: 2rem;
+    line-height: 2.2rem;
     display: flex;
     /* padding-left: 42px; */
 }
 
 #content .content_area .con_text .product .tex1 {
-    width: 10.5rem;
-    flex: 0 0 9.5rem;
+    /* width: 11.5rem; */
+    /* flex: 0 0 9.5rem; */
     /* padding-right: 2rem; */
     /* font-size: 1.9rem; */
     font-weight: 500;
     color: #333;
-    position: relative;
+    display: inline-block;
+    margin-right: 40px;
 }
 
-#content .content_area .con_text .product .tex1::before {
+#content .content_area .con_text .product .tex2 {
+    position: relative;
+    display: block;
+}
+
+#content .content_area .con_text .product .tex2::before {
     content: "";
     width: 2px;
-    height: 1.3rem;
+    height: 22px;
     background: #c2c2c2;
     position: absolute;
-    right: 1.8rem;
-    top: 9px;
+    left: -25px;
+    top: 50%;
+    transform: translateY(-50%);
     box-sizing: inherit;
 }
+
+#content .content_area .con_text .product > li > ul {
+    position: relative;
+    padding-left: 20px; /* ul 요소에 패딩 추가 */
+}
+
+#content .content_area .con_text .product > li + li {
+    margin-top: 20px; /* BYD 리튬인산철 지게차와 BYD 물류장비 사이 간격 */
+}
+
 
 /* #content .content_area .con_text .product .tex2 {
 } */
