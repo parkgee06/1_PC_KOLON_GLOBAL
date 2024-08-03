@@ -16,13 +16,12 @@
     text-align: center;
     position: relative;
     font-weight: 400;
-    padding: 50px 0 75px 0;
+    /* padding: 50px 0 75px 0; */
 }
-#content .content_area .global_map>img{
+/* #content .content_area .global_map>img{
     width: 1200px;
     margin-bottom: 50px;
-}
-
+} */
 
 
 #content .content_area .nation_name{
