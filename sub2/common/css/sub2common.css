@@ -1,4 +1,11 @@
 /* 기업소개의 공통 css */
+#content h5 {
+    /* font-size: 1.85rem; */
+    color: #007ac3;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 20px;
+}
 
 /* visual 영역 */
 .visual {

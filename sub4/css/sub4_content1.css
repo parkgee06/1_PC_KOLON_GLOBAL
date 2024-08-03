@@ -1,49 +1,38 @@
 #content .content_area {
-    width: 1200px;
-    margin: 0 auto;
+    /* width: 1200px; */
     position: relative;
 }
 
-/* ESG - ESG경영 본문 내용 css */
+#content .content_area .fa-solid {
+    margin-left: 8px;
+}
 
-
-/* #content h3{
-    font-size: 2.75rem;
-    text-align: center;
-    display: block;
-    margin: 0 0 50px 0;
-    position: relative;
-}  */
-
-/* #content h3::after{
-    content: "environmental, social and corporate governance";
-    position: absolute;
-    text-transform: uppercase;
-    top: 75px;
-    transform: translateX(-50%);
-    left: 50%;
-    font-size: 1.39rem;
-    color: #007AC3;
-    font-weight: 200;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-} */
 
 #content h4{
     text-align: center;
     display: block;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
-/* #content h5{
+#content h5{
     font-size: 1.3rem;
     color: #333;
     font-weight: 600;
-    margin: 20px 0 30px 0;
+    margin: 20px 0;
     position: relative;
-} */
+}
+
+#content .content_area .esg_manage,
+#content .content_area .esg_strategy,
+#content .content_area .esg_appraisal {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+
+/* ESG - ESG경영 본문 내용 css */
 
 /* #content .content_area h4::after{
     content: "";
@@ -59,23 +48,14 @@
     text-align: center;
 } */
 
-/* #content h5::before{
-    content: "";
-    position: absolute;
-    width: 630px;
-    border: 2px solid #007AC3;
-    left: -100px;
-    bottom: -10px;
-} */
-
-#content section div .tab_menu ul{
+#content .content_area div .tab_menu ul{
     display: flex;
     gap: 30px;
     justify-content: center;
     margin: 80px 0;
 }
 
-#content section div .tab_menu ul li{
+#content .content_area div .tab_menu ul li{
     /* border: 1px solid red; */
     border-radius: 50px 0 0 0;
     width: 300px;
@@ -83,19 +63,19 @@
     color: #fff;
 }
 
-#content section div .tab_menu ul li:nth-of-type(1){
-    background: url(../images/esg_btn_1.png);
+#content .content_area div .tab_menu ul li:nth-of-type(1){
+    background: url(../images/content1/esg_btn_1.png);
 }
 
-#content section div .tab_menu ul li:nth-of-type(2){
-    background: url(../images/esg_btn_2.png);
+#content .content_area div .tab_menu ul li:nth-of-type(2){
+    background: url(../images/content1/esg_btn_2.png);
 }
 
-#content section div .tab_menu ul li:nth-of-type(3){
-    background: url(../images/esg_btn_3.png);
+#content .content_area div .tab_menu ul li:nth-of-type(3){
+    background: url(../images/content1/esg_btn_3.png);
 }
 
-#content section div .tab_menu ul li a{
+#content .content_area div .tab_menu ul li a{
     padding: 70px 50px;
     color: #fff;
     font-weight: 500;
@@ -105,7 +85,7 @@
     font-size: 1.3rem;
 }
 
-#content section div  .tab_menu ul li a>div{
+#content .content_area div  .tab_menu ul li a>div{
     border: 3px solid #fff;
     border-radius: 100%;
     font-weight: 500;
@@ -117,7 +97,7 @@
     margin: 0 auto;
 }
 
-#content section .text_area_1{
+#content .content_area .text_area_1{
     font-size: 1.35rem;
     text-align:center;
     position: relative;
@@ -126,7 +106,7 @@
     margin: 100px auto 50px auto;
 }
 
-#content section .text_area_2{
+#content .content_area .text_area_2{
     font-size: 1rem;
     text-align: justify;
     font-weight: 400;
@@ -134,57 +114,57 @@
     margin:  0px auto 50px auto;
 }
 
-#content section .text_area_3{
+#content .content_area .text_area_3{
     font-size: 1.15rem;
     text-align: center;
     font-weight: 600;
     margin-top: 20px;
 }
 
-#content .esg_01 .future_img{
+#content .content_area .future_img{
     position: relative;
     /* width: 100%; */
 }
 
-#content .esg_01 .future_01{
+#content .content_area .future_01{
     position: absolute;
-    top: 73%;
+    top: 70%;
     left: 110px;
 }
 
-#content .esg_01 .future_02{
+#content .content_area .future_02{
     position: absolute;
-    top: 73%;
+    top: 70%;
     left: 465px;
 }
 
-#content .esg_01 .future_03{
+#content .content_area .future_03{
     position: absolute;
-    top: 73%;
+    top: 70%;
     right: 170px;
 }
 
-#content .esg_01 .future li:not(:nth-of-type(1)){
+#content .content_area .future li:not(:nth-of-type(1)){
     margin-left: 30px;
     list-style: disc;
 
 }
 
-#content .esg_02{
+#content .content_area{
     margin-bottom: 50px;
 }
 
-#content .esg_02 .emble_01{
+#content .content_area .emble_01{
     display: flex;
     gap: 10px;
     justify-content: center;
 }
 
-#content .esg_02 .emble_01 li{
+#content .content_area .emble_01 li{
     width: 24%;
 }
 
-#content .esg_02 .emble_02{
+#content .content_area .emble_02{
     border-radius: 10px;
     text-align: center;
     font-weight: 500;
@@ -193,4 +173,54 @@
     margin: 50px auto 0 auto;
     background: #ccc;
     padding: 8px 0 0 0;
+}
+
+
+/* ESG - ESG보고서 다운로드 본문 내용 css */
+#content .content_area .esg_report{
+    width: 100%;
+    height: 422px;
+    background: url(../images/content1/esg_bottom.png) no-repeat ;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    overflow: hidden;
+}
+
+#content .content_area .esg_report>div{
+    /* border: 1px solid red; */
+    padding: 110px 0;
+}
+
+#content .content_area .esg_report p{
+    color: #fff;
+    text-align: center;
+    font-size: 2.11rem;
+}
+
+#content .content_area .esg_report a{
+    font-size: 1.11rem;
+    color: #fff;
+    width: 350px;
+    font-weight: 500;
+    padding: 10px 8px;
+    border: 2px solid #fff;
+    text-align: center;
+    margin: 50px auto 0 auto;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#content .content_area .esg_report a>i{
+    margin-left: 8px;
+}
+
+#content .content_area .text_area_4{
+    font-size: 2.11rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+#content .content_area .text_area_5{
+    font-size: 1.58rem;
+    text-align: center;
+    font-weight: 300;
 }

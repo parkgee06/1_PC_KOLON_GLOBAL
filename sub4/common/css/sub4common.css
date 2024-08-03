@@ -87,14 +87,14 @@
     position: relative;
 }
 
-#content .title_area h2::after{
+/* #content .title_area h2::after{
     content: '';
     display: block;
     width: 3px; height: 80px;
     background: #ED1B2E;
     position: absolute;
     top: 120px; left: 50%;
-}
+} */
 
 
 

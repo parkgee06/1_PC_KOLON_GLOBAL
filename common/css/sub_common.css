@@ -59,21 +59,17 @@
 
 #content h5 {
     font-size: 1.85rem;
-    color: #007ac3;
-    font-weight: 600;
-    text-align: left;
-    margin-bottom: 20px;
 }
 
 #content .sub_head {
-    font-size: 1.35rem;
+    font-size: 2rem;
     font-weight: 400;
     margin: 50px auto;
     width: 1200px;
     text-align: center;
 }
 #content .main_text {
-    font-size: 1.1rem;
+    font-size: 1.45rem;
     text-align: justify;
     font-weight: 400;
     /* width: 1200px; */
