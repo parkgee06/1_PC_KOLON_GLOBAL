@@ -1,0 +1,144 @@
+
+#content .content_area {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#content .content_area .main_text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#content h4{
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#content h5{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 600;
+    /* margin: 20px 0; */
+    /* position: relative; */
+}
+
+#content .content_area .con{
+    margin-bottom: 120px;
+}
+
+
+/* ESG - 사회 본문 내용 css */
+#content .content_area .content_1 div{
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    margin: 30px 0;
+}
+
+#content .content_area .content_1 div dl dt{
+    display: inline;
+    float: left;
+    font-weight: 600;
+    font-size: 1.67rem;
+    width: 13%;
+    text-align: center;
+    color: #007AC3;
+    padding: 15px 0 0 0;
+    /* border: 1px solid red; */
+}
+
+#content .content_area .content_1 div dl dd{
+    font-size: 1.33rem;
+    margin-left: 5px;
+    padding: 5px 10px;
+    /* width: 75%; */
+
+} 
+
+#content .content_area .content_1 dl dd:not(:nth-of-type(3)){
+    border-bottom: 1px solid #333;
+
+}
+
+#content .content_area .green_2023 .green_txt{
+    display: flex;
+    gap: 60px;
+    /* border: 1px solid blue; */
+    width: 97%;
+    position: absolute;
+    top: 265px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#content .content_area .green_2023 .green_txt .txt_01{
+    /* border: 1px solid red; */
+    width: 25%;
+}
+
+
+#content .content_area .green_2023 .green_txt li:not(:nth-of-type(1)){
+    margin-left: 30px;
+    list-style: disc;
+}
+
+
+/* ---- 환경방침 ---- */
+#content .content_area .environ_policy .policy_con{
+    margin-top: 50px;
+}
+
+#content .content_area .environ_policy .policy_con div:not(:nth-of-type(3)){
+    float: left;
+    margin-right: 30px;
+}
+
+#content .content_area .environ_policy .policy_con p{
+    text-align: center;
+    margin-top: 8px;
+}
+
+
+/* -- 주요활동 -- */
+#content .content_area .content_2 .con_txt{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+}
+
+#content .content_area .con_txt .txt_01,
+#content .content_area .con_txt .txt_02{
+    display: flex;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+}
+
+#content .content_area .con_txt .txt_01>div,
+#content .content_area .con_txt .txt_02>div{
+    /* width: 100px; */
+    border-radius: 50px 0 0 0;
+    background: #007AC3;
+    padding: 60px 65px;
+}
+
+#content .content_area .con_txt .txt_01 ul{
+    list-style: disc;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding-top: 35px;
+}
+#content .content_area .con_txt .txt_02 ul{
+    list-style: disc;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding-top: 25px;
+}
+
+#content .content_area .con_txt .txt_01 ul li,
+#content .content_area .con_txt .txt_02 ul li{
+    margin-left: 50px;
+    /* border: 1px solid red; */
+}
