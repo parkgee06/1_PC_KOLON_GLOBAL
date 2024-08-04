@@ -9,6 +9,10 @@
     margin-left: 8px;
 }
 
+#content .content_area .con{
+    margin-bottom: 120px;
+}
+
 
 /* ESG - 환경 본문 내용 css */
 
@@ -20,6 +24,7 @@
 }
 
 #content h5{
+    text-align: center;
     font-size: 1.3rem;
     color: #333;
     font-weight: 600;
@@ -41,7 +46,7 @@
     text-align: center;
 }
 
-#content .content_area .environment .main_img{
+#content .content_area .main_img{
     display: block;
     text-align: center;
     margin: 80px auto;
@@ -96,27 +101,29 @@
 }
 
 #content .content_area .green_2023{
-    /* position: relative; */
-    /* display: flex; */
-    /* gap: 10px; */
     width: 100%;
+    position: relative;
 }
 
 #content .content_area .green_2023 .green_img{
     display: flex;
-    /* gap: 10px; */
-    /* width: 272px; */
     justify-content: space-between;
 }
 
 #content .content_area .green_2023 .green_txt{
     display: flex;
-    gap: 10px;
-    /* width: 272px; */
+    gap: 60px;
+    /* border: 1px solid blue; */
+    width: 97%;
+    position: absolute;
+    top: 265px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #content .content_area .green_2023 .green_txt .txt_01{
-    width: 272px;
+    /* border: 1px solid red; */
+    width: 25%;
 }
 
 
@@ -126,37 +133,96 @@
 }
 
 
-
-/* #content .content_area .green_2023_01{
-    background: url(../images/environ_1.png);
-    width: 24%;
-    height: auto;
-    position: absolute;
-
+/* ---- 환경방침 ---- */
+#content .content_area .environ_policy .policy_con{
+    margin-top: 50px;
 }
 
-#content .content_area .green_2023_02{
-    background: url(../images/environ_2.png);
-    width: 24%;
-    height: auto;
-    position: absolute;
-
+#content .content_area .environ_policy .policy_con div:not(:nth-of-type(3)){
+    float: left;
+    margin-right: 30px;
 }
 
-#content .content_area .green_2023_03{
-    background: url(../images/environ_3.png);
-    width: 27%;
-    height: auto;
-    position: absolute;
-
+#content .content_area .environ_policy .policy_con p{
+    text-align: center;
+    margin-top: 8px;
+    /* border: 1px solid red; */
 }
 
-#content .content_area .green_2023_04{
-    background: url(../images/environ_4.png);
-    width: 24%;
-    height: auto;
+
+/* ---- tab2_오염물질 관리 ---- */
+
+#content .content_area .environ_control .control_con .control_con_01{
+    background: url(../images/content2/environ_control_01.png) no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 418px;
+    position: relative;
+    /* border: 1px solid red; */
+    margin-top: 80px;
+}
+#content .content_area .environ_control .control_con .control_con_02{
+    background: url(../images/content2/environ_control_02.png) no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 418px;
+    position: relative;
+    margin-top: 80px;
+    /* border: 1px solid red; */
+}
+
+#content .content_area .environ_control .control_con .control_con_03{
+    background: url(../images/content2/environ_control_03.png) no-repeat ;
+    background-size: cover;
+    width: 100%;
+    height: 418px;
+    position: relative;
+    margin-top: 80px;
+    /* border: 1px solid red; */
+}
+#content .content_area .environ_control .control_con .control_con_01 .control_tex{
     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 260px;
+    padding-right: 50px;
+}
 
-} */
+#content .content_area .environ_control .control_con .control_con_02 .control_tex{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 260px;
+    padding-right: 50px;
+}
 
+#content .content_area .environ_control .control_con .control_con_03 .control_tex{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 260px;
+    padding-right: 50px;
+}
+
+#content .content_area .environ_control .control_con  .txt_01{
+    font-size: 1.33rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+#content .content_area .environ_control  .txt_02{
+    margin-bottom: 20px;
+    /* border: 1px solid red; */
+    font-size: 1rem;
+}
+
+#content .content_area .environ_control  .txt_03{
+    margin-left: 50px;
+}
+
+
+#content .content_area .environ_control .control_con ul li{
+    list-style: disc;
+    margin-right: 30px;
+}
 
