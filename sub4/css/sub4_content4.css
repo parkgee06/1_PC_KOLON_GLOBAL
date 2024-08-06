@@ -1,34 +1,104 @@
-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-family: Arial, sans-serif;
+#content .content_area {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
 }
 
-th, td {
+#content .content_area .con {
+    margin: 50px 0 80px 0;
+
+}
+
+#content .content_area .sub_head span{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+#content .content_area .main_text {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#content h4{
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-bottom: 40px;
+}
+#content .content_area .content_1 table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px auto 0 auto;
+}
+
+#content .content_area .content_1 th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
 }
 
-th {
+#content .content_area .content_1 th {
     background-color: #f2f2f2;
     color: #333;
     font-weight: bold;
 }
 
-tr:nth-child(even) {
+#content .content_area .content_1 tr:nth-child(even) {
     background-color: #f9f9f9;
+} 
+#content .content_area .content_1 .annotate{
+    text-align: right;
+    margin-top: 5px;
+    color: #333;
+    font-size: .75rem;
 }
 
-tr:hover {
-    background-color: #f5f5f5;
+#content .content_area .content_2 .con_sec{
+    display: flex;
+    gap: 30px;
+    margin-top: 35px;
+}
+#content .content_area .content_2 .con_sec .txt_sec p{
+    background: #007AC3;
+    border-radius: 20px 0 0 0;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 13px 0;
+    font-size: 1.35rem;
 }
 
-td:first-child {
-    font-weight: bold;
-    text-align: left;
+#content .content_area .content_2 .con_sec .txt_sec>ol{
+    list-style:decimal;
+    border: 1px solid #ccc;
+    padding: 30px 22px 50px 50px;
+    height: 420px;
 }
 
-.highlight {
-    background-color: #e6f3ff;
+#content .content_area .content_2 .con_sec .txt_sec ol>li{
+    font-weight: 600;
+    font-size: 1.1rem;
 }
+
+#content .content_area .content_2 .con_sec .txt_sec ol>li:nth-of-type(2){
+    margin-top: 40px;
+}
+
+#content .content_area .content_2 .con_sec .txt_sec ol>ul{
+    margin: 10px 0 0 10px;
+    font-size: 1.05rem;
+
+}
+
+#content .content_area .content_2 .con_sec .txt_sec ol ul li{
+    list-style: disc;
+    margin-bottom: 8px;
+}
+
+#content .content_area .content_2 .con_sec .con_02 ol ul ul li{
+    list-style: none;
+    line-height: .85rem;
+    font-size: .85rem;
+    /* border: 1px solid red; */
+}
+
