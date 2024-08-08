@@ -1,0 +1,104 @@
+
+/* ---------- Sub5_3 ---------- */
+#content .content_area{
+    width: 1200px;
+    /* height: 1000px; */
+    margin: 0 auto;
+}
+
+#content .content_area .con_item{
+    margin: 100px auto 2650px auto;
+    position: relative;
+}
+#content .content_area .con_item .con_01{
+    position: absolute;
+    left: 108px;
+}
+
+#content .content_area .con_item .con_02{
+    position: absolute;
+    top: 388px;
+    left: 108px;
+}
+
+#content .content_area .con_item .con_03{
+    position: absolute;
+    top: 778px;
+    left: 108px;
+}
+
+#content .content_area .con_item .con_04{
+    position: absolute;
+    top: 1166px;
+    left: 108px;
+}
+
+#content .content_area .con_item .con_05{
+    position: absolute;
+    top: 1558px;
+    left: 108px;
+}
+
+#content .content_area .con_item .con_06{
+    position: absolute;
+    top: 1941px;
+    left: 108px;
+}
+
+
+#content .content_area .con_item .con_txt{
+    display: flex;
+    gap: 250px;
+    /* justify-content: space-evenly; */
+}
+
+#content .content_area .con_item .con_txt div{
+    margin-top: 50px;
+}
+
+#content .content_area .con_item .con_txt div dl{
+    /* border: 1px solid red; */
+    display: flex;
+    /* gap: 20px; */
+}
+#content .content_area .con_item .con_txt div dl dt{
+    background: #007ac3;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 15px 0 0 0;
+    padding: 8px 35px;
+    font-size: 1.25rem;
+}
+
+#content .content_area .con_item .con_txt div dl dd{
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 1.25rem;
+    border: 1px solid #ccc;
+    width: 150px;
+}
+
+#content .content_area .con_item .con_txt div p{
+    color: #333;
+    font-weight: 500;
+    margin: 15px 0 0 50px;
+    font-size: 1.15rem;
+    position: relative;
+}
+
+#content .content_area .con_item .con_txt div p::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    left: -15px;
+    width: 7px;
+    height: 7px;
+    background: #333;
+    border-radius: 50%;
+}
+
+
