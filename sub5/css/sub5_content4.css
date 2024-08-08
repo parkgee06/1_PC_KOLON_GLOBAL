@@ -1,0 +1,124 @@
+#content .content_area{
+    width: 1200px;
+    margin: 0 auto;
+}
+#content .content_area .con{
+    margin: 80px auto;
+}
+#content .content_area .con .faq{
+    width:100%;
+    border-bottom:1px solid #ddd;
+    font-size:1rem;
+}  
+#content .content_area .con .faq .hgroup{
+    position:relative;
+    margin:0 0 10px 0;
+}
+#content .content_area .con .faq .hgroup .all{
+    position:absolute;
+    top:-45px;
+    right:10px;
+    color:#333;
+    text-decoration:none;
+}
+
+#content .content_area .con .faq .hgroup .all .fa-chevron-down{
+    margin-left: 10px;
+}
+#content .content_area .con .faq ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}  
+#content .content_area .con .faq .q{
+    margin:0;
+    border-top:1px solid #ddd;
+    position: relative;
+}
+#content .content_area .con .faq .q .trigger .fa-comment-dots{
+    margin-right: 15px;
+
+}
+#content .content_area .con .faq .q a.trigger{
+    display:block;
+    padding:10px 15px;
+    background:#fafafa;
+    color:#333;
+    text-align:left;
+    text-decoration:none ;
+}  
+#content .content_area .con .faq .hide .q a.trigger{
+    font-weight:normal;
+    background:none;
+}  
+#content .content_area .con .faq .q a.trigger:hover,  
+#content .content_area .con .faq .q a.trigger:active,  
+#content .content_area .con .faq .q a.trigger:focus{
+    background:#ed1b2c4d;
+    color:#000;
+} 
+#content .content_area .con .faq .q span{
+    display: block; position: absolute;
+    right: 15px; top:10px;
+} 
+#content .content_area .con .faq .a{
+    margin: 0;
+    padding: 10px 50px;
+    line-height: 1.5;
+    background: #f8f8f8;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: none;
+    position: relative;
+} 
+#content .content_area .con .faq .a i{
+    text-align: center;
+    font-size: 1.35rem;
+    color: #333333af;
+}
+
+#content .content_area .con .contect_box {
+    margin: 80px auto;
+}
+
+#content .content_area .con .contect_box p {
+    text-align: center;
+}
+
+#content .content_area .con .contect_box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px auto 0 auto;
+}
+#content .content_area .con .contect_box tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#content .content_area .con .contect_box th, td {
+    /* border: 1px solid #ddd; */
+    padding: 8px;
+    text-align: center;
+}
+
+#content .content_area  .con .contect_box th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+#content .content_area  .con .contect_box td:nth-of-type(4) a {
+    border: 2px solid #007ac3;
+    color: #007ac3;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 8px 0;
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#content .content_area  .con .contect_box td:nth-of-type(4) a:hover {
+    background: #007ac3;
+    color: #fff;
+    font-weight: 700;
+}
