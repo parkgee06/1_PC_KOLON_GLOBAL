@@ -3,8 +3,8 @@ $(document).ready(function () {
 	var article = $('.faq .article');  //모든 질문 답변 리스트
 	//article.find('.a').slideUp(100); // 모든 답변 닫아라
     article.find('span').html('<i class="fas fa-chevron-down"></i>');
-    $('.faq .article:first').find('.a').slideDown(100);
-    $('.faq .article:first').find('span').html('<i class="fas fa-chevron-up"></i>');
+    //$('.faq .article:first').find('.a').slideDown(100);//
+    //$('.faq .article:first').find('span').html('<i class="fas fa-chevron-up"></i>');//
 	
 	$('.faq .article .trigger').click(function(e){  // 각각의 질문을 클릭하면
 	    e.preventDefault();  //<a href="#"> 태그 링크 처리
@@ -22,19 +22,20 @@ $(document).ready(function () {
             myArticle.removeClass('show').addClass('hide');  // hide로 바꾼다 
             myArticle.find('.a').slideUp(100);  //해당 리스트의 답변을 닫아라  
             myArticle.find('span').html('<i class="fas fa-chevron-down"></i>');
-        }  
-  });
+        }
+    });
   
-  //모두 여닫기 처리
-  $('.all').toggle(function(e){
+    //모두 여닫기 처리
+    $('.all').toggle(function(e){
         e.preventDefault(); 
         article.find('.a').slideDown(100);
         article.removeClass('hide').addClass('show');
         article.find('span').html('<i class="fas fa-chevron-up"></i>');
+
         $(this).text('답변 모두 닫기');
         hgroup.find('span').html('<i class="fa-solid fa-chevron-down"></i>');
-
-  },function(e){
+  
+    },function(e){
         e.preventDefault(); 
         article.find('.a').slideUp(100);
         article.removeClass('show').addClass('hide');
@@ -43,8 +44,7 @@ $(document).ready(function () {
 
         $(this).text('답변 모두 열기');
         hgroup.find('span').html('<i class="fa-solid fa-chevron-down"></i>');
-
-        
-  });
+  
+    });
 
 }); 
