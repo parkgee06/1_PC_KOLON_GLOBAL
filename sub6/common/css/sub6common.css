@@ -16,7 +16,7 @@
     text-align: center; font-weight: 500;
 }
 .visual span::before{
-    content: 'We Connet the Future';
+    content: 'New Announcements';
     display: block;
     position: absolute;
     width: 100%; top: -15px;
