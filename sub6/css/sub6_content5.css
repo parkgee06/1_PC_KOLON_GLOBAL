@@ -1,0 +1,81 @@
+#content .content_area{
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* #content .content_area .con{
+    margin-bottom: 750px;
+} */
+
+#content .content_area .con .con_item{
+    position: relative;
+    width: 100%;
+    margin: 50px auto;
+    background: #F3F3F3;
+    padding: 3%;
+    box-sizing: border-box;
+    color: #333;
+}
+
+#content .content_area .con .characters{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#content .content_area .con .characters .charbox{
+    width: 55%;
+}
+#content .content_area .con .characters .charbox img{
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
+}
+#content .content_area .con .characters .gallery-thumbs{
+    /* position: absolute;
+    right: 60px;
+    top:15%; */
+    width: 40%;
+    align-content: center;
+}
+#content .content_area .con .characters .gallery-thumbs dt{
+    margin-left: 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color:#ED1B2E;
+    text-align: left;
+}
+#content .content_area .con .characters .gallery-thumbs dd{
+    margin-left: 20px;
+    text-align: left;
+    font-size: .85rem;
+}
+
+#content .content_area .con .characters .gallery-thumbs .text{
+    margin-bottom: 20px;
+}
+#content .content_area .con .characters .gallery-thumbs ul{
+    overflow: hidden;
+    /* width: 80%; */
+}
+#content .content_area .con .characters .gallery-thumbs ul li{
+    width: 165px;
+    /* height: 100px; */
+    /* object-fit: inherit; */
+    float: left;
+    margin: 1.3%;
+}
+#content .content_area .con .characters .gallery-thumbs ul li a{
+    display: block;
+    filter: grayscale(100%);
+}
+#content .content_area .con .characters .gallery-thumbs ul li img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100px;
+    object-fit: cover;
+}
+
+

@@ -1,31 +1,108 @@
-/* 인재채용 공통 css */
+/* ESG 공통 css */
 
 /* visual 영역 */
-.visual{width: 2000px; height: 399px; position: relative; left: 50%; top: 0; transform: translate(-50%); color: white; font-weight: 400; font-size: 3.5rem; }
-.visual span{font-size: 2.25rem; display: block; position: absolute; top: 185px; width: 100%; text-align: center; font-weight: 500; }
-.visual span::before{content: 'KOLON New Announcements'; display: block; position: absolute; width: 100%; top: -15px; text-align: center; font-size: 0.85rem; font-weight: 100;}
-.visual p{position: absolute; top: 280px; width: 100%; text-align: center; font-size: 1.3rem;}
-
-/* 위의 폰트 사이즈, 높이 대략 잡아놓은거임. 나중에 바꿀것 */
-
+.visual{
+    width: 2000px; height: 399px;
+    position: relative; left: 50%; top: 0;
+    transform: translate(-50%);
+    color: white;
+    font-weight: 400; font-size: 3.5rem;
+}
+.visual span{
+    font-size: 2.25rem;
+    display: block;
+    position: absolute;
+    top: 185px; width: 100%;
+    text-align: center; font-weight: 500;
+}
+.visual span::before{
+    content: 'We Connet the Future';
+    display: block;
+    position: absolute;
+    width: 100%; top: -15px;
+    text-align: center;
+    font-size: 0.85rem; font-weight: 100;
+}
+.visual p{
+    position: absolute; top: 280px; width: 100%;
+    text-align: center; font-size: 1.3rem;
+}
 
 /* 서브메뉴 영역 */
-.sub_nav{width: 100%; border-bottom: 1px solid #ccc;}
-.sub_nav ul{overflow: hidden; width: 1200px; margin: 0 auto;}
-.sub_nav li{width: 20% ;float: left; text-align: center;}
-.sub_nav li a{font-size: 1.25rem; font-weight: 400; padding: 13px 0; transition: all .5s; background: #fcfcfc; color: #333;}
-.sub_nav li a:hover, .sub_nav li .current{background: #ED1B2E; color: #fff; font-weight: 600;}
+.sub_nav{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+.sub_nav ul{
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+}
+.sub_nav li{
+    width: 20% ;
+    float: left;
+    text-align: center;
+}
+.sub_nav li a{
+    font-size: 1.25rem;
+    font-weight: 400; padding: 13px 0;
+    transition: all .5s;
+    background: #fcfcfc;
+    color: #333;
+}
+.sub_nav li a:hover, .sub_nav li .current{
+    background: #ED1B2E;
+    color: #fff;
+    font-weight: 600;
+}
 
 /* content 영역 */
-#content{width:100%; overflow: hidden;}
-#content .title_area{width: 1200px; margin: 0 auto; overflow:hidden;}
-#content .content_area{width: 1200px; margin: 0 auto; position: relative;}
+#content{
+    width:100%;
+    overflow: hidden;
+}
+
+#content .title_area{
+    width: 1200px;
+    margin: 0 auto;
+    overflow:hidden;
+}
+#content .content_area{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
 
 /* title_area 영역 */
-#content .title_area{height: 400px; position: relative;}
-#content .title_area .line_map{position: absolute; right: 0; top: 20px; }
-#content .title_area h2{font-size: 3.5rem; text-align: center; margin-top: 150px; position: relative;}
-#content .title_area h2::after{content: ''; display: block; width: 3px; height: 80px; background: #ED1B2E; position: absolute; top: 120px; left: 50%;}
+#content .title_area{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 400px;
+    overflow:hidden;
+}
+
+#content .title_area .line_map{
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+#content .title_area h2{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 150px;
+    position: relative;
+}
+
+/* #content .title_area h2::after{
+    content: '';
+    display: block;
+    width: 3px; height: 80px;
+    background: #ED1B2E;
+    position: absolute;
+    top: 120px; left: 50%;
+} */
 
 
 
