@@ -45,6 +45,7 @@
     position: absolute;
     top: 220px;
     z-index: 10;
+    filter: drop-shadow(2px 2px 3px rgba(0,0,0,.4))
 }
 
 #content .content_area .bg_area .img_box .gallery .prev{
