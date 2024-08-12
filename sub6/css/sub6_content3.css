@@ -1,0 +1,76 @@
+#content .content_area .bg_box {
+    width: 100%;
+    height: 350px;
+    background: #007AC3;
+    position: relative;
+}
+
+#content .content_area .bg_box .con_img {
+    position: absolute;
+    top: 80px;
+    left: 450px;
+}
+
+#content .content_area .bg_box img{
+    width: 400px;
+    height: auto;
+}
+
+#content .content_area .bg_box .txt_box1{
+    position: absolute;
+    top: 80px;
+    right: 480px;
+}
+#content .content_area .bg_box .txt_box1 p:nth-of-type(1){
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 40px 0 15px 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#content .content_area .bg_box .txt_box1 p:nth-of-type(2){
+    color: #fff;
+    font-size: 2.3rem;
+    font-weight: 300;
+    line-height: 2.6rem;
+}
+#content .content_area .txt_box2{
+    width: 1200px;
+    margin: 60px auto 150px auto;
+} 
+
+#content .content_area .txt_box2>div{
+    margin-left: 580px;
+}
+
+#content .content_area .txt_box2>div p:nth-of-type(1){
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+#content .content_area .txt_box2>div p:nth-of-type(2){
+    font-size: 1.1rem;
+}
+
+#content .content_area .txt_box2>div .btn_box{
+    display: flex;
+    gap: 25px;
+    margin: 30px 5px 0 5px ;
+
+}
+#content .content_area .txt_box2>div .btn_box a{
+    padding: 10px 30px;
+    border: 1px solid #007AC3;
+    text-align: center;
+    font-weight: 500;
+    color: #007AC3;
+    transition: all ease-in-out .3s;
+    background: #f3f3f3;
+}
+
+#content .content_area .txt_box2>div .btn_box a:hover{
+    background: #007AC3;
+    color: #fff;
+}

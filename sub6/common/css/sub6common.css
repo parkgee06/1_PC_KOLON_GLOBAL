@@ -68,7 +68,7 @@
     overflow:hidden;
 }
 #content .content_area{
-    width: 1200px;
+    /* width: 1200px; */
     margin: 0 auto;
     position: relative;
 }
