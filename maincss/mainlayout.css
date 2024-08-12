@@ -114,8 +114,10 @@
   filter: grayscale(60%) blur(3px);
 }
 #content .info .about dl{
-  width: 390px; height: 527px;
-  position: absolute; left: 0; top: 450px;
+  width: 390px;
+  height: 527px;
+  position: absolute;
+  left: 0; top: 450px;
   background-color: rgba(0, 0, 0, .7);
   transition: all .5s ease-out;
 }
@@ -124,29 +126,51 @@
   left: 0;top: 0;
 }
 #content .info .about li dt{
-  font-size: 1.5rem; font-weight: 500;
-  color: #fff; text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
   transition: all .5s ease-out;
-  transition-delay: .3s; margin: 25px 30px 40px;
-  letter-spacing: 5px;transition: all .5s ease-out;
+  transition-delay: .3s;
+  margin: 20px 40px;
+  letter-spacing: 5px;
+  transition: all .5s ease-out;
 }
 #content .info .about li:hover dt{
-  font-size: 1.8rem; transition-delay: .3s;
-  margin: 150px 0 30px 0; color: #007ac3;
+  /* font-size: 1.8rem; */
+  transition-delay: .3s;
+  margin: 150px 0 30px 0;
+  color: #007ac3;
 }
 #content .info .about dd{
   color: #fff; text-align:justify;
   margin: 0 30px 0 30px;
 }
 #content .info .about dd a{
-  color: #fff; text-align: center;
-  padding: 15px; margin-top: 15px;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 15px;
+  /* transition: all ease-in .3s; */
+  position: relative;
 }
+/* 
+#content .info .about dd a:hover{
+  color: #ee1b2e;
+} */
+
 #content .info .about dd a::after {
-  content: "";  display: inline-block;
-  width: 15px; height: 15px;
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 215px;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
   background: url('../mainimages/more_03.png') no-repeat 0 0;
-  opacity: 0; transition: all .5s;
+  opacity: 0;
+  transition: all .5s;
 }
 #content .info .about a:hover::after{
   opacity: 1;
