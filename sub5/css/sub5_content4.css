@@ -302,7 +302,7 @@
     margin-top: 40px;
 }
 
-#content .content_area .con .contact_pop .popup .qna_btn .saveBtn{
+#content .content_area .con .contact_pop .popup .qna_btn .saveBtn[type=submit]{
     display: inline-block;
     width: 225px;
     height: 60px;
