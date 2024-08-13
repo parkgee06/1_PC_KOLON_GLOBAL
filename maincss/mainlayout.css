@@ -199,17 +199,19 @@
     box-shadow: 0 0 15px 2px rgba(0,0,0,.2);
   }  
   #content .business dl{
-    position: absolute; top:0; left:0;
+    position: absolute; top:80px; left:0;
     color: #fff; text-align: left;
     display: none;
   }
   #content .business ul li dt{
     font-size: 3.06rem; margin-bottom: 40px;
+    font-weight: 700;
   }
   #content .business ul li dt span{
-    display: block;
+    /* display: block; */
     font-size:1.4rem ;
-    margin:0 0 40px 5px;
+    margin:0 0 40px 25px;
+    font-weight: 400;
   }
   #content .business ul li dt span strong{
     font-size:1.7rem ;
@@ -229,9 +231,13 @@
     background: rgba(255, 255, 255, .2);
   } 
   .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
-    font-size: 2rem;
-    color: #fff;position: absolute;
-    top: -70px;left: -440px;height: 80px;
+    font-size: 1.3rem;
+    color:rgba(255, 255, 255, .5);
+    position: absolute;
+    top: 10px;
+    left: -440px;
+    height: 80px;
+    font-weight: 400;
   }
   #content .business ul .swiper-slide-active dl{
     display: block;
@@ -240,7 +246,9 @@
     display: none;
   }
   #content .business span.swiper-pagination-current {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: #007ac3;
   }
   #content .business  .swiper-button-prev{left: 390px;
     color: #fff;
@@ -269,7 +277,17 @@
 #content .network div{
   margin-left: 400px;
 }
-
+/* #content .network div a{
+  margin-top: 20px;
+  color: #fff;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  width: 150px;
+  font-weight: 500;
+  background: rgba(255, 255, 255, .2);
+} */
 #content .network ul li{
   position: absolute;
 }
