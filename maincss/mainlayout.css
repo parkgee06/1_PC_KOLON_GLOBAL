@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset"utf-8";
 
 /* 팝업 */
 #showimage{
@@ -41,12 +41,12 @@
   color: #fff; text-transform: uppercase;
   font-weight: 800;
   text-shadow: 3px 4px 5px rgba(56, 56, 56, 0.3);
-  transform: translateY(-50%);font-family: "Merriweather", serif;
+  transform: translateY(-50%);font-family:"Merriweather", serif;
   font-weight: 300;
 }
 
 .gallery .fontdeco{
-  font-family: "Fugaz One", sans-serif;
+  font-family:"Fugaz One", sans-serif;
 }
 
 /* .gallery .link1 span{ left:  100px; top: 300px;} */
@@ -160,7 +160,7 @@
 } */
 
 #content .info .about dd a::after {
-  content: "";
+  content:"";
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -333,8 +333,8 @@
 /* 각 나라 설명 */
 /* 중국 */
 #content .network ul li:nth-child(1):before{
-  content: "KOLON GLOBAL CORP. \A chaina@kolonglobal.com";
-  background-image: url( "../mainimages/World_Map_china.jpg" );
+  content:"KOLON GLOBAL CORP. \A chaina@kolonglobal.com";
+  background-image: url("../mainimages/World_Map_china.jpg");
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center 80px;
@@ -346,8 +346,8 @@
 
 /* 일본 */
 #content .network ul li:nth-child(2):before{
-  content: "KOLON GLOBAL CORP. \A japan@kolonglobal.com";
-  background-image: url( "../mainimages/World_Map_japan.jpg" );
+  content:"KOLON GLOBAL CORP. \A japan@kolonglobal.com";
+  background-image: url("../mainimages/World_Map_japan.jpg");
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center 80px;
@@ -359,8 +359,8 @@
 
 /* 홍콩 */
 #content .network ul li:nth-child(3):before{
-  content: "KOLON GLOBAL CORP. \A hongkong@kolonglobal.com";
-  background-image: url( "../mainimages/World_Map_hongkong.jpg" );
+  content:"KOLON GLOBAL CORP. \A hongkong@kolonglobal.com";
+  background-image: url("../mainimages/World_Map_hongkong.jpg");
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center 80px;
@@ -372,8 +372,8 @@
 
 /* 베트남 */
 #content .network ul li:nth-child(4):before{
-  content: "KOLON GLOBAL CORP. \A vietnam@kolonglobal.com";
-  background-image: url( "../mainimages/World_Map_vietnam.jpg" );
+  content:"KOLON GLOBAL CORP. \A vietnam@kolonglobal.com";
+  background-image: url("../mainimages/World_Map_vietnam.jpg");
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center 80px;
@@ -385,8 +385,8 @@
 
 /* 인도네시아 */
 #content .network ul li:nth-child(5):before{
-  content: "KOLON GLOBAL CORP. \A indonesia@kolonglobal.com";
-  background-image: url( "../mainimages/World_Map_indonesia.jpg" );
+  content:"KOLON GLOBAL CORP. \A indonesia@kolonglobal.com";
+  background-image: url("../mainimages/World_Map_indonesia.jpg");
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center 80px;
@@ -398,8 +398,8 @@
 
 /* 태국 */
 #content .network ul li:nth-child(6):before{
-  content: "KOLON GLOBAL CORP. \A thailand@kolonglobal.com";
-  background-image: url( "../mainimages/World_Map_thailand.jpg" );
+  content:"KOLON GLOBAL CORP. \A thailand@kolonglobal.com";
+  background-image: url("../mainimages/World_Map_thailand.jpg");
   background-size:contain;
   background-repeat: no-repeat;
   /* background-position: center 80px; */
@@ -411,8 +411,8 @@
   
 /* 영국 */
 #content .network ul li:nth-child(7):before{
-  content: "KOLON GLOBAL CORP. \A united kingdom@kolonglobal.com";
-  background-image: url( "../mainimages/World_Map_united_kindom.jpg" );
+  content:"KOLON GLOBAL CORP. \A united kingdom@kolonglobal.com";
+  background-image: url("../mainimages/World_Map_united_kindom.jpg");
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center 80px;
@@ -424,8 +424,8 @@
 
 /* 이탈리아 */
 #content .network ul li:nth-child(8):before{
-  content: "KOLON GLOBAL CORP. \A italia@kolonglobal.com";
-  background-image: url( "../mainimages/World_Map_italy.jpg" );
+  content:"KOLON GLOBAL CORP. \A italia@kolonglobal.com";
+  background-image: url("../mainimages/World_Map_italy.jpg");
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center 80px;
@@ -437,8 +437,8 @@
 
 /* 미국 */
 #content .network ul li:nth-child(9):before{
-  content: "KOLON GLOBAL CORP. \A united states@kolonglobal.com";
-  background-image: url( "../mainimages/World_Map_united_states.jpg" );
+  content:"KOLON GLOBAL CORP. \A united states@kolonglobal.com";
+  background-image: url("../mainimages/World_Map_united_states.jpg");
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center 80px;
@@ -450,8 +450,8 @@
 
 /* 한국 */
 #content .network ul li:nth-child(10):before{
-  content: "KOLON GLOBAL CORP. \A kora@kolonglobal.com";
-  background-image: url( "../mainimages/World_Map_korea.jpg" );
+  content:"KOLON GLOBAL CORP. \A kora@kolonglobal.com";
+  background-image: url("../mainimages/World_Map_korea.jpg");
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center 80px;
@@ -523,7 +523,7 @@
   filter: brightness(0);
 }
 #content .recruit::after{
-  content: "";
+  content:"";
   background-image: url(../mainimages/recruit_back.png);
   position: absolute; top: 237px; left: 0;
   width: 100%; height: 100%; opacity: 15%; 
@@ -534,7 +534,7 @@
 #content .recruit dt{text-align: center;  font-weight: 500; font-size:1.5em;}
 
 #content .recruit li::after{
-  content: ""; width: 2px; background: rgba(255,255,255,.3);
+  content:""; width: 2px; background: rgba(255,255,255,.3);
   height: 240px;
   display: block;
   position: absolute; top: 30px; right: 0;
