@@ -314,7 +314,7 @@
 
 }
 
-#content .content_area .con .contact_pop .popup .qna_btn .closeBtn{
+#content .content_area .con .contact_pop .popup .qna_btn .closeBtn[type=reset]{
     display: inline-block;
     width: 225px;
     height: 60px;
