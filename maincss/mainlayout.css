@@ -131,6 +131,71 @@
   position: absolute; left: -20px; top:0px;
 } */
 
+#content .more_btn{
+  display: block; 
+  position: absolute;
+  width: 120px;
+  padding: 10px;
+  transition: all .5s ease-in-out;
+  color: #fff;
+  /* border: 1px solid red; */
+}
+
+#content section:nth-of-type(1) .more_btn{
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 110px;
+}
+
+#content section:nth-of-type(2) .more_btn{
+  left: 8px;
+  top: 200px;
+}
+
+#content section:nth-of-type(4) .more_btn{
+  left: 75px;
+  top: 99%;
+  transform: translateX(-50%);
+}
+
+
+/* #content .more_btn:hover{
+  color:#007ac3;
+}   */
+#content .more_btn::before{
+  content: '';
+  display: block;
+  width: 0px;
+  height: 35px;
+  /* border-radius: 7px; */
+  background: rgba(255,255,255,.3);
+  background-size: 200%;
+  position: absolute;
+  left: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -10;
+  transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  border: 2px solid #fff;
+}
+#content .more_btn:hover::before{
+  width: 100%;
+}
+#content .more_btn span{
+  position: relative;
+  width: 150px;
+  padding-right: 10px;
+  z-index: 1;
+  font-weight: 500;
+}
+#content .more_btn i{
+    color: #fff;
+    transition: all .5s ease-in-out;
+  }
+#content .more_btn:hover i{
+    color: #fff;
+    transform: translateX(5px);
+  }
 
 
 /* 1_회사소개 */
@@ -138,26 +203,29 @@
 #content .info p{text-align: left; color: #333;}
 
 #content .info .about{
-  margin-bottom: 100px; display: flex; gap: 15px;
+  margin-bottom: 100px;
+  display: flex;
+  /* gap: 15px; */
 }
 #content .info .about li{
-  width: 390px; height: 527px;
-  border-radius: 50px 0 0 0;
-  position: relative; overflow: hidden;
+  width: 400px; height: 527px;
+  /* border-radius: 50px 0 0 0; */
+  position: relative;
+  overflow: hidden;
 }
 #content .info .about li img{
   width: 100%; transition: all .5s ease-out;
 }
 #content .info .about li:hover img{
   transform: scale(1.1);
-  filter: grayscale(60%) blur(3px);
+  filter: grayscale(80%) blur(3px);
 }
 #content .info .about dl{
-  width: 390px;
+  width: 400px;
   height: 527px;
   position: absolute;
   left: 0; top: 450px;
-  background-color: rgba(0, 0, 0, .7);
+  background: linear-gradient(rgba(0, 122, 195, .7), rgba(24, 37, 44, 0.8));
   transition: all .5s ease-out;
 }
 #content .info .about li:hover dl{
@@ -165,22 +233,44 @@
   left: 0;top: 0;
 }
 #content .info .about li dt{
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #fff;
-  text-align: center;
   transition: all .5s ease-out;
   transition-delay: .3s;
-  margin: 20px 40px;
-  letter-spacing: 5px;
-  transition: all .5s ease-out;
+  text-align: center;
 }
+
+#content .info .about li dt p{
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+  margin: 20px 40px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  /* border: 1px solid red; */
+  display: inline-block
+}
+
+
 #content .info .about li:hover dt{
   /* font-size: 1.8rem; */
   transition-delay: .3s;
-  margin: 150px 0 30px 0;
-  color: #007ac3;
+  margin: 100px 0 30px 0;
+  color: #fff;
 }
+
+#content .info .about li:hover dt p::before{
+  content: "";
+  width: 120%;
+  border-bottom: 2px solid #fff;
+  /* height: 100%; */
+  position: absolute;
+  bottom: -8px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+
+}
+
+
 #content .info .about dd{
   color: #fff; text-align:justify;
   margin: 0 30px 0 30px;
@@ -291,7 +381,7 @@
   #content .business span.swiper-pagination-current {
     font-size: 2.7rem;
     font-weight: 700;
-    color: #007ac3;
+    color: #fff;
   }
   #content .business  .swiper-button-prev{left: 390px;
     color: #fff;
@@ -504,7 +594,7 @@
   background-repeat: no-repeat;
   background-position: center 80px;
   position: absolute;
-  left: -150px;
+  left: -90px;
   z-index: 1;
   top: 45px;
 }
