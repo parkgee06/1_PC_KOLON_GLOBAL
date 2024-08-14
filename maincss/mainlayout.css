@@ -295,8 +295,10 @@
     display: none;
   }
   #content .business ul li dt{
-    font-size: 3.06rem; margin-bottom: 40px;
+    font-size: 3.06rem;
+    margin-bottom: 40px;
     font-weight: 700;
+    text-shadow: 3px 2px 4px gray; 
   }
   #content .business ul li dt span{
     /* display: block; */
