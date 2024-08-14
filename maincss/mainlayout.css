@@ -687,7 +687,7 @@
 }
 #content .recruit .recruit_item ul li:hover a dl dt img{
   position: absolute;
-  top: -80px;
+  top: -200px;
   opacity: 0;
 }
 #content .recruit .recruit_item ul li a i{
