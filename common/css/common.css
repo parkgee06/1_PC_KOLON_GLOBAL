@@ -297,8 +297,6 @@ img{border: 0; vertical-align: top}
     position: relative;
 }
 
-
-
 #footerArea .copy {
     text-align: left;
     font-size: 0.78rem;
@@ -386,7 +384,9 @@ img{border: 0; vertical-align: top}
 }
 
 #footerArea .select .aList li a:hover {
-    color: rgb(49, 49, 49);
+    /* background: rgb(49, 49, 49); */
+    color:  #ed1b2e;
+    font-weight: 500;
     }
 
 
