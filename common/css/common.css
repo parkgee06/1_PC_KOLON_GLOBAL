@@ -260,14 +260,14 @@ img{border: 0; vertical-align: top}
     margin-right: 80px;
     position: relative;
 }
-#footerArea .bottom_menu > ul > li::after {
+#footerArea .bottom_menu > ul > li:not(:nth-of-type(3)):after {
     content: "";
     display: block;
     width: 2px;
     height: 18px;
     background: #666;
     position: absolute;
-    right: -50px;
+    right: -40px;
     top: 8px;
 }
 #footerArea .bottom_menu > ul > li:last-child {
@@ -285,6 +285,20 @@ img{border: 0; vertical-align: top}
     line-height: 1.7em;
     margin-bottom: 20px;
 }
+#footerArea address ul:nth-of-type(1) {
+    display: flex;
+    gap: 65px;
+}
+#footerArea address ul:nth-of-type(2) {
+    display: flex;
+    gap: 50px;
+}
+#footerArea address ul li{
+    position: relative;
+}
+
+
+
 #footerArea .copy {
     text-align: left;
     font-size: 0.78rem;
@@ -319,41 +333,60 @@ img{border: 0; vertical-align: top}
 }
 #footerArea .select .arrow {
     display: block;
-    font-size: 1em;
-    padding: 10px 0;
+    font-size: .8em;
+    padding: 3px 0 5px 0;
     text-align: center;
-    color: #333;
     transition: all 0.5s;
+    color: #fff;
+    background: rgb(49, 49, 49);
 }
 #footerArea .select .arrow i {
-    font-size: 0.8em;
+    font-size: 0.7em;
+    margin-left: 5px;
     color: red;
 }
 #footerArea .select .arrow:hover {
-    color: #fff;
-    background: rgb(49, 49, 49);
+    color: rgb(49, 49, 49);
+
+    /* color: #fff; */
+    background: #fff;
 }
 #footerArea .select .aList {
     position: absolute;
     top: -190px;
     left: 0;
     width: 180px;
-    background: #fff;
+    color: #fff;
+    background: rgb(49, 49, 49);
     display: none;
 }
 #footerArea .select .aList li {
-    line-height: 1.5em;
+    line-height: 1.5rem;
 }
 #footerArea .select .aList li a {
+    color:  rgb(49, 49, 49);
+    background: #fff;
     display: block;
     text-align: center;
     padding: 5px 0;
     transition: all 0.5s;
-    color: #333;
+    position: relative;
+    font-size: .8rem;
 }
+
+#footerArea .select .aList li:not(:nth-of-type(5)) a::after {
+    content: "";
+    width: 75%;
+    border-bottom: 1px solid rgb(49, 49, 49);
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
 #footerArea .select .aList li a:hover {
-    color: #fff;
-    background: rgb(49, 49, 49);
-}
+    color: rgb(49, 49, 49);
+    }
 
 
