@@ -1,10 +1,5 @@
 #content h3 {
-    margin: 150px auto 0 auto;
-}
-
-#content h4 {
-    margin: 30px 0 50px;
-    text-align: center;
+    margin: 180px auto 0 auto;
 }
 /* 안전보건경영의 실제 본문 내용 css */
 
@@ -17,41 +12,22 @@
 }
 
 
-
-/* #content .content_area .safty h4{
-font-size: 2.22rem;
-text-align: center;
-font-weight: 500;
-padding-top: 50px;
-}  */
-
-#content .content_area  {
-    overflow: hidden;
-}
-
 /* -------------------------------------------------------- */
 /* Tab1 KGC 안전보건경영방침 */
-/* #content .content_area .safty p {
-    text-align: justify;
-} */
-/* #content .content_area p {
-    margin: 25px 0 80px 0;
-} */
 #content .content_area  p strong {
     color: #007ac3;
 }
-
 
 /* h4 principles */
 #content .content_area .principles {
     overflow: hidden;
     counter-reset: number 0;
 }
-#content .content_area .principles dl {
+#content .content_area section .principles dl {
     width: 360px;
     margin: 0 20px 50px;
     float: left;
-    font-size: 0.89rem;
+    /* font-size: 0.89rem; */
     color: #858885;
     padding-bottom: 85px;
     position: relative;
@@ -59,7 +35,7 @@ padding-top: 50px;
 #content .content_area .principles dl::after {
     content: "0" counter(number);
     counter-increment: number 1;
-    font-size: 8em;
+    font-size: 8rem;
     color: #f8f8f8;
     position: absolute;
     right: -10px;
@@ -107,31 +83,80 @@ padding-top: 50px;
 #content .content_area .managerial ul {
     padding: 20px 0 100px 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 40px;
+    text-align: center;
+    margin-top:80px ;
+    
 }
-#content .content_area .managerial li {
+#content .content_area .managerial ul li {
     color: #fff;
-    background: #007ac3;
-    border-radius: 30px 0 0 0;
-    padding: 20px 35px;
-    font-size: 1.22rem;
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    font-size: 1.5rem;
     font-weight: 500;
     position: relative;
+    border: 5px solid #007ac3;
+    color: #007ac3;
+    transition: all ease .5s;
 }
-#content .content_area .managerial li::after {
+#content .content_area .managerial ul li:hover{
+    background: #007ac3;
+    color: #fff;
+    transform: scale(1.15);
+
+}
+
+#content .content_area .managerial ul li p {
+    padding-top: 110px;
+    text-align: center;
+    position: relative;
+}
+/* #content .content_area .managerial ul li p::before {
     content: "+";
     color: #007ac3;
     font-weight: 900;
     display: block;
     position: absolute;
-    right: -25px;
-    top: 20px;
+    right: -73px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 3.5rem;
 }
-#content .content_area .managerial li:last-child:after {
+#content .content_area .managerial ul li p:last-child::before {
     content: "";
     display: none;
+} */
+
+#content .content_area .managerial ul li p span {
+    font-weight: 700;
+    font-size: 1.8rem;
 }
+
+#content .content_area .managerial ul li::after{
+    content: "" ;
+    color: #007ac3;
+    font-weight: 900;
+    position: absolute;
+    top: -50px;
+    left: 10px;
+    font-size: 4rem;
+}
+
+#content .content_area .managerial ul li:nth-of-type(1):after{
+    content: "1" ;
+}
+
+#content .content_area .managerial ul li:nth-of-type(2):after{
+    content: "2" ;
+}
+
+#content .content_area .managerial ul li:nth-of-type(3):after{
+    content: "3" ;
+}
+
+
 
 /* h4 Goldenrule */
 #content .content_area .goldenrule table {
@@ -168,6 +193,7 @@ padding-top: 50px;
     background: url(../imgaes/content3/management_sys.png);
     margin-top: 100px;
     position: relative;
+    font-size: 1.13rem;
 }
 #content .content_area .management .management_bg dl {
     position: absolute;
@@ -233,16 +259,25 @@ padding-top: 50px;
     width: 177px;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #333333;
+    border: 1px solid #333;
     margin: 0 auto;
     text-align: center;
     font-size: 1rem;
-    color: #858585;
+    color: #333;
+    transition: all ease .3s;
+}
+
+#content .content_area .certification .openBtn:hover {
+    background: #333;
+    color: #fff;
 }
 
 #content .content_area .certification .box, .popup{
     display: none;
     position: fixed;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
 }
 
 #content .content_area .certification .box{
@@ -310,6 +345,8 @@ padding-top: 50px;
 }
 #content .content_area .management2 li dd {
     width: 950px;
+    border: 1px solid #ccc;
+    padding-left: 20px;
 }
 #content .content_area .management2 li dd strong {
     display: block;
