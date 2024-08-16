@@ -4,7 +4,7 @@
 }
 /* --------------------------------------------------------------------------- */
 /* 1_CEO 인사말 css */
-#content .content_area::before{
+/* #content .content_area::before{
     content: '';
     width: 550px;
     height:598px;
@@ -15,42 +15,50 @@
     left:50%; 
     margin-left: -900px;
     z-index: -1;
-}
+} */
 
-#content .content_area .greeting_area ul{
+#content .content_area section .con_box_1 ul{
     display: flex;
     gap: 35px;
 }
-
-#content .content_area .greeting_area ul .ceo_pic{
-    border-radius: 50px;
+#content .content_area section .con_box_1 ul li:nth-of-type(1){
+    width: 42%;
 }
-#content .content_area .greeting_area .ceo_sign{
+
+#content .content_area section .con_box_1 ul li:nth-of-type(2){
+    width: 58%;
+}
+
+#content .content_area section .con_box_1 ul .ceo_pic{
+    border-radius: 50px;
+    width: 100%;
+}
+#content .content_area section .con_box_1 .ceo_sign{
     text-align: right;
 }
-#content .content_area .greeting_area .ceo_sign>p{
+#content .content_area section .con_box_1 .ceo_sign>p{
     display: inline-block;
     margin: 4.5px 10px 0 0;
 }
 
 /* --------------------------------------------------------------------------- */
 /* 2_globla_area 영역 */
-#content .global_area ul{
+#content .content_area section .con_box_2 ul{
     display: flex;
     gap: 35px;
 }
 
-#content .global_area ul .global_pic{
+#content .content_area section .con_box_2 ul .global_pic{
     border-radius: 50px;
 }
 
 /* --------------------------------------------------------------------------- */
-/* global_vision 영역 */
-#content .global_vision .center{
+/* con_box_3 영역 */
+#content .content_area section .con_box_3 .center{
     text-align: center;
 }
 
-#content .global_vision .vision_pic{
+#content .content_area section .con_box_3 .vision_pic{
     display: block;
     margin: 0 auto 50px auto;
 }

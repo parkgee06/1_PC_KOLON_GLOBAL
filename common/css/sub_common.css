@@ -62,14 +62,14 @@
 }
 
 #content .sub_head {
-    font-size: 2rem;
+    font-size: 1.38rem;
     font-weight: 400;
     margin: 50px auto;
     width: 1200px;
     text-align: center;
 }
 #content .main_text {
-    font-size: 1.35rem;
+    font-size: 1.13rem;
     text-align: justify;
     font-weight: 400;
     /* width: 1200px; */
