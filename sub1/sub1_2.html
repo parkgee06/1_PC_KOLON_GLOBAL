@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>회사소개-기업연혁</title>
+        <link rel="stylesheet" href="../common/css/aos.css">
         <link rel="stylesheet" href="../common/css/common.css" />
         <link rel="stylesheet" href="../common/css/sub_common.css" />
         <link rel="stylesheet" href="./common/css/sub1common.css" />
@@ -42,17 +43,18 @@
 
         <!-- 본문시작 -->
         <article id="content">
-            <section class="content_area">
-                <div class="title_area">
-                    <div class="line_map">
-                        home &gt; 회사소개 &gt; <strong>기업연혁</strong>
-                    </div>
-                    <h2>기업연혁</h2>
+            <div class="title_area">
+                <div class="line_map">
+                    home &gt; 회사소개 &gt; <strong>기업연혁</strong>
                 </div>
+                <h2>기업연혁</h2>
+            </div>
+            <div class="content_area">
+                <section>
                 <div class="sub_title_area">
                     <h3>걸어온 길</h3>
                     <span class="head3_en">KOLON GLOBAL'S HISTORY</span>
-                    <p class="sub_head">
+                    <p class="sub_head"  data-aos="fade-up" data-aos-duration="500">
                         코오롱글로벌의 더 나은 내일을 위한 도전과 혁신의 역사
                     </p>
                 </div>
@@ -1076,6 +1078,7 @@
                     </div>
                 </div>
             </section>
+            </div>
         </article>
 
         <? include '../common/sub_footer.html' ?>
@@ -1086,5 +1089,8 @@
         <script src="../common/js/fullnav.js"></script>
         <script src="./js/scroll.js"></script>
         <script src="../common/js/aos.js"></script>
+        <script> 
+            AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+        </script>
     </body>
 </html>
