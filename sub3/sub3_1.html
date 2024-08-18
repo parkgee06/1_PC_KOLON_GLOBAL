@@ -49,7 +49,7 @@
         <h2>네트워크</h2>
     </div>
 
-    <div class="content_area">
+    <div class="content_area slideMenu">
         <section class="network">
                 <h3>글로벌 네트워크</h3>
                 <span class="head3_en">GlOBAL NETWORK</span>
@@ -62,23 +62,21 @@
                 <!-- 중간버튼 -->
                 <div class="tab_menu_all">
                     <ul class="tab_menu">
-                        <li><a href="#">중국</a></li>
-                        <li><a href="#">일본</a></li>
-                        <li><a href="#">홍콩</a></li>
-                        <li><a href="#">베트남</a></li>
-                    <!-- </ul>
-                    <ul class="tab_menu"> -->
-                        <li><a href="#">인도네시아</a></li>
-                        <li><a href="#">태국</a></li>
-                        <li><a href="#">영국</a></li>
-                        <li><a href="#">미국</a></li>
-                        <li><a href="#">이탈리아</a></li>
+                        <li><a class="link1" href="#">중국</a></li>
+                        <li><a class="link2" href="#">일본</a></li>
+                        <li><a class="link3" href="#">홍콩</a></li>
+                        <li><a class="link4" href="#">베트남</a></li>
+                        <li><a class="link5" href="#">인도네시아</a></li>
+                        <li><a class="link6" href="#">태국</a></li>
+                        <li><a class="link7" href="#">영국</a></li>
+                        <li><a class="link8" href="#">미국</a></li>
+                        <li><a class="link9" href="#">이탈리아</a></li>
                     </ul>
                 </div>
 
     <!-- 본문 -->
     <!-- 중국 -->
-    <section class="nation_name">
+    <section class="nation_name con1">
         <h4>중국<span>china</span></h4>
         <img src="./images/flag_china.png" alt="">
         <div>
@@ -112,7 +110,7 @@
     </section>
 
     <!-- 일본 -->
-    <section class="nation_name">
+    <section class="nation_name con2">
         <h4>일본<span>japan</span></h4>
         <img src="./images/flag_japan.png" alt="">
         <div>
@@ -142,7 +140,7 @@
     </section>
 
     <!-- 홍콩 -->
-    <section class="nation_name">
+    <section class="nation_name con3">
         <h4>홍콩<span>honkong</span></h4>
         <img src="./images/flag_honkong.png" alt="">
         <div>
@@ -168,7 +166,7 @@
     </section>
 
     <!-- 베트남 -->
-    <section class="nation_name">
+    <section class="nation_name con4">
         <h4>베트남<span>vietnam</span></h4>
         <img src="./images/flag_vietnam.png" alt="">
         <div>
@@ -197,7 +195,7 @@
     </section>
 
     <!-- 인도네시아 -->
-    <section class="nation_name">
+    <section class="nation_name con5">
         <h4>인도네시아<span>indonesia</span></h4>
         <img src="./images/flag_indonesia.png" alt="">
         <div>
@@ -223,7 +221,7 @@
     </section>
 
     <!-- 태국 -->
-    <section class="nation_name">
+    <section class="nation_name con6">
         <h4>태국<span>thailand</span></h4>
         <img src="./images/flag_thailand.png" alt="">
         <div>
@@ -250,7 +248,7 @@
 
     
     <!-- 영국 -->
-    <section class="nation_name">
+    <section class="nation_name con7">
         <h4>영국<span>United Kindom</span></h4>
         <img src="./images/flag_united.png" alt="">
         <div>
@@ -268,7 +266,7 @@
     </section>
 
     <!-- 미국 -->
-    <section class="nation_name">
+    <section class="nation_name con8">
         <h4>미국<span>United States</span></h4>
         <img src="./images/flag_united.png" alt="">
         <div>
@@ -286,7 +284,7 @@
     </section>
 
     <!-- 이탈리아 -->
-    <section class="nation_name">
+    <section class="nation_name con9">
         <h4>이탈리아<span>italy</span></h4>
         <img src="./images/flag_italy.png" alt="">
         <div>
@@ -308,5 +306,14 @@
 
 
 <? include '../common/sub_footer.html' ?>
+<script src="../common/js/jquery-1.8.3.min.js"></script>
+<script src="./js/slide_move.js"></script>
+<script src="../common/js/aos.js"></script>
+<script> 
+    AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+</script>
+<!-- <div class="text"
+style="position: fixed; right: 0; top:50%; font-size: 30px">0</div> -->
+
 </body>
 </html>
