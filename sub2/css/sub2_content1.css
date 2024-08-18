@@ -3,6 +3,9 @@
     margin: 0 auto 80px auto;
     position: relative;
 }
+#content .content_area .contlist {
+    margin: 80px 0;
+}
 
 
 #content .content_area h4 {
