@@ -3,6 +3,11 @@
     margin: 0 auto;
     /* border: 1px solid red; */
 }
+
+#content .content_area .contlist {
+    margin: 80px 0;
+}
+
 #content .content_area h4 {
     text-align: center;
     margin-bottom: 8px;
