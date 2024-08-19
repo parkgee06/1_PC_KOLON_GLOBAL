@@ -68,7 +68,7 @@
     width: 1200px;
     margin: 0 auto;
     position: relative;
-    height: 400px;
+    height: 380px;
     overflow:hidden;
 }
 
@@ -77,12 +77,12 @@
     right: 0;
     top: 20px;
 }
-#content .title_area h2{
+/* #content .title_area h2{
     font-size: 3.5rem;
     text-align: center;
     margin-top: 150px;
     position: relative;
-}
+} */
 
 /* #content .title_area h2::after{
     content: '';

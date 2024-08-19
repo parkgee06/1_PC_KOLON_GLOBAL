@@ -22,10 +22,10 @@
 #content .content_area{width: 1200px; margin: 0 auto; position: relative;}
 
 /* title_area 영역 */
-#content .title_area{height: 400px; position: relative;}
+#content .title_area{height: 380px; position: relative;}
 #content .title_area .line_map{position: absolute; right: 0; top: 20px; }
-#content .title_area h2{font-size: 3.5rem; text-align: center; margin-top: 150px; position: relative;}
-#content .title_area h2::after{content: ''; display: block; width: 3px; height: 80px; background: #ED1B2E; position: absolute; top: 120px; left: 50%;}
+/* #content .title_area h2{font-size: 3.5rem; text-align: center; margin-top: 150px; position: relative;} */
+/* #content .title_area h2::after{content: ''; display: block; width: 3px; height: 80px; background: #ED1B2E; position: absolute; top: 120px; left: 50%;} */
 
 
 
