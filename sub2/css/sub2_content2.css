@@ -77,7 +77,12 @@
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
+    /* animation: ani 30s linear infinite; */
 }
+/* @keyframes ani {
+    from {transform: scale(1);}
+    to {transform: scale(1.1);}
+} */
 
 #content .content_area .chemical_2 .con_back {
     background: url(../images/content2/chemical_2.jpg) 50% 50% no-repeat;
@@ -146,6 +151,11 @@
     object-fit: fill;
     border-radius: 20px;
     object-position: center;
+    transition: all ease .3s;
+}
+
+#content .content_area .pic ul li img:hover {
+    transform: scale(1.1);
 }
 
 /* ----- sub2 파랑 박스 공통----- */
