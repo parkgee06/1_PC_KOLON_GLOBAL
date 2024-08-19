@@ -13,6 +13,11 @@
     margin-bottom: 120px;
 }
 
+#content .content_area .main_text {
+    margin-top: 50px;
+    text-align: justify;
+
+}
 
 /* ESG - 환경 본문 내용 css */
 
@@ -101,16 +106,28 @@
 /* ---- 환경방침 ---- */
 #content .content_area .environ_policy .policy_con{
     margin-top: 50px;
+    display: flex;
+    gap: 20px;
 }
 
-#content .content_area .environ_policy .policy_con div:not(:nth-of-type(3)){
+/* #content .content_area .environ_policy .policy_con div:not(:nth-of-type(3)){
     float: left;
-    margin-right: 30px;
-}
+    margin-right: 20px;
+} */
+
+/* #content .content_area .environ_policy .policy_con div{
+    border: 1px solid red;
+} */
 
 #content .content_area .environ_policy .policy_con p{
     text-align: center;
-    margin-top: 8px;
+    margin-top: 10px;
+    color: #007AC3;
+    padding: 3px 18px;
+    border: 1px solid #007AC3;
+    border-radius: 20px;
+    font-size: .85;
+    /* width: 30%; */
     /* border: 1px solid red; */
 }
 
