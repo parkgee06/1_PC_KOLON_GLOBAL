@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ESG-ESG 경영</title>
+    <link rel="stylesheet" href="../common/css/aos.css">
     <link rel="stylesheet" href="../common/css/common.css">
     <link rel="stylesheet" href="../common/css/sub_common.css">
     <link rel="stylesheet" href="./common/css/sub4common.css">
@@ -58,20 +59,20 @@
                 <p class="sub_head">
                     지속 가능한 미래를 향한 길, 코오롱글로벌이 열어갑니다.
                 </p>
-                <p class="main_text">
+                <p class="main_text" data-aos="fade-up" data-aos-duration="400">
                     코오롱글로벌은 기업의 사회적 가치 추구가 회사와 우리 사회 전체의 지속 가능한 성장을 위해 필요하다는 것을 명확히 인지하고 있습니다. 경영 전반에 걸쳐 ESG에 기반한 정책과 전략을 수립 및 운영하고, 사회적 요구 이상의 철저한 관리와 투명한 정보 공개를 시행함으로써 건강한 미래 사회 창조에 기여하겠습니다.
                 </p>
                 <div class="tab_menu">
                     <ul>
-                        <li><a href="./sub4_2.html"><div>E</div>Environment</a></li>
-                        <li><a href="./sub4_3.html"><div>S</div>Social</a></li>
-                        <li><a href="./sub4_4.html"><div>G</div>Governance</a></li>
+                        <li data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="800"><a href="./sub4_2.html"><div>E</div>Environment</a></li>
+                        <li data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="200" data-aos-duration="1000"><a href="./sub4_3.html"><div>S</div>Social</a></li>
+                        <li data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-delay="200" data-aos-duration="1200"><a href="./sub4_4.html"><div>G</div>Governance</a></li>
                     </ul>
                 </div>
             </div>
             <div class="esg_strategy">
                 <h4>ESG 전략<i class="fa-solid fa-leaf"></i></h4>
-                <p class="main_text">
+                <p class="main_text" data-aos="fade-up" data-aos-duration="400">
                     환경(E), 사회(S), 지배구조(G) 각 영역의 전략 방향과 목표 등을 담은 ESG 경영전략을 수립하고, ESG 경영을 회사의 비전 달성을 위한 최우선 과제로 실천하고 있습니다. 미래 세대를 위해 환경 친화 경영을 고도화하고, 구성원ᆞ고객ᆞ협력사ᆞ지역 사회 등 모든 이해관계자와 동반성장을 할 수 있도록 사회적 책임을 강화하며, 공정하고 투명한 경영 환경을 조성함으로써 지속 가능한 성장동력을 확보해 나가겠습니다.
                 </p>
                 <div class="future_img">
@@ -143,5 +144,9 @@
     </article>
     
     <? include '../common/sub_footer.html' ?>
+    <script src="../common/js/aos.js"></script>
+    <script> 
+        AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+    </script>
 </body>
 </html>
