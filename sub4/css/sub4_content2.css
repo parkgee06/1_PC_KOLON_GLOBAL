@@ -41,7 +41,7 @@
 #content .content_area .main_img{
     display: block;
     text-align: center;
-    margin: 80px auto;
+    margin: 80px auto 150px auto;
     width: 800px;
     height: auto;
 }
@@ -74,7 +74,51 @@
     width: 100%;
     position: relative;
 }
+#content .content_area .green_2023 .green_txt{
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+#content .content_area .green_2023 .green_txt ul{
+    width: 272px;
+    position: absolute;
+    top: 170px;
+}
 
+#content .content_area .green_2023 .green_txt ul li:not(:nth-child(1)){
+    margin: 0 10px 0 40px;
+}
+
+#content .content_area .green_2023 .green_txt .txt_01{
+    background: url(../images/content2/environ_1.png) no-repeat;
+    background-position: center;
+    width: 272px;
+    height: 390px;
+    /* border: 1px solid red; */
+}
+
+
+#content .content_area .green_2023 .green_txt .txt_02{
+    background: url(../images/content2/environ_2.png) no-repeat;
+    background-position: center;
+    width: 272px;
+    height: 390px;
+}
+#content .content_area .green_2023 .green_txt .txt_03{
+    background: url(../images/content2/environ_3.png) no-repeat;
+    background-position: center;
+    width: 272px;
+    height: 390px;
+}
+#content .content_area .green_2023 .green_txt .txt_04{
+    background: url(../images/content2/environ_4.png) no-repeat;
+    background-position: center;
+    width: 272px;
+    height: 390px;
+}
+
+
+/* 
 #content .content_area .green_2023 .green_img{
     display: flex;
     justify-content: space-between;
@@ -83,7 +127,6 @@
 #content .content_area .green_2023 .green_txt{
     display: flex;
     gap: 60px;
-    /* border: 1px solid blue; */
     width: 97%;
     position: absolute;
     top: 265px;
@@ -92,9 +135,8 @@
 }
 
 #content .content_area .green_2023 .green_txt .txt_01{
-    /* border: 1px solid red; */
     width: 25%;
-}
+} */
 
 
 #content .content_area .green_2023 .green_txt li:not(:nth-of-type(1)){
