@@ -66,14 +66,23 @@
 
 #content .content_area div .tab_menu ul li:nth-of-type(1){
     background: url(../images/content1/esg_btn_1.png);
+    filter: grayscale(1);
 }
 
 #content .content_area div .tab_menu ul li:nth-of-type(2){
     background: url(../images/content1/esg_btn_2.png);
+    filter: grayscale(1);
 }
 
 #content .content_area div .tab_menu ul li:nth-of-type(3){
     background: url(../images/content1/esg_btn_3.png);
+    filter: grayscale(1);
+}
+
+#content .content_area div .tab_menu ul li:nth-of-type(1):hover,
+#content .content_area div .tab_menu ul li:nth-of-type(2):hover,
+#content .content_area div .tab_menu ul li:nth-of-type(3):hover{
+    filter: none;
 }
 
 #content .content_area div .tab_menu ul li a{
@@ -222,9 +231,6 @@
     transform: translateX(-50%);
     top: 160px;
 }
-
-
-
 #content .content_area .future_img .esg_bottom .esg_05{
     background: url(../images/content1/esg_05.png) no-repeat;
     background-position: center;
@@ -236,45 +242,27 @@
 }
 
 
-/* #content .content_area .future_img{
-    position: relative;
-}
-
-#content .content_area .future_01{
-    position: absolute;
-    top: 70%;
-    left: 110px;
-}
-
-#content .content_area .future_02{
-    position: absolute;
-    top: 70%;
-    left: 465px;
-}
-
-#content .content_area .future_03{
-    position: absolute;
-    top: 70%;
-    right: 170px;
-}
-
-#content .content_area .future li:not(:nth-of-type(1)){
-    margin-left: 30px;
-    list-style: disc;
-} */
-
 #content .content_area{
     margin-bottom: 50px;
 }
 
 #content .content_area .emble_01{
     display: flex;
-    gap: 10px;
+    gap: 45px;
     justify-content: center;
 }
 
 #content .content_area .emble_01 li{
-    width: 24%;
+    width: 22%;
+}
+
+#content .content_area .emble_01 li img{
+    transform: rotateY(0);
+    transition: all 1s;
+}
+
+#content .content_area .emble_01 li:hover img{
+    transform: rotateY(360deg);
 }
 
 #content .content_area .emble_02{
