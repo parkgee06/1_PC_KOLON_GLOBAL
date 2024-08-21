@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>인재채용-인재상</title>
+    <link rel="stylesheet" href="../common/css/aos.css">
     <link rel="stylesheet" href="../common/css/common.css">
     <link rel="stylesheet" href="../common/css/sub_common.css">
     <link rel="stylesheet" href="./common/css/sub5common.css">
@@ -54,8 +55,8 @@
                 <p class="main_text">
                     One & Only는 코오롱인 각자가 가장 중요하게 여겨야 할 핵심가치를 담고 있습니다.<br>3Ways는 코오롱인의 의사결정 기준이며, 궁극적으로 달성해야 할 코오롱의 모습입니다.<br>9Practices는 코오롱인이 모든 일상 속에서 One & Only Way를 실현할 수 있는 구체적인 방법입니다.
                 </p>
-                <div class="con_item">
-                    <div class="con_01 con_txt">
+                <div class="con_item" data-aos="fade-up" data-aos-duration="600">
+                    <div class="con_01 con_txt"  >
                         <img src="./images/content1/human_resources_1_01.png" alt="">
                         <div class="txt_box">
                             <p>고객으로부터<br>가장 사랑받는 코오롱</p>
@@ -68,7 +69,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="con_02 con_txt">
+                    <div class="con_02 con_txt" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" >
                         <img src="./images/content1/human_resources_1_02.png" alt="">
                         <div class="txt_box">
                             <p>독특하고<br>차별화된 우리</p>
@@ -81,7 +82,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="con_03 con_txt">
+                    <div class="con_03 con_txt" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                         <img src="./images/content1/human_resources_1_03.png" alt="">
                         <div class="txt_box">
                             <p>최고의<br>경쟁력을 갖춘 나</p>
@@ -102,6 +103,9 @@
 
 <!-- footer 공통영역 -->
 <? include '../common/sub_footer.html' ?>
-
+<script src="../common/js/aos.js"></script>
+<script> 
+    AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+</script>
 </body>
 </html>
