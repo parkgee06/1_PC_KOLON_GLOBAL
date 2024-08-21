@@ -3,7 +3,9 @@
     width: 1200px;
     margin: 0 auto;
 }
-
+#content .content_area .list_tab_area{
+    margin-bottom: 80px;
+}
 /* #content .content_area .con{
     margin: 80px auto;
 } */
