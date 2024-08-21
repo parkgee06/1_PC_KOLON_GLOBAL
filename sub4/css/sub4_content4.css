@@ -10,20 +10,20 @@
 }
 
 #content .content_area .sub_head span{
-    font-size: 1.6rem;
+    font-size: 1.1rem;
     font-weight: 300;
 }
 
 #content .content_area .main_text {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 #content h4{
     text-align: center;
     display: block;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 #content .content_area .content_1 table {
     width: 100%;
@@ -58,6 +58,10 @@
     gap: 30px;
     margin-top: 35px;
 }
+
+#content .content_area .content_2 .con_sec .txt_sec{
+    width: 50%;
+}
 #content .content_area .content_2 .con_sec .txt_sec p{
     background: #007AC3;
     border-radius: 20px 0 0 0;
@@ -71,7 +75,7 @@
 #content .content_area .content_2 .con_sec .txt_sec>ol{
     list-style:decimal;
     border: 1px solid #ccc;
-    padding: 30px 22px 50px 50px;
+    padding: 30px 22px 80px 50px;
     height: 420px;
 }
 

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ESG-지배구조</title>
+    <link rel="stylesheet" href="../common/css/aos.css">
     <link rel="stylesheet" href="../common/css/common.css">
     <link rel="stylesheet" href="../common/css/sub_common.css">
     <link rel="stylesheet" href="./common/css/sub4common.css">
@@ -43,7 +44,7 @@
     <article id="content">
         <div class="title_area">
             <div class="line_map">
-                home &gt; ESG &gt; <strong>환경</strong>
+                home &gt; ESG &gt; <strong>지배구조</strong>
             </div>
             <h2>ESG</h2>
         </div>
@@ -57,10 +58,10 @@
             </div>
             <div class="content_1 con">
                 <h4>주주가치 제고</h4>
-                <p>
+                <p class="main_text">
                     코오롱글로벌은 주주가치 제고를 위하여 2016 년 이후 지속적으로 배당을 실시해 왔습니다 당사는 4개년도 연속 2019 년도 3 분기 2020 년도 3 분기 2021 년도 3 분기 2022 년도 3 분기 분기 배당을 실시하였습니다.
                 </p>
-                <table>
+                <table data-aos="fade-up">
                     <thead>
                         <tr>
                             <th scope="col" colspan="2">구분</th>
@@ -153,11 +154,11 @@
             </div>
             <div class="content_2 con">
                 <h4>윤리규범 준수</h4>
-                <p>
+                <p class="main_text">
                     코오롱글로벌은 코오롱 윤리규범 및 코오롱 임직원 윤리 행동 지침을 준수하고 있습니다.
                 </p>
                 <div class="con_sec">
-                    <div class="con_01 txt_sec">
+                    <div class="con_01 txt_sec" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                         <p>코오롱 윤리규범</p>
                         <ol>
                             <li>고객에 대한 존중</li>
@@ -183,7 +184,7 @@
                             </ul>
                         </ol>
                     </div>
-                    <div class="con_02 txt_sec">
+                    <div class="con_02 txt_sec" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                         <p>코오롱 임직원 윤리행동 지침</p>
                         <ol>
                             <li>정직하고 투명한 경영 활동</li>
@@ -217,5 +218,10 @@
     </article>
     
     <? include '../common/sub_footer.html' ?>
+    <script src="../common/js/aos.js"></script>
+    <script> 
+        AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+    </script>
+
 </body>
 </html>
