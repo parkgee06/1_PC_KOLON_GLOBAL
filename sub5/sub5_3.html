@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>인재채용-채용안내</title>
+    <link rel="stylesheet" href="../common/css/aos.css">
     <link rel="stylesheet" href="../common/css/common.css">
     <link rel="stylesheet" href="../common/css/sub_common.css">
     <link rel="stylesheet" href="./common/css/sub5common.css">
@@ -53,19 +54,19 @@
             <div class="content_1 con">
                 <h3>채용안내</h3>
                 <span class="head3_en">One & only</span>
-                <p class="sub_head">
+                <!-- <p class="sub_head">
                     전형절차
-                </p>
-                <p>
+                </p> -->
+                <p class="sub_head">
                     코오롱은 지원자가 보유하고 있는 자질과 역량을 정확하기 파악하기 위한 다양한 선발도구를 인재선발 시 활용하고 있습니다.
                 </p>
                 <div class="con_item">
-                    <div class="con_01 con_txt">
+                    <div class="con_01 con_txt" data-aos="fade-up" data-aos-easing="linear">
                         <img src="./images/content3/human_resources_3_1.png" alt="">
                         <div>
                             <dl>
                                 <dt>STEP 01</dt>
-                                <dd><h4>서류심사</h4></dd>
+                                <dd>서류심사</dd>
                             </dl>
                             <p>지원자격/기본소양검증</p>
                             <ul>
@@ -75,12 +76,12 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="con_02 con_txt">
+                    <div class="con_02 con_txt" data-aos="fade-up" data-aos-easing="linear">
                         <img src="./images/content3/human_resources_3_2.png" alt="">
                         <div>
                             <dl>
                                 <dt>STEP 02</dt>
-                                <dd><h4>인적성 검사</h4></dd>
+                                <dd>인적성 검사</dd>
                             </dl>
                             <ul>
                                 <li>자신의 역량을 충분히 발휘할 수 있도록 긴장을 풀고 Test에 임하는 것이 좋습니다.</li>
@@ -89,12 +90,12 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="con_03 con_txt">
+                    <div class="con_03 con_txt" data-aos="fade-up" data-aos-easing="linear">
                         <img src="./images/content3/human_resources_3_3.png" alt="">
                         <div>
                             <dl>
                                 <dt>STEP 03</dt>
-                                <dd><h4>1차 면접</h4></dd>
+                                <dd>1차 면접</dd>
                             </dl>
                             <p>실무중심의 면접</p>
                             <ul>
@@ -103,12 +104,12 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="con_04 con_txt">
+                    <div class="con_04 con_txt" data-aos="fade-up" data-aos-easing="linear">
                         <img src="./images/content3/human_resources_3_4.png" alt="">
                         <div>
                             <dl>
                                 <dt>STEP 04</dt>
-                                <dd><h4>2차 면접</h4></dd>
+                                <dd>2차 면접</dd>
                             </dl>
                             <p>임원면접</p>
                             <ul>
@@ -119,24 +120,24 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="con_05 con_txt">
+                    <div class="con_05 con_txt" data-aos="fade-up" data-aos-easing="linear">
                         <img src="./images/content3/human_resources_3_5.png" alt="">
                         <div>
                             <dl>
                                 <dt>STEP 05</dt>
-                                <dd><h4>채용검진</h4></dd>
+                                <dd>채용검진</dd>
                             </dl>
                             <ul>
                                 <li>면접 전형에서 합격하신 분에 한해 지정된 기관에서 건강 검진을 실시합니다.</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="con_06 con_txt">
+                    <div class="con_06 con_txt" data-aos="fade-up" data-aos-easing="linear">
                         <img src="./images/content3/human_resources_3_6.png" alt="">
                         <div>
                             <dl>
                                 <dt>STEP 06</dt>
-                                <dd><h4>최종합격</h4></dd>
+                                <dd>최종합격</dd>
                             </dl>
                             <ul>
 								<li>합격자 발표는 최종 합격자에게 개별적으로 안내됩니다.</li>
@@ -153,6 +154,10 @@
     </article>
  <!-- footer 공통영역 -->
  <? include '../common/sub_footer.html' ?>
+ <script src="../common/js/aos.js"></script>
+ <script> 
+     AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+ </script>
 
 </body>
 </html>
