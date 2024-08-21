@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>인재채용-인사제도</title>
     <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="../common/css/aos.css">
     <link rel="stylesheet" href="../common/css/sub_common.css">
     <link rel="stylesheet" href="./common/css/sub5common.css">
     <link rel="stylesheet" href="./css/sub5_content2.css">
@@ -58,11 +59,11 @@
             </p>
             <div class="con_item">
                 <ul>
-                    <li>주임<span>3년</span></li>
-                    <li>대리<span>5년</span></li>
-                    <li>과장<span>5년</span></li>
-                    <li>차장<span>5년</span></li>
-                    <li>부장<span>5년</span></li>
+                    <li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">주임<span>3년</span></li>
+                    <li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">대리<span>5년</span></li>
+                    <li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">과장<span>5년</span></li>
+                    <li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">차장<span>5년</span></li>
+                    <li data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">부장<span>5년</span></li>
                 </ul>
                 <img src="./images/content2/human_resources_2.png" alt="">
                 <p>승진 point제도를 운영하여 개인인사평가에 따라 성과우수자에 대해서는 조기 성장 기회를 부여하고 있습니다.</p>
@@ -71,11 +72,11 @@
         <div class="content_2 con">
             <h3>급여&포상제도</h3>
             <span class="head3_en">KOLON Reward Program</span>
-            <p class="p1">
+            <p class="sub_head">
                 본인 및 조직의 성과에 따라 보상하는 성과주의 급여체제를 실행하고 있으며, 경영성과에 대한 수익을 개인 및 조직별 성과에 따라 차별적으로 지급하고 있습니다.
             </p>
             <div class="con_item">
-                <ul>
+                <ul data-aos="fade-right">
                     <li>
                         <img src="./images/content2/human_resources_2_icon_1.png" alt="">
                         <p>급여제도</p>
@@ -84,7 +85,7 @@
                         개인의 능력과 업적에 따른 연봉제와 이익배분제(ProfitSharing)를 실시하고 있습니다.
                     </li>
                 </ul>
-                <ul>
+                <ul data-aos="fade-left">
                     <li>
                         <img src="./images/content2/human_resources_2_icon_2.png" alt="">
                         <p>포상제도</p>
@@ -98,7 +99,7 @@
         <div class="content_3 con">
             <h3>복리후생제도</h3>
             <span class="head3_en">KOLON Benefits System</span>
-            <div class="con_01 con_txt">
+            <div class="con_01 con_txt" data-aos="fade-up">
                 <div class="head_box"><p>자기계발 및<br>교육훈련지원</p></div>
                 <div class="txt_box">
                     <ul>
@@ -118,7 +119,7 @@
                 </div>
             </div>
 
-            <div class="con_02 con_txt">
+            <div class="con_02 con_txt"  data-aos="fade-up">
                 <div class="head_box"><p>생활지원</p></div>
                 <div class="txt_box">
                     <ul>
@@ -140,7 +141,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="con_03 con_txt">
+            <div class="con_03 con_txt"  data-aos="fade-up">
                 <div class="head_box"><p>여가 및<br>건강 지원</p></div>
                 <div class="txt_box">
                     <ul>
@@ -164,6 +165,10 @@
     </article>
  <!-- footer 공통영역 -->
  <? include '../common/sub_footer.html' ?>
+ <script src="../common/js/aos.js"></script>
+<script> 
+    AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
+</script>
 
 </body>
 </html>
