@@ -1,26 +1,24 @@
-function adjustElements() {
-    let scrollY = window.scrollY || window.pageYOffset;
-    let bgScale = 7 / 15000 * scrollY + 0.5;  // 초기 크기를 0.5로 설정
-    let titleScale = -1/25 * scrollY + 100;
-    let titleTop = -7/250 * scrollY + 50;
-    let titleLeft = -19/750 * scrollY + 50;
+let scalevalue = 0.5;
+let leftvalue = 50;
+const finalLeftValue = 32; // 최종적으로 고정될 왼쪽 위치 (%)
+const scrollDistance = 500; // 스크롤해야 할 거리
 
-    document.querySelector('.bg').style.transform = `translate(-50%, -50%) scale(${bgScale})`;
+$(window).on('scroll', function() {
+    var scroll = $(window).scrollTop();
+    let esgtop = $('#content .esg').offset().top;
 
-    if (titleScale >= 50) { // 폰트 크기 최소값을 50%로 설정
-        document.querySelector('.title').style.fontSize = `${titleScale}%`;
+    if (scroll > esgtop - 500) {
+        // 배경 이미지 스케일 계산
+        scalevalue = 0.5 + ((scroll - (esgtop - 500)) / 1000);
+        if (scalevalue < 1.1) {
+            $('#content .esg .wrap .bg').css('transform', 'scale(' + scalevalue + ')');
+        }
+
+        // 제목 위치 계산
+        let scrollProgress = Math.min((scroll - (esgtop - 500)) / scrollDistance, 1);
+        leftvalue = 50 - (50 - finalLeftValue) * scrollProgress;
+
+        // 제목 위치 적용
+        $('#content .esg .wrap .title').css('left', leftvalue + '%');
     }
-
-    if (titleTop >= 8) {
-        document.querySelector('.title').style.top = `${titleTop}%`;
-    }
-
-    if (titleLeft >= 12) {
-        document.querySelector('.title').style.left = `${titleLeft}%`;
-    }
-}
-
-window.addEventListener('scroll', adjustElements);
-
-// 페이지 로드 시에도 adjustElements 함수를 호출하여 초기 상태를 설정
-window.addEventListener('load', adjustElements);
+});
