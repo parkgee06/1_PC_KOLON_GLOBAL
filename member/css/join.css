@@ -3,9 +3,9 @@ body{
     font-size: .95rem;
 }
 h1 a{
-    margin: 50px auto 0; display: block; width: 184px;
-    height: 35px; text-indent: -9999px; overflow: hidden;
-    background: url(http://cjstkapfhddl.cafe24.com/common/images/logo_footer.png) center no-repeat;
+    margin: 50px auto 0; display: block; width: 298px;
+    height: 27px; text-indent: -9999px; overflow: hidden;
+    background: url(../../common/images/logo_03.png) center no-repeat;
 }
 #content{
     width: 750px;
