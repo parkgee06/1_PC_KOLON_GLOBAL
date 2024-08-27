@@ -779,8 +779,11 @@
   color: #fff;width:366px ; height: 239px;
   position: absolute; bottom:0; left:0; transition: all .5s;
 }
-#content .notice ul li div h4{
-  font-size:2em;margin:110px 0 5px 30px;
+#content .notice ul li div .btn{
+  font-size:2em;
+  margin:110px 0 5px 30px;
+  font-weight: 600;
+  /* line-height: 1.1rem; */
 }
 #content .notice ul li div p{
   margin: 0 0 0 30px; font-size: 1rem;
@@ -790,7 +793,7 @@
   padding-left:120px; box-sizing: border-box;
   background:url(../mainimages/notice_youtube_13_button.png) 30px 100px no-repeat;
 }
-#content .notice .notice_left li:first-child div h4{
+#content .notice .notice_left li:first-child div .btn{
   font-weight: 400;
   line-height: 1.1em;
 }
@@ -800,12 +803,12 @@
 }
 #content .notice .notice_left li:first-child:hover div{
   background:#ffcbb6 url(../mainimages/notice_youtube_13_button2.png) 30px 100px no-repeat;}
-#content .notice li:hover div h4{
+#content .notice li:hover div .btn{
   background: url(../mainimages/ico.png) 140px 15px no-repeat;
 }
-#content .notice .notice_left li:hover div h4{background:none;
+#content .notice .notice_left li:hover div .btn{background:none;
 }
-#content .notice .notice_left li:last-child:hover div h4{
+#content .notice .notice_left li:last-child:hover div .btn{
   background: url(../mainimages/ico.png) 170px 15px no-repeat;
 }
 
