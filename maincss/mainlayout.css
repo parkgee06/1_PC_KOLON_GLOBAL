@@ -198,7 +198,7 @@
   text-align: center;
 }
 
-#content .info .about li dt p{
+#content .info .about li dt h4{
   letter-spacing: 3px;
   font-size: 1.5rem;
   margin: 20px 40px;
@@ -217,7 +217,7 @@
   color: #fff;
 }
 
-#content .info .about li:hover dt p::before{
+#content .info .about li:hover dt h4::before{
   content: "";
   width: 120%;
   border-bottom: 2px solid #fff;
@@ -699,16 +699,19 @@
   overflow: hidden;
   text-align: center;
 }
-#content .recruit .recruit_item ul li a dl dt{
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin: 205px auto 20px auto;
+#content .recruit .recruit_item ul li a dl dt {
   color: #fff;
-  position: relative;
   text-align: center;
   transition: all .4s ease-out;
+  position: relative;
+  margin: 205px auto 20px auto;
+}
+#content .recruit .recruit_item ul li a dl dt h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 #content .recruit .recruit_item ul li:hover a dl dt{
+  /* margin: 205px auto 20px auto; */
   margin-top: 100px;
   color: #ee1b2e;
 }
@@ -727,10 +730,10 @@
   top: -200px;
   opacity: 0;
 }
+/* #content .recruit .recruit_item ul li a i{
+} */
 #content .recruit .recruit_item ul li a i{
   color: #ee1b2e;
-}
-#content .recruit .recruit_item ul li a i{
   font-size: 40px;
   text-align: center;
   position: absolute;
