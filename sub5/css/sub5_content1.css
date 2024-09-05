@@ -1,7 +1,7 @@
 /* 인사채용 - 인사제도 실제 본문 내용 css */
 
 #content .content_area{
-    overflow: hidden;
+    /* overflow: hidden; */
     text-align: center;
     width: 1200px;
     margin: 0 auto;
