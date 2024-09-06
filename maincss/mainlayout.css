@@ -198,7 +198,7 @@
   text-align: center;
 }
 
-#content .info .about li dt h4{
+#content .info .about li dt p{
   letter-spacing: 3px;
   font-size: 1.5rem;
   margin: 20px 40px;
@@ -217,7 +217,7 @@
   color: #fff;
 }
 
-#content .info .about li:hover dt h4::before{
+#content .info .about li:hover dt p::before{
   content: "";
   width: 120%;
   border-bottom: 2px solid #fff;
@@ -653,7 +653,7 @@
   text-align: center;
   color: #fff;
 }
-#content .recruit p{
+#content .recruit div div>p{
   text-align: center;
   color: #fff;
 }
@@ -661,19 +661,19 @@
   position: relative;
   z-index: 1;
 }
-#content .recruit .recruit_item{
+#content .recruit div .recruit_item{
   width: 1200px;
   margin: 0 auto;
   overflow: hidden;
   /* border: 1px solid red; */
 }
-#content .recruit .recruit_item ul{
+#content .recruit div .recruit_item ul{
   display: flex;
   overflow: hidden;
   margin-top: 50px;
   justify-content: center;
 }
-#content .recruit .recruit_item ul li{
+#content .recruit div .recruit_item ul li{
   /* border: 1px solid yellow; */
   width: 25%;
   height: 300px;
@@ -683,18 +683,18 @@
   overflow: hidden;
   transition: all .4s ease-out;
 }
-#content .recruit .recruit_item ul li::before{
+#content .recruit div .recruit_item ul li::before{
   content: ""; display: block;
   width: 300px;
   height: 4px; background: #fff;
 }
-#content .recruit .recruit_item ul li:hover{
+#content .recruit div .recruit_item ul li:hover{
   background: #eff0f3;
 }
-#content .recruit .recruit_item ul li:hover::before{
+#content .recruit div .recruit_item ul li:hover::before{
   background: #ee1b2e;
 }
-#content .recruit .recruit_item ul li a dl{
+#content .recruit div .recruit_item ul li a dl{
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -706,16 +706,18 @@
   position: relative;
   margin: 205px auto 20px auto;
 }
-#content .recruit .recruit_item ul li a dl dt h4 {
+#content .recruit div .recruit_item ul li a dl dt p {
   font-size: 1.5rem;
   font-weight: 700;
+  /* display: inline-block; */
 }
-#content .recruit .recruit_item ul li:hover a dl dt{
+#content .recruit div .recruit_item ul li:hover a dl dt{
   /* margin: 205px auto 20px auto; */
   margin-top: 100px;
   color: #ee1b2e;
+  /* border: 1px solid blue; */
 }
-#content .recruit .recruit_item ul li a dl dt img{
+#content .recruit div .recruit_item ul li a dl dt img{
   display: block;
   /* margin: 0 auto 25px auto; */
   position: absolute;
@@ -725,14 +727,14 @@
   opacity: 1;
   transition: all .3s ease-out;
 }
-#content .recruit .recruit_item ul li:hover a dl dt img{
+#content .recruit div .recruit_item ul li:hover a dl dt img{
   position: absolute;
   top: -200px;
   opacity: 0;
 }
 /* #content .recruit .recruit_item ul li a i{
 } */
-#content .recruit .recruit_item ul li a i{
+#content .recruit div .recruit_item ul li a i{
   color: #ee1b2e;
   font-size: 40px;
   text-align: center;
@@ -741,14 +743,14 @@
   transform: translate(-50%) rotate(180deg);
   transition: all .4s ease-out; opacity: 0;
 }
-#content .recruit .recruit_item ul li:hover i{
+#content .recruit div .recruit_item ul li:hover i{
   top: -80px; opacity: 1;
 }
-#content .recruit .recruit_item ul li a dl dd{
+#content .recruit div .recruit_item ul li a dl dd{
   margin: 20px 40px 0; position: relative; z-index: 20; opacity: 0;
   transition: all .4s ease-out;
 }
-#content .recruit .recruit_item ul li:hover a dl dd{
+#content .recruit div .recruit_item ul li:hover a dl dd{
   opacity: 1;
 }
 
