@@ -6,7 +6,7 @@
     font-size: 1.3rem;
     text-align: left;
     font-weight: 500;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 #content .content_area strong{
@@ -30,7 +30,7 @@
     overflow: hidden;
 }
 
-#content .content_area>img{
+#content .content_area section>img{
     border: 1px solid #ccc;
     border-radius: 20px;
     margin-bottom: 105px;
@@ -48,6 +48,14 @@
     font-size: 2.5em;
 }
 
+#content .content_area dt p{
+    font-size: 2.75rem;
+    text-align: center;
+    position: relative;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 500;
+}
+
 #content .content_area dd{
     width: 930px;
     float: right;
@@ -61,7 +69,7 @@
     width: 935px;
     overflow:hidden;
     padding-left: 265px ;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 #content .content_area .logo_box li:first-child{
@@ -112,7 +120,7 @@
     margin-bottom: 20px;
 }
 
-#content .content_area .color p{
+#content .content_area .color dd p{
     line-height: 1.5em;
     font-size: 1rem;
     margin-bottom: 30px;
