@@ -53,16 +53,28 @@
     font-size: .75rem;
 }
 
-#content .content_area .content_2 .con_sec{
+#content .content_area .content_2 .con_txt{
     display: flex;
     gap: 30px;
     margin-top: 35px;
 }
 
-#content .content_area .content_2 .con_sec .txt_sec{
+#content .content_area .content_2 .con_txt .txt_sec{
     width: 50%;
+    margin: 20px auto;
+    border-radius: 20px 0 0 0;
+    border: 1px solid #ccc;
+    padding-bottom: 30px;
 }
-#content .content_area .content_2 .con_sec .txt_sec p{
+#content .content_area .content_2 .con_txt .txt_sec .item_box{
+    padding: 30px 25px 0px 50px;
+    /* list-style:decimal; */
+    /* border: 1px solid #ccc; */
+    /* border-radius: 20px 0 0 0; */
+    /* height: 420px; */
+}
+
+#content .content_area .content_2 .con_txt .txt_sec p{
     background: #007AC3;
     border-radius: 20px 0 0 0;
     color: #fff;
@@ -72,34 +84,31 @@
     font-size: 1.35rem;
 }
 
-#content .content_area .content_2 .con_sec .txt_sec>ol{
-    list-style:decimal;
-    border: 1px solid #ccc;
-    padding: 30px 22px 80px 50px;
-    height: 420px;
-}
-
-#content .content_area .content_2 .con_sec .txt_sec ol>li{
+#content .content_area .content_2 .con_txt .txt_sec>ul>li:nth-of-type(1){
     font-weight: 600;
     font-size: 1.1rem;
 }
-
-#content .content_area .content_2 .con_sec .txt_sec ol>li:nth-of-type(2){
-    margin-top: 40px;
+#content .content_area .content_2 .con_txt .txt_sec>ul>li:not(:nth-of-type(1)){
+    margin: 10px 0px 8px 10px;
+    list-style: disc;
 }
 
-#content .content_area .content_2 .con_sec .txt_sec ol>ul{
+#content .content_area .content_2 .con_txt .txt_sec>ul>li:nth-of-type(2){
+    margin-top: 20px;
+}
+
+#content .content_area .content_2 .con_txt .txt_sec ul{
     margin: 10px 0 0 10px;
     font-size: 1.05rem;
 
 }
 
-#content .content_area .content_2 .con_sec .txt_sec ol ul li{
+#content .content_area .content_2 .con_txt .txt_sec ul ul li{
     list-style: disc;
     margin-bottom: 8px;
 }
 
-#content .content_area .content_2 .con_sec .con_02 ol ul ul li{
+#content .content_area .content_2 .con_txt .con_02 ul ul>li{
     list-style: none;
     line-height: .85rem;
     font-size: .85rem;

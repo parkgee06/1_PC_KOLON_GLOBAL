@@ -257,27 +257,24 @@
 #content .content_area .con_text .main_text li{
     margin-bottom: 5px;
     line-height: 1.8rem;
-}
-
-#content .content_area .con_text .main_text li {
     display: flex;
 }
 
-#content .content_area .con_text .main_text li dt {
+#content .content_area .con_text .main_text li .tex1 {
     flex-shrink: 0;
     font-weight: 500;
     color: #333;
     display: inline-block;
 }
 
-#content .content_area .con_text .main_text li dd {
+#content .content_area .con_text .main_text li .tex2 {
     flex-grow: 1;
     margin-left: 0;
     text-indent: 0;
     position: relative;
 }
 
-#content .content_area .con_text .main_text li dd::after {
+#content .content_area .con_text .main_text li .tex2::after {
     content: "";
     width: 2px;
     height: 93%;
@@ -289,16 +286,16 @@
     box-sizing: inherit;
 }
 
-#content .content_area .chemical .con_text  dt,
-#content .content_area .military .con_text  dt,
-#content .content_area .safety .con_text  dt{
+#content .content_area .chemical .con_text .tex1,
+#content .content_area .military .con_text .tex1,
+#content .content_area .safety .con_text .tex1{
     width: 15%;
 }
 
-#content .content_area .steel .con_text  dt {
+#content .content_area .steel .con_text .tex1 {
     width: 18%;
 }
-#content .content_area .byd_1 .con_text .product  dt{
+#content .content_area .byd_1 .con_text .product .tex1{
     width: 23%;
 }
 
